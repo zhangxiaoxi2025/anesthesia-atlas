@@ -1,0 +1,23 @@
+{
+  "status": "PASS_ZIP_INTEGRITY",
+  "package": "/Users/emma/Documents/ChatGPT/小项目/麻醉解剖教学工具_v0.4.3_颈椎骨性定位_20261027.zip",
+  "files": 235,
+  "bytes": 10797852,
+  "sha256": "d7d0c4b3c0d7f717583e6cb23d44988edc23c4e01506bd58b2a710dbf2931153",
+  "crc": "PASS_ALL_FILES",
+  "exactEmbeddedFiles": [
+    "交付文件/腋路臂丛研习室-离线版.html",
+    "docs/preview-v043-vertebral-reference.png",
+    "docs/preview-v043-c6-c7.png",
+    "docs/preview-v043-mobile.png"
+  ],
+  "offlineSha256": "ca8c0b162d63ee9a10c16ca502ae6103af65b5bde92e99e7cb16ba7d2db5e679",
+  "excluded": [
+    "dependencies",
+    "build outputs",
+    "workflow state",
+    "historical offline HTML",
+    "this receipt"
+  ],
+  "boundary": "Local package verification only, no external upload or clinical certification."
+}

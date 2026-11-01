@@ -1,0 +1,22 @@
+{
+  "status": "PASS_EXISTING_DATA_IDENTICAL_WITH_SOURCED_ADDITIONS",
+  "fromVersion": "0.4.3",
+  "toVersion": "0.4.4",
+  "originalModelArraysUnchanged": true,
+  "existingMediaAttributionAndLicensesUnchanged": true,
+  "compared": "all previous anatomy-data keys and values; embeddedMedia compared per previous path",
+  "addedKeys": [
+    "embeddedRootAnnotationCandidate",
+    "embeddedRootReferenceAttribution",
+    "embeddedRootReferenceEvidence"
+  ],
+  "addedMedia": [
+    "/root-reference/hsu2020-figure1-original.jpg"
+  ],
+  "oldBytes": 11938806,
+  "newBytes": 12242294,
+  "oldSha256": "ca8c0b162d63ee9a10c16ca502ae6103af65b5bde92e99e7cb16ba7d2db5e679",
+  "newSha256": "c8a5dd709531f51b03de73db6515f9a6dd25ef776625dffc86c5fd7e7b62f061",
+  "annotationIdentityStatus": "unconfirmed",
+  "annotationReviewStatus": "unreviewed"
+}

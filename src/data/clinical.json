@@ -1,0 +1,351 @@
+{
+  "title": "腋路臂丛 · 从结构到功能",
+  "subtitle": "看清四条主要神经，联系局部结构、皮肤感觉与肌肉运动",
+  "scope": "首版本地解剖审阅原型：右上肢为图谱中立位，上臂参考切面的血管按来源标为肱动脉、肱静脉。预设结构关系演示只强调真实模型中的结构组合；未重建筋膜或标定可注药空间，尚待专项补建。感觉与运动图不预测个体阻滞范围。临床内容待审阅。",
+  "nerves": [
+    {
+      "id": "median",
+      "name": "正中神经",
+      "en": "Median nerve",
+      "short": "正中",
+      "color": "#E4AC42",
+      "roots": "C5–T1（常用概括，根源可有变异）",
+      "summary": "在腋动脉附近寻找，再沿上臂追向前臂；主要联系桡侧手掌、桡侧手指及前臂屈肌与部分手内肌。",
+      "course": [
+        "由臂丛外侧束与内侧束的分支汇合而成；腋部相对动脉的位置存在变异。",
+        "沿肱动脉下行，在肘窝进入前臂，经过旋前圆肌区域，继而行于指浅、指深屈肌之间。",
+        "在腕部进入腕管；掌皮支在进入腕管前已分出。"
+      ],
+      "sensory": [
+        "典型手掌面：拇指、示指、中指及环指桡侧半，连同桡侧手掌。",
+        "典型手背面：桡侧手指远端及甲床，尤需与桡神经的近端手背区域区分。"
+      ],
+      "motor": [
+        "相关前臂肌群：旋前肌及多数腕、指屈肌；尺侧腕屈肌和指深屈肌尺侧部由尺神经支配。",
+        "相关手内肌：拇短展肌、拇对掌肌等及第1、2蚓状肌；可联系拇对掌与精细捏持。"
+      ],
+      "limitations": [
+        "正中神经皮肤区不等于C5–T1皮节，也不包括整片前臂掌侧皮肤。",
+        "皮肤边界存在重叠与变异；肌力变化不能单独证明所有感觉支都已阻滞。"
+      ],
+      "target": "查看预设结构关系演示：强调正中神经与邻近血管，理解局部关系；不标注可注药位置、针尖或筋膜间隙。",
+      "sourceIds": ["hadzic-axillary", "afp-upper-limb", "afp-function", "anatomy-median", "axillary-variation"]
+    },
+    {
+      "id": "ulnar",
+      "name": "尺神经",
+      "en": "Ulnar nerve",
+      "short": "尺神经",
+      "color": "#8D7BE6",
+      "roots": "C8–T1（可有C7贡献）",
+      "summary": "从腋动脉附近沿上臂内侧走向肘后，再进入前臂尺侧；主要联系手的尺侧感觉与多数手内肌。",
+      "course": [
+        "起自臂丛内侧束；腋部与动脉及静脉的相对关系并非固定。",
+        "在上臂由前方转向后方，经肱骨内上髁后方进入肘管。",
+        "经尺侧腕屈肌两头之间进入前臂；远端通过Guyon管入手，背侧皮支在此前已分出。"
+      ],
+      "sensory": [
+        "典型手掌与手背尺侧：小指、环指尺侧半及邻近尺侧手部。",
+        "前臂内侧皮肤主要由前臂内侧皮神经支配，不应随尺神经一起整片着色。"
+      ],
+      "motor": [
+        "相关肌群：尺侧腕屈肌、指深屈肌尺侧部，以及骨间肌、拇收肌、小鱼际肌等多数手内肌。",
+        "可联系手指外展与内收、拇指内收及部分指屈曲；不能把所有握力归于一条神经。"
+      ],
+      "limitations": [
+        "尺侧手部感觉与前臂内侧感觉属于不同的皮支系统。",
+        "正中—尺神经之间可有交通支；肌肉支配与动作不能按颜色绝对二分。"
+      ],
+      "target": "查看预设结构关系演示：辨认尺神经及邻近静脉；结构高亮不表示可注药位置或安全进针路径。",
+      "sourceIds": ["hadzic-axillary", "afp-upper-limb", "afp-function", "anatomy-ulnar", "anatomy-medial-cutaneous", "axillary-variation"]
+    },
+    {
+      "id": "radial",
+      "name": "桡神经",
+      "en": "Radial nerve",
+      "short": "桡神经",
+      "color": "#E78264",
+      "roots": "C5–T1",
+      "summary": "腋部常见于动脉后方，继续绕向肱骨后侧；远端分为浅感觉支与深运动支。",
+      "course": [
+        "起自臂丛后束；腋部多位于腋动脉后方，具体方位随层面和个体而变。",
+        "随肱深血管经肱骨桡神经沟下行，随后转向肘外侧。",
+        "肘部附近分为浅支与深支；浅支行向手背桡侧，深支进入旋后肌区域并续为骨间后神经。"
+      ],
+      "sensory": [
+        "典型远端感觉：手背桡侧及桡侧手指的近端背面；第一指蹼背侧是便于理解的代表区域。",
+        "示指、中指及环指桡侧半的远端背面与甲床主要属正中神经，不能将整片手背和所有指尖涂成桡神经。",
+        "上臂后侧与前臂后侧也有桡神经皮支；这些皮支是否被腋路涉及取决于分支与阻滞的相对层面。"
+      ],
+      "motor": [
+        "远端主要联系腕、指和拇指伸展肌群；深支及骨间后神经支配多块前臂伸肌。",
+        "肱三头肌、肱桡肌等也属桡神经系统；不能由远端伸腕减弱推定肱三头肌一定受阻。"
+      ],
+      "limitations": [
+        "近端已分出的皮支或肌支不能被远端阻滞自动反向覆盖。",
+        "桡神经浅支的皮肤范围与深支的运动范围应分开理解。"
+      ],
+      "target": "查看预设结构关系演示：理解桡神经与血管的参考关系；不据此定位针尖，也不提供进针方位或深度。",
+      "sourceIds": ["hadzic-axillary", "afp-upper-limb", "afp-function", "anatomy-radial", "axillary-variation"]
+    },
+    {
+      "id": "musculocutaneous",
+      "name": "肌皮神经",
+      "en": "Musculocutaneous nerve",
+      "short": "肌皮",
+      "color": "#58BAAA",
+      "roots": "C5–C7",
+      "summary": "常与围绕动脉的三条神经分开，经喙肱肌区域下行，远端续为前臂外侧皮神经。",
+      "course": [
+        "起自臂丛外侧束，常进入或穿过喙肱肌；走行存在变异。",
+        "沿肱二头肌与肱肌之间向远端走行，发出相关肌支。",
+        "在肘部肱二头肌腱外侧浅出，续为前臂外侧皮神经。"
+      ],
+      "sensory": [
+        "通过前臂外侧皮神经联系前臂桡侧的掌侧与背外侧皮肤，可延至腕部附近。",
+        "该皮肤区属于前臂外侧，不是上臂外侧，也不应整片延伸到拇指和手掌。"
+      ],
+      "motor": [
+        "相关肌群：肱二头肌、肱肌、喙肱肌；主要联系屈肘和前臂旋后。",
+        "具体运动变化取决于阻滞层面与肌支分出处；近端喙肱肌支等不能默认被较远端阻滞涉及。"
+      ],
+      "limitations": [
+        "血管周围三神经的关系演示不自动包含肌皮神经，应独立识别其位置。",
+        "前臂外侧皮肤感觉与屈肘运动应分别教学，不能用任一项替代另一项的效果判断。"
+      ],
+      "target": "查看肌皮神经的预设结构关系演示：强调神经与周围肌肉和血管；未标定可注药空间，肌内段与肌间段须结合实际层面理解。",
+      "sourceIds": ["hadzic-axillary", "ucsf-axillary", "afp-function", "anatomy-musculocutaneous", "axillary-variation"]
+    }
+  ],
+  "targets": [
+    {
+      "id": "perivascular",
+      "name": "血管周围 · 三神经关系",
+      "summary": "预设结构关系演示强调正中、尺、桡神经与肱动静脉。它用于理解上臂参考层面的结构关系，不显示可注药位置或承诺一处注射覆盖三神经。",
+      "nerveIds": ["median", "ulnar", "radial"],
+      "caution": "教材上局麻药作用于神经周围的神经外组织；本版只强调源模型结构组合，未重建筋膜、鞘或标定可注药空间，不表示安全进针、注药点或真实扩散。",
+      "sourceIds": ["hadzic-axillary", "ucsf-axillary", "axillary-variation"]
+    },
+    {
+      "id": "musculocutaneous",
+      "name": "肌皮神经 · 独立识别",
+      "summary": "识别肌皮神经与周围肌肉及血管的参考关系，联系前臂外侧皮肤及屈肘肌群。源网格近端范围有限，不将缺失部分人为延长。",
+      "nerveIds": ["musculocutaneous"],
+      "caution": "结构高亮仅帮助识别肌皮神经与邻近结构，不表示已验证的注药空间、针尖位置或进针路径；近端已经离开的肌支不自动包括在阻滞范围内。",
+      "sourceIds": ["ucsf-axillary", "anatomy-musculocutaneous", "axillary-variation"]
+    }
+  ],
+  "boundaries": [
+    {
+      "id": "intercostobrachial",
+      "name": "肋间臂神经 · 不属于臂丛",
+      "summary": "主要来自T2肋间神经，联系腋部与上臂内侧皮肤。不能因四条主要神经被选中就显示该区必然覆盖，也不能以皮肤覆盖推断止血带痛必然消失。",
+      "sourceIds": ["wfsa-intercostobrachial", "ucsf-axillary"]
+    },
+    {
+      "id": "axillary",
+      "name": "腋神经 · 腋路不等于腋神经阻滞",
+      "summary": "腋神经较近端离开后束，支配三角肌、小圆肌并联系肩外侧皮肤。腋路常用层面不应默认覆盖它，不能将肩部整片着色。",
+      "sourceIds": ["ucsf-axillary", "afp-function"]
+    },
+    {
+      "id": "medial-cutaneous",
+      "name": "内侧皮神经 · 要单独理解",
+      "summary": "上臂内侧皮神经与前臂内侧皮神经均非尺神经。尤其前臂内侧皮肤不得并入尺神经色区；腋路中这些皮支的实际覆盖需分别评估。",
+      "sourceIds": ["anatomy-medial-cutaneous", "ucsf-axillary"]
+    },
+    {
+      "id": "variation",
+      "name": "解剖变异 · 没有固定钟点答案",
+      "summary": "神经与动脉、静脉的关系随个体、姿势与截面变化。一项153例超声研究中最常见排列仅占65%；本版中立位图谱仅为参考，不能替代外展操作位的个体超声。",
+      "sourceIds": ["axillary-variation", "hadzic-axillary"]
+    },
+    {
+      "id": "coverage",
+      "name": "皮肤、肌肉、关节 · 三种范围",
+      "summary": "皮肤色区表示典型外周感觉支配，运动文字表示相关肌群；二者都不直接等于深部组织或关节的手术麻醉范围。根源标签也不是皮节图。",
+      "sourceIds": ["afp-upper-limb", "anatomy-median", "anatomy-radial", "anatomy-musculocutaneous"]
+    },
+    {
+      "id": "image-and-spread",
+      "name": "上臂参考横断面 · 结构关系",
+      "summary": "参考切面来自中立位图谱，切面血管为来源命名的肱动脉、肱静脉。预设结构关系演示不是真实超声；筋膜与注药空间尚待专项补建，不提供安全进针或注药定位、真实扩散或阻滞概率。",
+      "sourceIds": ["hadzic-axillary", "ucsf-axillary"]
+    }
+  ],
+  "sources": [
+    {
+      "id": "hadzic-axillary",
+      "title": "Hadzic’s Textbook of Regional Anesthesia and Acute Pain Management, 2e — Chapter 32E: Ultrasound-Guided Axillary Brachial Plexus Block",
+      "year": null,
+      "url": "https://accessanesthesiology.mhmedical.com/content.aspx?bookid=2070&sectionid=157602228",
+      "type": "正规教材 · 出版社章节",
+      "usage": "腋部动静脉与三神经局部关系、周围肌肉、层面和解剖变异；仅使用公开可见章节内容，不复制教材图。"
+    },
+    {
+      "id": "axillary-variation",
+      "title": "Assessment of topographic brachial plexus nerves variations at the axilla using ultrasonography — British Journal of Anaesthesia 103:606–612",
+      "year": 2009,
+      "url": "https://doi.org/10.1093/bja/aep207",
+      "type": "原始超声解剖研究",
+      "usage": "153例局部排列研究；最常见排列65%，支持将模型标为典型示意，不能固定钟点定位。"
+    },
+    {
+      "id": "afp-upper-limb",
+      "title": "Yurgil, Hulsopple & Leggit — Nerve Blocks: Part I. Upper Extremity — American Family Physician 101:654–664",
+      "year": 2020,
+      "url": "https://www.aafp.org/afp/2020/0601/p654",
+      "type": "学术期刊教学综述",
+      "usage": "正中、尺、桡神经的根源、远端走行和典型皮肤感觉边界；不把肘腕部操作方法移用于腋路。"
+    },
+    {
+      "id": "afp-function",
+      "title": "Silver, Ledford, Vogel & Arnold — Peripheral Nerve Entrapment and Injury in the Upper Extremity — American Family Physician 103:275–285",
+      "year": 2021,
+      "url": "https://www.aafp.org/afp/2021/0301/p275",
+      "type": "学术期刊解剖与功能综述",
+      "usage": "官方全文Table 1、Table 2核对神经—肌肉—动作，以及腋神经的三角肌/小圆肌与肩外侧感觉；不将神经损伤表现等同阻滞成功。"
+    },
+    {
+      "id": "ucsf-axillary",
+      "title": "UCSF Pain Management Education — Axillary Brachial Plexus Block",
+      "year": null,
+      "url": "https://pain.ucsf.edu/peripheral-nerve-blocks/axillary-brachial-plexus-block",
+      "type": "大学医学中心官方教学",
+      "usage": "四条主要神经、肌皮神经需独立识别、腋神经和上臂内侧皮支边界；不采用页面中的绝对覆盖措辞。"
+    },
+    {
+      "id": "wfsa-intercostobrachial",
+      "title": "Kusre, McEwen & Matthew — Ultrasound-Guided Supraclavicular Brachial Plexus Block — WFSA ATOTW 384",
+      "year": 2018,
+      "url": "https://resources.wfsahq.org/wp-content/uploads/384_english-1.pdf",
+      "type": "世界麻醉医师学会联盟教学",
+      "usage": "仅用于肋间臂神经主要来自T2、不属臂丛及止血带痛边界；不是本版腋路操作依据。不复制或改编原图。"
+    },
+    {
+      "id": "anatomy-musculocutaneous",
+      "title": "Desai, Arbor & Varacallo — Anatomy, Shoulder and Upper Limb, Musculocutaneous Nerve — StatPearls / NCBI Bookshelf",
+      "year": 2023,
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK534199/",
+      "type": "医学参考书 · 解剖专章",
+      "usage": "C5–C7、喙肱肌和肱二头肌/肱肌间走行、前臂外侧皮神经与屈肘/旋后肌群；核对到公开检索摘录。"
+    },
+    {
+      "id": "anatomy-median",
+      "title": "Anatomy, Shoulder and Upper Limb, Median Nerve — StatPearls / NCBI Bookshelf",
+      "year": null,
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK448084/",
+      "type": "医学参考书 · 解剖专章",
+      "usage": "前臂屈肌的正中/尺侧分工，鱼际肌与第1、2蚓状肌及手掌感觉；核对到公开检索摘录，更新年份未确认。"
+    },
+    {
+      "id": "anatomy-radial",
+      "title": "Anatomy, Shoulder and Upper Limb, Radial Nerve — StatPearls / NCBI Bookshelf",
+      "year": null,
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK534840/",
+      "type": "医学参考书 · 解剖专章",
+      "usage": "浅/深分支、伸肌群及近端皮肌支概念；核对到公开检索摘录，更新年份未确认。"
+    },
+    {
+      "id": "anatomy-ulnar",
+      "title": "Becker & Manna — Anatomy, Shoulder and Upper Limb, Ulnar Nerve — StatPearls / NCBI Bookshelf",
+      "year": null,
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK499892/",
+      "type": "医学参考书 · 解剖专章",
+      "usage": "仅采用尺侧腕屈肌、指深屈肌尺侧部、骨间肌等运动与走行内容；不采用其前臂内侧皮肤表述，见证据文档。"
+    },
+    {
+      "id": "anatomy-medial-cutaneous",
+      "title": "Anatomy, Medial Antebrachial Cutaneous Nerve — StatPearls / NCBI Bookshelf",
+      "year": null,
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK551638/",
+      "type": "医学参考书 · 解剖专章",
+      "usage": "前臂内侧皮神经负责前臂内侧皮肤，区别上臂内侧皮神经与尺神经；核对到公开检索摘录。"
+    }
+  ],
+  "teachingSteps": [
+    {
+      "id": "orient",
+      "title": "01 先认局部关系",
+      "description": "先沿腋动脉至肱动脉追踪，再在上臂参考横断面比较三神经与肱动静脉。图谱保持中立位；不能把参考切面或钟点位置当成外展操作位的定位答案。",
+      "focusIds": ["median", "ulnar", "radial"]
+    },
+    {
+      "id": "separate-mcn",
+      "title": "02 单独找肌皮神经",
+      "description": "观察它与喙肱肌的关系，并沿肱二头肌和肱肌之间追向前臂外侧皮神经。血管周围示意不自动覆盖这条神经。",
+      "focusIds": ["musculocutaneous"],
+      "targetId": "musculocutaneous"
+    },
+    {
+      "id": "anatomic-target",
+      "title": "03 对比预设结构关系",
+      "description": "强调源模型中的神经与血管组合，比较彼此位置。局麻药作用于神经周围的神经外组织，但本版未重建筋膜或标定可注药空间；结构高亮不代表注药点、针尖位置或实际扩散。",
+      "focusIds": ["median", "ulnar", "radial"],
+      "targetId": "perivascular"
+    },
+    {
+      "id": "sensory-motor",
+      "title": "04 从神经追到功能",
+      "description": "逐条切换神经，分别阅读皮肤感觉与肌群/动作。特别比较手掌、手背近端和指端，前臂外侧与内侧也不能混为一片。",
+      "focusIds": ["median", "ulnar", "radial", "musculocutaneous"]
+    },
+    {
+      "id": "limits",
+      "title": "05 找到通常不能保证的区域",
+      "description": "回看腋神经、肋间臂神经和内侧皮支；再检查近端已分出的分支。四神经的典型支配图不等于整条上肢或所有深部组织的麻醉地图。",
+      "focusIds": ["median", "ulnar", "radial", "musculocutaneous"]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-mcn",
+      "question": "图中正中、尺、桡三神经的预设结构关系已显示，前臂外侧皮肤仍需重点联系哪条神经？",
+      "options": ["肌皮神经及其前臂外侧皮神经延续", "尺神经", "腋神经", "肋间臂神经"],
+      "answer": 0,
+      "explanation": "前臂外侧皮神经是肌皮神经的远端延续。肌皮神经常与血管周围三神经分离，应独立识别。",
+      "sourceIds": ["anatomy-musculocutaneous", "ucsf-axillary"]
+    },
+    {
+      "id": "q-fingertips",
+      "question": "为桡神经绘制典型手背感觉图时，哪项最需要避免？",
+      "options": ["保留第一指蹼背侧代表区", "将示指、中指远端背面与甲床全部涂成桡神经", "区分浅感觉支与深运动支", "标出边界可能重叠"],
+      "answer": 1,
+      "explanation": "示指、中指等桡侧手指的远端背面与甲床主要属正中神经。整片手背同色会掩盖这一边界。",
+      "sourceIds": ["afp-upper-limb", "anatomy-median", "anatomy-radial"]
+    },
+    {
+      "id": "q-icb",
+      "question": "四条主要终末神经均已选中，仍不能默认覆盖上臂内侧哪条非臂丛神经的区域？",
+      "options": ["骨间前神经", "桡神经浅支", "肋间臂神经", "前臂外侧皮神经"],
+      "answer": 2,
+      "explanation": "肋间臂神经主要来自T2肋间神经，不属于臂丛。其皮肤区与止血带痛也不能直接画等号。",
+      "sourceIds": ["wfsa-intercostobrachial", "ucsf-axillary"]
+    },
+    {
+      "id": "q-ulnar-forearm",
+      "question": "尺神经选中后，把整片前臂内侧皮肤同时点亮，最主要的问题是什么？",
+      "options": ["尺神经没有任何感觉纤维", "尺神经只支配上臂皮肤", "前臂外侧皮神经属于尺神经", "前臂内侧皮肤主要属于前臂内侧皮神经"],
+      "answer": 3,
+      "explanation": "尺神经典型远端皮肤区集中于尺侧手部及尺侧1.5指；前臂内侧皮神经是另一条皮支。",
+      "sourceIds": ["afp-upper-limb", "anatomy-medial-cutaneous"]
+    },
+    {
+      "id": "q-motor-branch",
+      "question": "桡神经相关的远端伸腕、伸指功能发生变化，能否据此断言肱三头肌一定同样受阻？",
+      "options": ["可以，所有同名神经支配肌肉必然同时受阻", "不能，还要看阻滞层面与近端肌支分出处的关系", "可以，因为皮肤色区已覆盖上臂", "不能，因为肱三头肌与桡神经无关"],
+      "answer": 1,
+      "explanation": "神经支配图不是无条件的阻滞效果图。近端已经离开的肌支不会被较远端阻滞自动反向覆盖。",
+      "sourceIds": ["anatomy-radial", "hadzic-axillary"]
+    },
+    {
+      "id": "q-target-meaning",
+      "question": "本工具的预设结构组合应怎样解读？",
+      "options": ["真实超声验证过的个体扩散", "神经内注射的目标", "用于理解局部关系，不是注药定位或真实扩散", "可以照搬的针尖位置与剂量处方"],
+      "answer": 2,
+      "explanation": "本版只强调源模型中的结构组合，未重建筋膜鞘或标定可注药空间；上臂参考切面来自中立位图谱，不是病例超声、安全注药点或针尖定位图。",
+      "sourceIds": ["hadzic-axillary", "ucsf-axillary"]
+    }
+  ],
+  "reviewStatus": "awaiting_clinician_review"
+}

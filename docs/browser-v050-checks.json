@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-29",
+  "environment": "IAB local HTTP, desktop default and simulated 390x844",
+  "selectionMatrix": [
+    {
+      "highlight": "superior-trunk",
+      "id": "c5",
+      "model": "root-unconfirmed",
+      "panel": "b",
+      "target": "c5"
+    },
+    {
+      "highlight": "superior-trunk",
+      "id": "c6",
+      "model": "root-unconfirmed",
+      "panel": "b",
+      "target": "c6"
+    },
+    {
+      "highlight": "middle-trunk",
+      "id": "c7",
+      "model": "root-unconfirmed",
+      "panel": "b",
+      "target": "c7"
+    },
+    {
+      "highlight": "inferior-trunk",
+      "id": "c8",
+      "model": "root-unconfirmed",
+      "panel": "c",
+      "target": ""
+    },
+    {
+      "highlight": "inferior-trunk",
+      "id": "t1",
+      "model": "root-unconfirmed",
+      "panel": "c",
+      "target": ""
+    },
+    {
+      "highlight": "superior-trunk",
+      "id": "superior-trunk",
+      "model": "source-named",
+      "panel": "c",
+      "target": "superior-trunk"
+    },
+    {
+      "highlight": "middle-trunk",
+      "id": "middle-trunk",
+      "model": "source-named",
+      "panel": "c",
+      "target": "middle-trunk"
+    },
+    {
+      "highlight": "inferior-trunk",
+      "id": "inferior-trunk",
+      "model": "source-named",
+      "panel": "c",
+      "target": "inferior-trunk"
+    }
+  ],
+  "manualSelectionStopsPlayback": {
+    "active": "c6",
+    "playing": false
+  },
+  "actualMeshReverseSelection": "superior-trunk -> panel c target superior-trunk",
+  "keyboardSelection": "relation C6 and ultrasound C7 Enter verified",
+  "fullSourceDialog": "opened, Escape closed",
+  "advancedPlane": "C6 reference 1.468 -> ArrowLeft 1.467, still C6; advanced collapsed again",
+  "consoleWarningsAndErrors": [],
+  "fileProtocol": "Blocked by browser URL policy; not verified; no workaround attempted",
+  "physicalIPad": "not tested"
+}

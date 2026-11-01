@@ -1,0 +1,38 @@
+{
+  "frame": {
+    "center": [
+      -0.03806169965834899,
+      1.4583945912097924,
+      -0.012605650838937825
+    ],
+    "u": [
+      1.7347234759768075e-18,
+      0.3529736882325616,
+      -0.9356332483486799
+    ],
+    "v": [
+      0.9993541158488762,
+      -0.03362233111490073,
+      -0.012684241652964627
+    ],
+    "n": [
+      -0.03593537443676947,
+      -0.935028937662307,
+      -0.3527457081215684
+    ],
+    "width": 0.095,
+    "depth": 0.095
+  },
+  "angle": 3.4336303624885307,
+  "method": "Restore v0.8.0 bone-axis viewing hemisphere and screen convention. Minimal tested tilt in finite +/-20 grid with .012 tangent increments; common root projection interval 0.2/0.5/0.8; >=12 segments and >=1mm min screen extent each. Not clinical registration.",
+  "referenceNormalV080": [
+    0,
+    -0.917634005137,
+    -0.397426512221
+  ],
+  "referenceRightV080": [
+    0,
+    0.397426512221,
+    -0.917634005137
+  ]
+}

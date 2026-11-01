@@ -1,0 +1,293 @@
+{
+  "schemaVersion": 1,
+  "title": "肌间沟：先辨前支，再追汇干",
+  "defaultId": "c5",
+  "rootOrder": [
+    "c5",
+    "c6",
+    "c7",
+    "c8",
+    "t1"
+  ],
+  "trunkOrder": [
+    "superior-trunk",
+    "middle-trunk",
+    "inferior-trunk"
+  ],
+  "concepts": [
+    {
+      "id": "c5",
+      "label": "C5脊神经前支（臂丛根）",
+      "shortLabel": "C5 前支",
+      "kind": "root",
+      "rootIds": [
+        "c5"
+      ],
+      "trunkIds": [
+        "superior-trunk"
+      ],
+      "sourceMeshId": null,
+      "panelId": "b",
+      "ultrasoundLabel": "C5",
+      "explanation": "典型解剖中，C5前支与C6前支共同形成上干。",
+      "gap": "尚缺当前三维中从C4–C5椎间孔出口，经C5前支连续走到上干的已核原面归属；需要可追溯的分段依据或同源具名替代资产，不能由层面高度或圆圈顺序推出。",
+      "sourceIds": [
+        "hadzic-cn3",
+        "ttuhsc",
+        "kumar2023"
+      ]
+    },
+    {
+      "id": "c6",
+      "label": "C6脊神经前支（臂丛根）",
+      "shortLabel": "C6 前支",
+      "kind": "root",
+      "rootIds": [
+        "c6"
+      ],
+      "trunkIds": [
+        "superior-trunk"
+      ],
+      "sourceMeshId": null,
+      "panelId": "b",
+      "ultrasoundLabel": "C6",
+      "explanation": "典型解剖中，C6前支与C5前支共同形成上干；本前支可出现多个声像结构。",
+      "gap": "尚缺当前三维中从C5–C6椎间孔出口，经C6前支连续走到上干的已核原面归属；需要可追溯的分段依据或同源具名替代资产，不能由层面高度或圆圈顺序推出。",
+      "sourceIds": [
+        "hadzic-cn3",
+        "ttuhsc",
+        "kumar2023"
+      ]
+    },
+    {
+      "id": "c7",
+      "label": "C7脊神经前支（臂丛根）",
+      "shortLabel": "C7 前支",
+      "kind": "root",
+      "rootIds": [
+        "c7"
+      ],
+      "trunkIds": [
+        "middle-trunk"
+      ],
+      "sourceMeshId": null,
+      "panelId": "b",
+      "ultrasoundLabel": "C7",
+      "explanation": "典型解剖中，C7前支典型续为中干。",
+      "gap": "尚缺当前三维中从C6–C7椎间孔出口，经C7前支连续走到中干的已核原面归属；需要可追溯的分段依据或同源具名替代资产，不能由层面高度或圆圈顺序推出。",
+      "sourceIds": [
+        "hadzic-cn3",
+        "ttuhsc",
+        "kumar2023"
+      ]
+    },
+    {
+      "id": "c8",
+      "label": "C8脊神经前支（臂丛根）",
+      "shortLabel": "C8 前支",
+      "kind": "root",
+      "rootIds": [
+        "c8"
+      ],
+      "trunkIds": [
+        "inferior-trunk"
+      ],
+      "sourceMeshId": null,
+      "panelId": "c",
+      "ultrasoundLabel": null,
+      "explanation": "典型解剖中，C8前支与T1前支共同形成下干；本页原图C只标下干，没有分别定位C8前支。",
+      "gap": "尚缺当前三维中从C7–T1椎间孔出口，经C8前支连续走到下干的已核原面归属；需要可追溯的分段依据或同源具名替代资产，不能由层面高度或圆圈顺序推出。",
+      "sourceIds": [
+        "hadzic-cn3",
+        "ttuhsc",
+        "kumar2023"
+      ]
+    },
+    {
+      "id": "t1",
+      "label": "T1脊神经前支（臂丛根）",
+      "shortLabel": "T1 前支",
+      "kind": "root",
+      "rootIds": [
+        "t1"
+      ],
+      "trunkIds": [
+        "inferior-trunk"
+      ],
+      "sourceMeshId": null,
+      "panelId": "c",
+      "ultrasoundLabel": null,
+      "explanation": "典型解剖中，T1前支与C8前支共同形成下干；本页原图C只标下干，没有分别定位T1前支。",
+      "gap": "尚缺当前三维中从T1–T2椎间孔出口，经T1前支连续走到下干的已核原面归属；需要可追溯的分段依据或同源具名替代资产，不能由层面高度或圆圈顺序推出。",
+      "sourceIds": [
+        "hadzic-cn3",
+        "ttuhsc",
+        "kumar2023"
+      ]
+    },
+    {
+      "id": "superior-trunk",
+      "label": "臂丛上干",
+      "shortLabel": "上干",
+      "kind": "trunk",
+      "rootIds": [
+        "c5",
+        "c6"
+      ],
+      "trunkIds": [
+        "superior-trunk"
+      ],
+      "sourceMeshId": "superior-trunk",
+      "panelId": "c",
+      "ultrasoundLabel": "ST",
+      "explanation": "典型来源为C5＋C6前支；原声像C用ST标出上干，右侧直接高亮源模型中具名的上干。",
+      "gap": "三干源身份可直接显示；前支进入该干的具体原面归属仍需逐段核对，文献声像与模型不是同一标本。",
+      "sourceIds": [
+        "hadzic-cn3",
+        "ttuhsc",
+        "kumar2023"
+      ]
+    },
+    {
+      "id": "middle-trunk",
+      "label": "臂丛中干",
+      "shortLabel": "中干",
+      "kind": "trunk",
+      "rootIds": [
+        "c7"
+      ],
+      "trunkIds": [
+        "middle-trunk"
+      ],
+      "sourceMeshId": "middle-trunk",
+      "panelId": "c",
+      "ultrasoundLabel": "MT",
+      "explanation": "典型来源为C7前支；原声像C用MT标出中干，右侧直接高亮源模型中具名的中干。",
+      "gap": "三干源身份可直接显示；前支进入该干的具体原面归属仍需逐段核对，文献声像与模型不是同一标本。",
+      "sourceIds": [
+        "hadzic-cn3",
+        "ttuhsc",
+        "kumar2023"
+      ]
+    },
+    {
+      "id": "inferior-trunk",
+      "label": "臂丛下干",
+      "shortLabel": "下干",
+      "kind": "trunk",
+      "rootIds": [
+        "c8",
+        "t1"
+      ],
+      "trunkIds": [
+        "inferior-trunk"
+      ],
+      "sourceMeshId": "inferior-trunk",
+      "panelId": "c",
+      "ultrasoundLabel": "IT",
+      "explanation": "典型来源为C8＋T1前支；原声像C用IT标出下干，右侧直接高亮源模型中具名的下干。",
+      "gap": "三干源身份可直接显示；前支进入该干的具体原面归属仍需逐段核对，文献声像与模型不是同一标本。",
+      "sourceIds": [
+        "hadzic-cn3",
+        "ttuhsc",
+        "kumar2023"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "from": "c5",
+      "to": "superior-trunk",
+      "sourceIds": [
+        "hadzic-cn3",
+        "ttuhsc"
+      ]
+    },
+    {
+      "from": "c6",
+      "to": "superior-trunk",
+      "sourceIds": [
+        "hadzic-cn3",
+        "ttuhsc"
+      ]
+    },
+    {
+      "from": "c7",
+      "to": "middle-trunk",
+      "sourceIds": [
+        "hadzic-cn3",
+        "ttuhsc"
+      ]
+    },
+    {
+      "from": "c8",
+      "to": "inferior-trunk",
+      "sourceIds": [
+        "hadzic-cn3",
+        "ttuhsc"
+      ]
+    },
+    {
+      "from": "t1",
+      "to": "inferior-trunk",
+      "sourceIds": [
+        "hadzic-cn3",
+        "ttuhsc"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "hadzic-cn3",
+      "title": "Hadzic《外周神经阻滞与超声介入解剖》中文第3版 · 2023",
+      "where": "已核书第130页图13-2（根—干—股—束）及第134页图13-8/9（声像与解剖示意）；用户提供扫描本，仅作事实核对，图片不纳入软件。",
+      "url": "https://www.mheducation.com/highered/mhp/product/hadzic-s-peripheral-nerve-blocks-anatomy-ultrasound-guided-regional-anesthesia-3rd-edition.html"
+    },
+    {
+      "id": "gray-cn2",
+      "title": "Gray《超声引导下区域疼痛阻滞图谱》中文第2版 · 2018",
+      "where": "已核第27章书第70–75页；根据探头位置、角度及沿程区分前支、干或分支，不能按圆圈数编号。图片不纳入软件。",
+      "url": "https://shop.elsevier.com/books/atlas-of-ultrasound-guided-regional-anesthesia/gray/978-1-4557-2818-3"
+    },
+    {
+      "id": "kumar2023",
+      "title": "Kumar等 · 2023 · Figure 1",
+      "where": "本页显示原图B（原作者C5/C6/C7标记）及C（ST/MT/IT）。只引用图像解剖，不采用文章注药位置、药量或疗效主张。原图与当前三维未配准。",
+      "url": "https://www.ait-journal.com/Refining-the-drug-injection-site-during-ultrasound-guided-interscalene-brachial-plexus,163622,0,2.html"
+    },
+    {
+      "id": "wfsa400",
+      "title": "WFSA ATOTW 400 · Ultrasound-Guided Interscalene Block · 2019",
+      "where": "第2–3页说明C6可分为两个声像结构，第6–7页说明结合横突标志和连续追踪辨认。只作辨认依据，未复制该教程图像。",
+      "url": "https://resources.wfsahq.org/wp-content/uploads/400_english.pdf"
+    },
+    {
+      "id": "ttuhsc",
+      "title": "TTUHSC El Paso · 臂丛解剖实验课程",
+      "where": "第3题正文：C5+C6形成上干，C7续为中干，C8+T1形成下干；每干分为前、后股。典型组成不等于当前模型逐根身份。",
+      "url": "https://anatomy.ttuhscep.edu/musculoskeletal_system/axilla_ans.html"
+    }
+  ],
+  "gaps": [
+    {
+      "id": "c5-source-identity",
+      "title": "C5前支：三维本体归属",
+      "needed": "尚缺当前三维中从C4–C5椎间孔出口，经C5前支连续走到上干的已核原面归属；需要可追溯的分段依据或同源具名替代资产，不能由层面高度或圆圈顺序推出。",
+      "status": "未核定 · 保留原网格"
+    },
+    {
+      "id": "c6-source-identity",
+      "title": "C6前支：三维本体归属",
+      "needed": "尚缺当前三维中从C5–C6椎间孔出口，经C6前支连续走到上干的已核原面归属；需要可追溯的分段依据或同源具名替代资产，不能由层面高度或圆圈顺序推出。",
+      "status": "未核定 · 保留原网格"
+    },
+    {
+      "id": "c7-source-identity",
+      "title": "C7前支：三维本体归属",
+      "needed": "尚缺当前三维中从C6–C7椎间孔出口，经C7前支连续走到中干的已核原面归属；需要可追溯的分段依据或同源具名替代资产，不能由层面高度或圆圈顺序推出。",
+      "status": "未核定 · 保留原网格"
+    }
+  ],
+  "typicalCompositionNote": "典型连接关系；不表示真实空间比例或每个病例均完全相同。",
+  "sourceModelBoundary": "所有root sourceMeshId保持null；三干仅使用现有源具名对象。原面候选仍为unconfirmed/unreviewed。"
+}

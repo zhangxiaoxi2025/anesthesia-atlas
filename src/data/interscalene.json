@@ -1,0 +1,292 @@
+{
+  "id": "interscalene",
+  "title": "肌间沟臂丛神经阻滞",
+  "subtitle": "认识颈部根／干、斜角肌与邻近结构",
+  "reviewStatus": "awaiting_clinician_review",
+  "scope": "解剖与声像理解模块；不提供剂量、针道、针尖或注药点。三维切面是源网格参考，真实超声是另外的病例图像。",
+  "summary": "肌间沟观察臂丛较近端的根／干及前、中斜角肌关系。常联系C5–C6及部分C7纤维，C8–T1下干覆盖常不全；不能将整个上肢或四条终末神经涂成确定的麻醉范围。",
+  "anatomy": [
+    {
+      "id": "c5",
+      "name": "C5前支（臂丛根）",
+      "en": "C5 ventral ramus",
+      "role": "与C6前支汇成上干；这里的臂丛‘根’指脊神经前支，不是脊髓前根。",
+      "sourceIds": [
+        "uams-nerve"
+      ]
+    },
+    {
+      "id": "c6",
+      "name": "C6前支（臂丛根）",
+      "en": "C6 ventral ramus",
+      "role": "与C5汇成上干；声像可呈分束，一个低回声结节不一定等于一整根。",
+      "sourceIds": [
+        "uams-nerve",
+        "nysora-interscalene"
+      ]
+    },
+    {
+      "id": "c7",
+      "name": "C7前支／中干",
+      "en": "C7 ventral ramus / middle trunk",
+      "role": "典型续为中干；是否同帧看见取决于层面。不能仅数三个圆就固定命名C5、C6、C7。",
+      "sourceIds": [
+        "uams-nerve",
+        "nysora-interscalene"
+      ]
+    },
+    {
+      "id": "upper-trunk",
+      "name": "臂丛上干",
+      "en": "Superior trunk",
+      "role": "由C5–C6前支汇合，根和干属于不同纵向层面；不在同一位置重复算作多个独立神经。",
+      "sourceIds": [
+        "uams-nerve"
+      ]
+    },
+    {
+      "id": "lower-trunk",
+      "name": "C8–T1／下干",
+      "en": "Inferior trunk",
+      "role": "位于更低部的臂丛成分；典型肌间沟覆盖不能默认完整涉及。",
+      "sourceIds": [
+        "uams-nerve",
+        "acep-interscalene"
+      ]
+    },
+    {
+      "id": "anterior-scalene",
+      "name": "前斜角肌",
+      "en": "Anterior scalene muscle",
+      "role": "臂丛沟的前内侧肌肉标志；膈神经沿其前表面附近下降，不能将此区域称为无重要结构的空隙。",
+      "sourceIds": [
+        "nysora-interscalene"
+      ]
+    },
+    {
+      "id": "middle-scalene",
+      "name": "中斜角肌",
+      "en": "Middle scalene muscle",
+      "role": "臂丛沟的后外侧肌肉标志；其中或附近可有肩胛背、胸长神经。",
+      "sourceIds": [
+        "nysora-interscalene",
+        "uams-nerve"
+      ]
+    },
+    {
+      "id": "scm",
+      "name": "胸锁乳突肌",
+      "en": "Sternocleidomastoid muscle",
+      "role": "浅层颈部标志；肌间沟臂丛位于其深部外侧附近，不能只凭体表轮廓决定内部层面。",
+      "sourceIds": [
+        "nysora-interscalene"
+      ]
+    },
+    {
+      "id": "carotid",
+      "name": "颈动脉",
+      "en": "Carotid artery",
+      "role": "与颈内静脉一起提供内侧邻近关系；血管识别必须保留，不由模型位置推定个体。",
+      "sourceIds": [
+        "nysora-interscalene"
+      ]
+    },
+    {
+      "id": "internal-jugular",
+      "name": "颈内静脉",
+      "en": "Internal jugular vein",
+      "role": "与颈动脉的关系及管径可随人、体位和探头压力变化；一张静态图不提供动态可压缩性。",
+      "sourceIds": [
+        "nysora-interscalene",
+        "acep-interscalene"
+      ]
+    },
+    {
+      "id": "phrenic",
+      "name": "膈神经",
+      "en": "Phrenic nerve",
+      "role": "主要C3–C5，常在前斜角肌前表面下降；是呼吸功能边界，未见真实网格时应文字说明缺失，不能自造一根确定曲线。",
+      "sourceIds": [
+        "uams-nerve",
+        "nysora-interscalene"
+      ]
+    },
+    {
+      "id": "vertebral-artery",
+      "name": "椎动脉及深部颈部边界",
+      "en": "Vertebral artery / deep cervical structures",
+      "role": "深部血管、椎间孔和椎管方向不能因模型未显示而认为不存在；本模块不标定安全深度或路径。",
+      "sourceIds": [
+        "nysora-interscalene",
+        "acep-interscalene"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "is-orient",
+      "title": "01 分清入路与资料",
+      "description": "肌间沟是颈部近端根／干的模块。锁骨上、锁骨下和腋路图片不能改名后充当肌间沟；Vazin Figure 1(b)是锁骨上图。",
+      "focusIds": []
+    },
+    {
+      "id": "is-muscles",
+      "title": "02 先认肌肉与血管",
+      "description": "比较胸锁乳突肌、前斜角肌、中斜角肌，以及内侧邻近的颈动脉和颈内静脉。没有显示的结构如实标缺失，不用理想模板补成已识别。",
+      "focusIds": [
+        "scm",
+        "anterior-scalene",
+        "middle-scalene",
+        "carotid",
+        "internal-jugular"
+      ]
+    },
+    {
+      "id": "is-roots",
+      "title": "03 再辨根与干",
+      "description": "沿纵向理解C5、C6汇成上干和C7续为中干。某神经可分束或走行变异；低回声结节数量不等于根数。",
+      "focusIds": [
+        "c5",
+        "c6",
+        "c7",
+        "upper-trunk"
+      ]
+    },
+    {
+      "id": "is-section",
+      "title": "04 看三维切面展开",
+      "description": "观察已标明位置和方向的源网格截线，再把同一截线平面转向屏幕。展开的是同一几何切面，没有增加组织、超声纹理或临床定位信息。",
+      "focusIds": [
+        "anterior-scalene",
+        "middle-scalene",
+        "upper-trunk"
+      ]
+    },
+    {
+      "id": "is-compare",
+      "title": "05 与真实超声并排参照",
+      "description": "保留真实超声自身的病例、侧别、探头方向及来源说明，只比较同名结构。网格二维图不变形成该病例声像，不做逐像素叠合或安全位置推断。",
+      "focusIds": []
+    },
+    {
+      "id": "is-boundaries",
+      "title": "06 连接功能与边界",
+      "description": "肩／上臂的神经纤维联系不能外推成整条上肢麻醉图。回看C8–T1下干、颈丛锁骨上皮支及膈神经；终末神经清单是支配知识，不是这次阻滞效果预测。",
+      "focusIds": [
+        "lower-trunk",
+        "phrenic"
+      ]
+    }
+  ],
+  "boundaries": [
+    {
+      "id": "inferior-trunk",
+      "name": "C8–T1常不全",
+      "summary": "肌间沟的典型覆盖以较近端上部臂丛为主；尺侧手部和依赖下干纤维的功能不保证完整涉及，不自动显示手术麻醉范围。",
+      "sourceIds": [
+        "acep-interscalene",
+        "nysora-interscalene"
+      ]
+    },
+    {
+      "id": "phrenic-boundary",
+      "name": "膈神经与同侧膈肌",
+      "summary": "膈神经邻近前斜角肌，肌间沟阻滞可影响同侧膈肌及呼吸功能。这里说明解剖边界，不以某个体积、颜色或模型距离预测个体风险。",
+      "sourceIds": [
+        "nysora-interscalene",
+        "acep-interscalene"
+      ]
+    },
+    {
+      "id": "cervical-skin",
+      "name": "肩顶皮肤不全属臂丛",
+      "summary": "锁骨、肩峰上方及肩顶皮肤有C3–C4颈丛锁骨上神经参与。臂丛根／干高亮不等于该皮区必然覆盖，也不证明锁骨或肩部全部深部结构麻醉。",
+      "sourceIds": [
+        "uams-nerve"
+      ]
+    },
+    {
+      "id": "voice-sympathetic",
+      "name": "声音与交感神经边界",
+      "summary": "邻近喉返神经或颈交感通路受影响可出现声音嘶哑或Horner表现；这些不是目标肌肉支配，也不能由模型颜色预测。",
+      "sourceIds": [
+        "acep-interscalene"
+      ]
+    },
+    {
+      "id": "other-neural",
+      "name": "邻近神经与深部结构",
+      "summary": "肩胛背、胸长神经可在中斜角肌区域；椎动脉、颈部神经和椎管边界需要保留。没有网格或未在单帧可见，不表示安全空白区。",
+      "sourceIds": [
+        "nysora-interscalene",
+        "acep-interscalene"
+      ]
+    },
+    {
+      "id": "root-identity",
+      "name": "根／干与分束变异",
+      "summary": "C6、C7可分束，C5也可有肌内走行变异。若来源模型只有合并根网格，应称‘合并臂丛根组’，不能人为切出C5–C7并声称来源已验证。",
+      "sourceIds": [
+        "nysora-interscalene",
+        "uams-nerve"
+      ]
+    },
+    {
+      "id": "no-procedure",
+      "name": "不生成注药位置",
+      "summary": "动画和结构选择不表示针尖、可注药空间或神经内外判定；本模块没有建立筋膜、病例坐标或安全路径。",
+      "sourceIds": []
+    }
+  ],
+  "animation": {
+    "title": "从三维参考切面到二维，再看真实超声",
+    "stages": [
+      {
+        "id": "locate",
+        "title": "定位模型参考切面",
+        "description": "在源模型中明确显示同一切面及其方向。仅求交真实存在的网格，缺失结构不补画成实测数据。"
+      },
+      {
+        "id": "extract",
+        "title": "提取同一截线",
+        "description": "截线从原几何位置平移离开模型，不改变各结构的比例、相对位置和所属身份。"
+      },
+      {
+        "id": "flatten",
+        "title": "将平面朝向屏幕",
+        "description": "同一平面整体旋转为二维观察，并同步前后、内外/左右方向；这是网格几何投影，不是超声生成。"
+      },
+      {
+        "id": "compare",
+        "title": "并排参照真实声像",
+        "description": "显示经来源与许可核实的肌间沟US，保留其独立方向与病例信息；仅作同名结构参照，未建立空间配准。"
+      }
+    ],
+    "limitations": [
+      "动画可平移或整体旋转同一截线平面，不能把网格形状渐变成真实病例的US轮廓，也不自动对齐两图左右。",
+      "网格截线不包含声阻抗、回声强度、声影、各向异性、探头压力和动态扫查，因此不能称模拟或实时超声。",
+      "只可使用确认为肌间沟入路且图像使用权清楚的US；Vazin2016锁骨上图不能挪用。缺合法可用US时保留外链或标未载入，不伪造真超声。",
+      "图谱模型体位和真实声像可不同，不以这段动画建立同病例配准、定位精度或临床安全性。"
+    ]
+  },
+  "sources": [
+    {
+      "id": "uams-nerve",
+      "title": "UAMS Department of Neuroscience — Nerves of the Upper Limb",
+      "url": "https://medicine.uams.edu/neuroscience/education/medical-school-courses/human-structure-module/anatomy-tables/nerve-tables/nerves-of-the-upper-limb/",
+      "usage": "脊神经前支—干、颈丛皮支及神经来源；事实中文归纳，不复制原表/插图。"
+    },
+    {
+      "id": "nysora-interscalene",
+      "title": "NYSORA — Ultrasound-Guided Interscalene Brachial Plexus Nerve Block",
+      "url": "https://nysora.com/regional-anesthesia/techniques/ultrasound-guided-interscalene-brachial-plexus-block/",
+      "usage": "公开正文与Figure2/9/10/11图注支持肌肉血管关系、邻近神经和变异；仅外链，不复制受限图，不采用剂量或进针内容。"
+    },
+    {
+      "id": "acep-interscalene",
+      "title": "ACEP Sonoguide — Interscalene Nerve Block (2025)",
+      "url": "https://www.acep.org/sonoguide/nerve-blocks/interscalene-nerve-block",
+      "usage": "学会正式教学中的近端根／干、下干不全、膈神经及邻近边界；不据其图片公开可看推定复制许可。"
+    }
+  ]
+}

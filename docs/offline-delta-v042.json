@@ -1,0 +1,11 @@
+{
+  "status": "PASS_UNCHANGED_EMBEDDED_DATA",
+  "previousVersion": "0.4.1",
+  "currentVersion": "0.4.2",
+  "previousSha256": "50c6fcaa53bad88dab55ad4c499efc795bddf3a4261bc29aca7ddfce81a8ee9c",
+  "currentSha256": "be2624cee39b7b720b093663bf988e70ff0cb11e86e1ef47d2e4444a7112b5bd",
+  "allEmbeddedDataEqual": true,
+  "axillaryRecords": 47,
+  "neckRecords": 35,
+  "media": 5
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS_SOURCE_AND_OFFLINE_DELTA",
+  "baselineFiles": 110,
+  "changedSourceFiles": [],
+  "unchangedOldEmbeddedFields": 26,
+  "addedEmbeddedFields": [
+    "embeddedPlexusTeaching",
+    "embeddedPlexusUltrasoundHotspots"
+  ],
+  "oldSha256": "c8a5dd709531f51b03de73db6515f9a6dd25ef776625dffc86c5fd7e7b62f061",
+  "newSha256": "b7a50fa26b9be5611be1342193309bfd0db8e64c604dbd35740cd48d54b39305",
+  "boundary": "Byte identity and delivery metadata checks, not clinical root identity verification."
+}

@@ -1,0 +1,2251 @@
+{
+  "schemaVersion": 1,
+  "module": "right-axillary-brachial-plexus",
+  "source": {
+    "id": "z-anatomy-pinned",
+    "repository": "https://github.com/LluisV/Z-Anatomy",
+    "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+    "dataset": "Z-Anatomy FBX reference models at pinned commit",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/FBX/NervousSystem100.fbx",
+        "bytes": 53887724,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "cachePath": "/private/tmp/anesthesia-atlas-source-cache/z-nervous-system-100.fbx"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/LICENSE",
+        "path": "source/Z-UPSTREAM-LICENSE.txt",
+        "bytes": 20559,
+        "sha256": "5e7dd512c01cfb822e3253f8f8df923103a64e269deb9bb5303f23b2376cad46"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/FBX/MuscularSystem100.fbx",
+        "cachePath": "/private/tmp/anesthesia-atlas-source-cache/z-muscular-system-100.fbx",
+        "bytes": 37343180,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/FBX/CardioVascular41.fbx",
+        "cachePath": "/private/tmp/anesthesia-atlas-source-cache/z-cardio-vascular-41.fbx",
+        "bytes": 64889388,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/License.txt",
+        "cachePath": "/Users/emma/Documents/ChatGPT/小项目/anesthesia-atlas/public/models/source/Z-MODEL-LICENSE.txt",
+        "bytes": 1514,
+        "sha256": "af62c06f620b9da20138e4c22a3f56565482dd058266540994ace97a4e24b693"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/Readme.txt",
+        "cachePath": "/Users/emma/Documents/ChatGPT/小项目/anesthesia-atlas/public/models/source/Z-MODEL-README.txt",
+        "bytes": 151,
+        "sha256": "43eab2cd13ad8be51d20227cad78d427e6078cd91e66a24ae7f947811524c810"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/FBX/SkeletalSystem100.fbx",
+        "cachePath": "/private/tmp/anesthesia-atlas-source-cache/z-skeletal-system-100.fbx",
+        "bytes": 41339660,
+        "sha256": "294a649765cd060a62a4095da52b9c8ef2d97769aa447e196448aa5f7d596dea"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/FBX/Regions%20of%20human%20body100.fbx",
+        "cachePath": "/private/tmp/anesthesia-atlas-source-cache/z-body-regions-100.fbx",
+        "bytes": 4433260,
+        "sha256": "9d8da01d4719f9a61ee6ccfcaef85f788c4c67e9bcd74f5725c6946ab8b44199"
+      }
+    ],
+    "attributionPath": "/models/ATTRIBUTION.md",
+    "licensePath": "/models/source/Z-UPSTREAM-LICENSE.txt"
+  },
+  "license": "CC-BY-SA-4.0",
+  "coordinateSystem": {
+    "units": "m",
+    "up": "+Y",
+    "anterior": "+Z",
+    "right": "-X",
+    "pose": "source neutral standing anatomy with arm alongside trunk",
+    "transform": "each original FBX mesh matrixWorld applied, then uniform scale 0.01 cm to m; no cross-source registration or anatomy-based fitting"
+  },
+  "focus": {
+    "target": [
+      -0.174,
+      1.295,
+      -0.02
+    ],
+    "camera": [
+      -0.4,
+      1.43,
+      0.4
+    ],
+    "sliceY": 1.295,
+    "bounds": {
+      "min": [
+        -0.25,
+        1.2,
+        -0.11
+      ],
+      "max": [
+        -0.075,
+        1.445,
+        0.095
+      ]
+    }
+  },
+  "structures": [
+    {
+      "id": "median",
+      "name": "正中神经",
+      "nameEn": "Median nerver",
+      "kind": "nerve",
+      "side": "right",
+      "path": "/models/median.json",
+      "sourceId": "FBX:874085510",
+      "sourceObjectNames": [
+        "Median_nerver"
+      ],
+      "sourceObjectIds": [
+        874085510
+      ],
+      "sourceFile": "z-nervous-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.26398292,
+          0.8358869,
+          -0.02696465
+        ],
+        "max": [
+          -0.11048034,
+          1.39005351,
+          0.03478846
+        ]
+      },
+      "vertexCount": 2604,
+      "triangleCount": 5184,
+      "bytes": 234288,
+      "sha256": "2ae99c03be18a4ffd22f8c7d791de6c8983e6f9b289c724e52ca103e9dc487b0",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "ulnar",
+      "name": "尺神经",
+      "nameEn": "Ulnar nerver",
+      "kind": "nerve",
+      "side": "right",
+      "path": "/models/ulnar.json",
+      "sourceId": "FBX:649745495",
+      "sourceObjectNames": [
+        "Ulnar_nerver"
+      ],
+      "sourceObjectIds": [
+        649745495
+      ],
+      "sourceFile": "z-nervous-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.23733139,
+          0.88296074,
+          -0.04473951
+        ],
+        "max": [
+          -0.10020643,
+          1.39984739,
+          0.01939158
+        ]
+      },
+      "vertexCount": 1596,
+      "triangleCount": 3168,
+      "bytes": 140928,
+      "sha256": "08cf4e3fce17cc27d7d7d0aefad2bb7c7eb8090ab4f67b91bc2c7a357c2f61d8",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "radial",
+      "name": "桡神经",
+      "nameEn": "Radial nerver",
+      "kind": "nerve",
+      "side": "right",
+      "path": "/models/radial.json",
+      "sourceId": "FBX:41491164",
+      "sourceObjectNames": [
+        "Radial_nerver"
+      ],
+      "sourceObjectIds": [
+        41491164
+      ],
+      "sourceFile": "z-nervous-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.24424061,
+          1.09158087,
+          -0.0477876
+        ],
+        "max": [
+          -0.12087025,
+          1.37971008,
+          -0.01600601
+        ]
+      },
+      "vertexCount": 1164,
+      "triangleCount": 2304,
+      "bytes": 101160,
+      "sha256": "131b71efa609af30ec407e6edba39e4b920c713979df4687c7b7c7d280356639",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "musculocutaneous",
+      "name": "肌皮神经",
+      "nameEn": "Musculocutaneous nerver",
+      "kind": "nerve",
+      "side": "right",
+      "path": "/models/musculocutaneous.json",
+      "sourceId": "FBX:122786892",
+      "sourceObjectNames": [
+        "Musculocutaneous_nerver"
+      ],
+      "sourceObjectIds": [
+        122786892
+      ],
+      "sourceFile": "z-nervous-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.22364032,
+          1.09164274,
+          -0.02845792
+        ],
+        "max": [
+          -0.17456906,
+          1.31090331,
+          -0.0075779
+        ]
+      },
+      "vertexCount": 732,
+      "triangleCount": 1440,
+      "bytes": 62751,
+      "sha256": "549e160b8221b51997a9ed3367925e147d70832e1c346f0cd1f63fc48bbf54ca",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "posterior-cord",
+      "name": "臂丛后束",
+      "nameEn": "Posterior cord of brachial plexusr",
+      "kind": "nerve",
+      "side": "right",
+      "path": "/models/posterior-cord.json",
+      "sourceId": "FBX:978614789",
+      "sourceObjectNames": [
+        "Posterior_cord_of_brachial_plexusr"
+      ],
+      "sourceObjectIds": [
+        978614789
+      ],
+      "sourceFile": "z-nervous-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.12232875,
+          1.37834597,
+          -0.02732474
+        ],
+        "max": [
+          -0.09996837,
+          1.40016949,
+          -0.02473634
+        ]
+      },
+      "vertexCount": 300,
+      "triangleCount": 576,
+      "bytes": 24810,
+      "sha256": "0c980f526e0efb311c0ae925d0cecfabc5c17237bf282a5e0524be506f505bbb",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "brachial-roots",
+      "name": "臂丛根（源模型合并网格）",
+      "nameEn": "Roots of brachial plexusr",
+      "kind": "nerve",
+      "side": "right",
+      "path": "/models/brachial-roots.json",
+      "sourceId": "FBX:680949521",
+      "sourceObjectNames": [
+        "Roots_of_brachial_plexusr"
+      ],
+      "sourceObjectIds": [
+        680949521
+      ],
+      "sourceFile": "z-nervous-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.05603828,
+          1.43313372,
+          -0.03515413
+        ],
+        "max": [
+          -0.01310245,
+          1.50481486,
+          -0.00551593
+        ]
+      },
+      "vertexCount": 2388,
+      "triangleCount": 4608,
+      "bytes": 212564,
+      "sha256": "d682b44671d16a32f908b67a2626c53cfb2360484839a71c0e4808160b92219d",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "superior-trunk",
+      "name": "臂丛上干",
+      "nameEn": "Superior trunk of brachial plexusr",
+      "kind": "nerve",
+      "side": "right",
+      "path": "/models/superior-trunk.json",
+      "sourceId": "FBX:443613078",
+      "sourceObjectNames": [
+        "Superior_trunk_of_brachial_plexusr"
+      ],
+      "sourceObjectIds": [
+        443613078
+      ],
+      "sourceFile": "z-nervous-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.08883715,
+          1.41748428,
+          -0.02888245
+        ],
+        "max": [
+          -0.05308522,
+          1.45425534,
+          -0.011504
+        ]
+      },
+      "vertexCount": 156,
+      "triangleCount": 288,
+      "bytes": 12665,
+      "sha256": "4f2b25026e389d3d11ca2e4d1412c81183e3d632a704113047cc450a29dd8b2c",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "middle-trunk",
+      "name": "臂丛中干",
+      "nameEn": "Middle trunk of brachial plexusr",
+      "kind": "nerve",
+      "side": "right",
+      "path": "/models/middle-trunk.json",
+      "sourceId": "FBX:373690407",
+      "sourceObjectNames": [
+        "Middle_trunk_of_brachial_plexusr"
+      ],
+      "sourceObjectIds": [
+        373690407
+      ],
+      "sourceFile": "z-nervous-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.08496592,
+          1.41802526,
+          -0.02732454
+        ],
+        "max": [
+          -0.05155991,
+          1.44314373,
+          -0.02186857
+        ]
+      },
+      "vertexCount": 156,
+      "triangleCount": 288,
+      "bytes": 12701,
+      "sha256": "7d69f6804344bdada9848f75d81aa754e5339bea1adfc1d88cdc91e262ec45ae",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "inferior-trunk",
+      "name": "臂丛下干",
+      "nameEn": "Inferior trunk of brachial plexusr",
+      "kind": "nerve",
+      "side": "right",
+      "path": "/models/inferior-trunk.json",
+      "sourceId": "FBX:208648482",
+      "sourceObjectNames": [
+        "Inferior_trunk_of_brachial_plexusr"
+      ],
+      "sourceObjectIds": [
+        208648482
+      ],
+      "sourceFile": "z-nervous-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.08417804,
+          1.4154228,
+          -0.01778507
+        ],
+        "max": [
+          -0.05446887,
+          1.43722105,
+          -0.0100384
+        ]
+      },
+      "vertexCount": 300,
+      "triangleCount": 576,
+      "bytes": 25215,
+      "sha256": "a039bc0f6f72c5a46608f2ecc177a7881ca14585192c7a93c7c7fe5a7e0f0581",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "axillary-nerve",
+      "name": "腋神经（对照结构）",
+      "nameEn": "Axillary nerver",
+      "kind": "nerve",
+      "side": "right",
+      "path": "/models/axillary-nerve.json",
+      "sourceId": "FBX:168765396",
+      "sourceObjectNames": [
+        "Axillary_nerver"
+      ],
+      "sourceObjectIds": [
+        168765396
+      ],
+      "sourceFile": "z-nervous-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.1635896,
+          1.35028028,
+          -0.03763701
+        ],
+        "max": [
+          -0.10988294,
+          1.40022135,
+          -0.01262024
+        ]
+      },
+      "vertexCount": 588,
+      "triangleCount": 1152,
+      "bytes": 50191,
+      "sha256": "982aa0b3fbf3068ef6ed32470f7c45f5e765a35315d29273e7bae014426819d0",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "musculocutaneous-lateral-antebrachial-cutaneous",
+      "name": "前臂外侧皮神经",
+      "nameEn": "Lateral antebrachial cutaneous nerver",
+      "kind": "nerve",
+      "side": "right",
+      "path": "/models/musculocutaneous-lateral-antebrachial-cutaneous.json",
+      "sourceId": "FBX:825669402",
+      "sourceObjectNames": [
+        "Lateral_antebrachial_cutaneous_nerver"
+      ],
+      "sourceObjectIds": [
+        825669402
+      ],
+      "sourceFile": "z-nervous-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.27548313,
+          0.93009681,
+          -0.01733015
+        ],
+        "max": [
+          -0.22272907,
+          1.09209216,
+          0.00891206
+        ]
+      },
+      "vertexCount": 876,
+      "triangleCount": 1728,
+      "bytes": 74608,
+      "sha256": "14d3d307c35f5b142f422c6013342da61e05698b73903df46d74b96aa7e0ced9",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ],
+      "parentId": "musculocutaneous"
+    },
+    {
+      "id": "radial-superficial",
+      "name": "桡神经浅支",
+      "nameEn": "Superficial branch of radial nerver",
+      "kind": "nerve",
+      "side": "right",
+      "path": "/models/radial-superficial.json",
+      "sourceId": "FBX:281977780",
+      "sourceObjectNames": [
+        "Superficial_branch_of_radial_nerver"
+      ],
+      "sourceObjectIds": [
+        281977780
+      ],
+      "sourceFile": "z-nervous-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.30194449,
+          0.82344514,
+          -0.01691299
+        ],
+        "max": [
+          -0.23319378,
+          1.09195316,
+          0.04558028
+        ]
+      },
+      "vertexCount": 2208,
+      "triangleCount": 4320,
+      "bytes": 194793,
+      "sha256": "224cce059e227d2d7d2cba86f6d66e0d4651197fcc439b334fe39231777092f5",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ],
+      "parentId": "radial"
+    },
+    {
+      "id": "radial-deep",
+      "name": "桡神经深支",
+      "nameEn": "Deep branch of radial nerver",
+      "kind": "nerve",
+      "side": "right",
+      "path": "/models/radial-deep.json",
+      "sourceId": "FBX:744841522",
+      "sourceObjectNames": [
+        "Deep_branch_of_radial_nerver"
+      ],
+      "sourceObjectIds": [
+        744841522
+      ],
+      "sourceFile": "z-nervous-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.26610368,
+          0.84545928,
+          -0.03315081
+        ],
+        "max": [
+          -0.23328538,
+          1.09200931,
+          0.01255868
+        ]
+      },
+      "vertexCount": 1020,
+      "triangleCount": 2016,
+      "bytes": 87621,
+      "sha256": "6439eec4b2b96fc126da2b5f799c3267bbe9cf0b8664be6395263113a40b08e6",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ],
+      "parentId": "radial"
+    },
+    {
+      "id": "medial-brachial-cutaneous",
+      "name": "臂内侧皮神经（对照结构）",
+      "nameEn": "Medial brachial cutaneous nerver",
+      "kind": "nerve",
+      "side": "right",
+      "path": "/models/medial-brachial-cutaneous.json",
+      "sourceId": "FBX:617420384",
+      "sourceObjectNames": [
+        "Medial_brachial_cutaneous_nerver"
+      ],
+      "sourceObjectIds": [
+        617420384
+      ],
+      "sourceFile": "z-nervous-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.17167827,
+          1.19656229,
+          -0.0538462
+        ],
+        "max": [
+          -0.10020643,
+          1.39984739,
+          -0.00358867
+        ]
+      },
+      "vertexCount": 876,
+      "triangleCount": 1728,
+      "bytes": 75246,
+      "sha256": "abb59fa3334d90df4bdc4e8c351a106c8a52fbff6df45f47f207b120c0ca50df",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "axillary-artery",
+      "name": "腋动脉",
+      "nameEn": "Axillary arteryr",
+      "kind": "artery",
+      "side": "right",
+      "path": "/models/axillary-artery.json",
+      "sourceId": "FBX:918461248",
+      "sourceObjectNames": [
+        "Axillary_arteryr"
+      ],
+      "sourceObjectIds": [
+        918461248
+      ],
+      "sourceFile": "z-cardio-vascular-41.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.13685186,
+          1.3634361,
+          -0.01376427
+        ],
+        "max": [
+          -0.07858443,
+          1.41434002,
+          -0.00060173
+        ]
+      },
+      "vertexCount": 248,
+      "triangleCount": 472,
+      "bytes": 20647,
+      "sha256": "09d681b91eb11c7b9a382c2a1f683af20b39b485bdd0447b288b36f754d22777",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "axillary-vein",
+      "name": "腋静脉",
+      "nameEn": "Axillary veinr",
+      "kind": "vein",
+      "side": "right",
+      "path": "/models/axillary-vein.json",
+      "sourceId": "FBX:214724432",
+      "sourceObjectNames": [
+        "Axillary_veinr"
+      ],
+      "sourceObjectIds": [
+        214724432
+      ],
+      "sourceFile": "z-cardio-vascular-41.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.15647177,
+          1.30877411,
+          -0.0065288
+        ],
+        "max": [
+          -0.09187797,
+          1.40345168,
+          0.0054305
+        ]
+      },
+      "vertexCount": 366,
+      "triangleCount": 708,
+      "bytes": 30795,
+      "sha256": "40591544fe3769123b23e328a4cb28004425f7737d981a918fc927dfdd82f0b7",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "brachial-artery",
+      "name": "肱动脉",
+      "nameEn": "Brachial arteryr",
+      "kind": "artery",
+      "side": "right",
+      "path": "/models/brachial-artery.json",
+      "sourceId": "FBX:251443199",
+      "sourceObjectNames": [
+        "Brachial_arteryr"
+      ],
+      "sourceObjectIds": [
+        251443199
+      ],
+      "sourceFile": "z-cardio-vascular-41.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.22659594,
+          1.08967936,
+          -0.02712247
+        ],
+        "max": [
+          -0.1326846,
+          1.36606336,
+          -0.00888285
+        ]
+      },
+      "vertexCount": 602,
+      "triangleCount": 1180,
+      "bytes": 51437,
+      "sha256": "7bc672ae777a1e219225c9449d94a3f037fca9d189dc053b2399c1868aeb7910",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "brachial-vein",
+      "name": "肱静脉（源模型复数网格）",
+      "nameEn": "Brachial veinsr",
+      "kind": "vein",
+      "side": "right",
+      "path": "/models/brachial-vein.json",
+      "sourceId": "FBX:458061604",
+      "sourceObjectNames": [
+        "Brachial_veinsr"
+      ],
+      "sourceObjectIds": [
+        458061604
+      ],
+      "sourceFile": "z-cardio-vascular-41.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.23181349,
+          1.07343936,
+          -0.02625823
+        ],
+        "max": [
+          -0.15139371,
+          1.31119645,
+          -0.00099163
+        ]
+      },
+      "vertexCount": 484,
+      "triangleCount": 944,
+      "bytes": 41162,
+      "sha256": "f7fce0f8e60aa1722475ad56d9af0ab94c23e9e2674d5c1c7bc5715cce3a1ce1",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "basilic-vein",
+      "name": "贵要静脉",
+      "nameEn": "Basilic veinr",
+      "kind": "vein",
+      "side": "right",
+      "path": "/models/basilic-vein.json",
+      "sourceId": "FBX:935531566",
+      "sourceObjectNames": [
+        "Basilic_veinr"
+      ],
+      "sourceObjectIds": [
+        935531566
+      ],
+      "sourceFile": "z-cardio-vascular-41.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.24332848,
+          0.84313285,
+          -0.03296498
+        ],
+        "max": [
+          -0.15065438,
+          1.30992877,
+          0.01578724
+        ]
+      },
+      "vertexCount": 897,
+      "triangleCount": 1770,
+      "bytes": 76879,
+      "sha256": "1f2b927acd58673f336a25c20d251455a3b36e1ae206f9ea79cb425557e42797",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "cephalic-vein",
+      "name": "头静脉",
+      "nameEn": "Cephalic veinr",
+      "kind": "vein",
+      "side": "right",
+      "path": "/models/cephalic-vein.json",
+      "sourceId": "FBX:153319187",
+      "sourceObjectNames": [
+        "Cephalic_veinr"
+      ],
+      "sourceObjectIds": [
+        153319187
+      ],
+      "sourceFile": "z-cardio-vascular-41.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.28573593,
+          0.82852578,
+          -0.0182425
+        ],
+        "max": [
+          -0.10602141,
+          1.39334929,
+          0.02361527
+        ]
+      },
+      "vertexCount": 1428,
+      "triangleCount": 2832,
+      "bytes": 124769,
+      "sha256": "f39ad7e427aad81095fa4bd4cb753ec54b932332e9a6442f97010114c9e55726",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "deep-brachial-artery",
+      "name": "肱深动脉",
+      "nameEn": "Deep brachial arteryr",
+      "kind": "artery",
+      "side": "right",
+      "path": "/models/deep-brachial-artery.json",
+      "sourceId": "FBX:243639046",
+      "sourceObjectNames": [
+        "Deep_brachial_arteryr"
+      ],
+      "sourceObjectIds": [
+        243639046
+      ],
+      "sourceFile": "z-cardio-vascular-41.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.20561193,
+          1.19217098,
+          -0.04681607
+        ],
+        "max": [
+          -0.17047277,
+          1.25517535,
+          -0.02295073
+        ]
+      },
+      "vertexCount": 189,
+      "triangleCount": 354,
+      "bytes": 15565,
+      "sha256": "534175d1433b83eabdb39059e2f885c9210d6aab16548532c7a445e76250e8b3",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "radial-artery",
+      "name": "桡动脉",
+      "nameEn": "Radial arteryr",
+      "kind": "artery",
+      "side": "right",
+      "path": "/models/radial-artery.json",
+      "sourceId": "FBX:7653057",
+      "sourceObjectNames": [
+        "Radial_arteryr"
+      ],
+      "sourceObjectIds": [
+        7653057
+      ],
+      "sourceFile": "z-cardio-vascular-41.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.28756887,
+          0.84405744,
+          -0.01492231
+        ],
+        "max": [
+          -0.22280818,
+          1.09055686,
+          0.02475321
+        ]
+      },
+      "vertexCount": 661,
+      "triangleCount": 1298,
+      "bytes": 56155,
+      "sha256": "148f73453dfefda3f2b853d128782722d7991acafb81d9c9ce56fcd9b861d7f0",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "ulnar-artery",
+      "name": "尺动脉",
+      "nameEn": "Ulnar arteryr",
+      "kind": "artery",
+      "side": "right",
+      "path": "/models/ulnar-artery.json",
+      "sourceId": "FBX:954392474",
+      "sourceObjectNames": [
+        "Ulnar_arteryr"
+      ],
+      "sourceObjectIds": [
+        954392474
+      ],
+      "sourceFile": "z-cardio-vascular-41.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.25389072,
+          0.85952067,
+          -0.01667275
+        ],
+        "max": [
+          -0.21995901,
+          1.09055686,
+          0.0282327
+        ]
+      },
+      "vertexCount": 425,
+      "triangleCount": 826,
+      "bytes": 35926,
+      "sha256": "e6e9d829f4b6ee48f1a7f437e1803e440f29e4f85379cea54d18518707010495",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "coracobrachialis",
+      "name": "喙肱肌",
+      "nameEn": "Coracobrachialis muscler",
+      "kind": "muscle",
+      "side": "right",
+      "path": "/models/coracobrachialis.json",
+      "sourceId": "FBX:827936457",
+      "sourceObjectNames": [
+        "Coracobrachialis_muscler"
+      ],
+      "sourceObjectIds": [
+        827936457
+      ],
+      "sourceFile": "z-muscular-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.19567078,
+          1.23297989,
+          -0.0359205
+        ],
+        "max": [
+          -0.13484405,
+          1.39171422,
+          -0.00089922
+        ]
+      },
+      "vertexCount": 582,
+      "triangleCount": 1160,
+      "bytes": 49964,
+      "sha256": "589f78643e6e374fdf52dd56360b68daa14f6499e91630af76d0cbe32aca8bcd",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "biceps-long-head",
+      "name": "肱二头肌长头",
+      "nameEn": "Long head of biceps brachiir",
+      "kind": "muscle",
+      "side": "right",
+      "path": "/models/biceps-long-head.json",
+      "sourceId": "FBX:290927627",
+      "sourceObjectNames": [
+        "Long_head_of_biceps_brachiir"
+      ],
+      "sourceObjectIds": [
+        290927627
+      ],
+      "sourceFile": "z-muscular-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.23747882,
+          1.05081236,
+          -0.04129201
+        ],
+        "max": [
+          -0.14228219,
+          1.40793073,
+          0.00841153
+        ]
+      },
+      "vertexCount": 1611,
+      "triangleCount": 3218,
+      "bytes": 142755,
+      "sha256": "fdc6bafbc84a74c0fd58d30366963f2621d34f874c6e3bd1a254418cc081ce00",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "biceps-short-head",
+      "name": "肱二头肌短头",
+      "nameEn": "Short head of biceps brachiir",
+      "kind": "muscle",
+      "side": "right",
+      "path": "/models/biceps-short-head.json",
+      "sourceId": "FBX:163633076",
+      "sourceObjectNames": [
+        "Short_head_of_biceps_brachiir"
+      ],
+      "sourceObjectIds": [
+        163633076
+      ],
+      "sourceFile": "z-muscular-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.21968083,
+          1.12414253,
+          -0.02649922
+        ],
+        "max": [
+          -0.13819002,
+          1.39719999,
+          0.00793203
+        ]
+      },
+      "vertexCount": 1344,
+      "triangleCount": 2696,
+      "bytes": 118038,
+      "sha256": "099ea36043ba82464729205bafbc27400d9d7c223f70067671fc49b95f039b1e",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "triceps-lateral-head",
+      "name": "肱三头肌外侧头",
+      "nameEn": "Lateral head of triceps brachiir",
+      "kind": "muscle",
+      "side": "right",
+      "path": "/models/triceps-lateral-head.json",
+      "sourceId": "FBX:538338170",
+      "sourceObjectNames": [
+        "Lateral_head_of_triceps_brachiir"
+      ],
+      "sourceObjectIds": [
+        538338170
+      ],
+      "sourceFile": "z-muscular-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.23628496,
+          1.09402537,
+          -0.08418196
+        ],
+        "max": [
+          -0.18009916,
+          1.3588146,
+          -0.0334843
+        ]
+      },
+      "vertexCount": 1816,
+      "triangleCount": 3628,
+      "bytes": 162281,
+      "sha256": "816d0a3df0340e392c5b51a0a9cca3925a8c5ea828981a1b627a04411a5b42aa",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "triceps-long-head",
+      "name": "肱三头肌长头",
+      "nameEn": "Long head of triceps brachiir",
+      "kind": "muscle",
+      "side": "right",
+      "path": "/models/triceps-long-head.json",
+      "sourceId": "FBX:487589403",
+      "sourceObjectNames": [
+        "Long_head_of_triceps_brachiir"
+      ],
+      "sourceObjectIds": [
+        487589403
+      ],
+      "sourceFile": "z-muscular-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.22357087,
+          1.09328198,
+          -0.08574288
+        ],
+        "max": [
+          -0.13185078,
+          1.36535692,
+          -0.03835518
+        ]
+      },
+      "vertexCount": 1977,
+      "triangleCount": 3950,
+      "bytes": 176783,
+      "sha256": "a90f5263ac9bccb3f6aff9bf0d27879df3a3362c09bb73bb6638d437b0620fce",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "triceps-medial-head",
+      "name": "肱三头肌内侧头",
+      "nameEn": "Medial head of triceps brachiir",
+      "kind": "muscle",
+      "side": "right",
+      "path": "/models/triceps-medial-head.json",
+      "sourceId": "FBX:820488147",
+      "sourceObjectNames": [
+        "Medial_head_of_triceps_brachiir"
+      ],
+      "sourceObjectIds": [
+        820488147
+      ],
+      "sourceFile": "z-muscular-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.23464286,
+          1.08720005,
+          -0.05738058
+        ],
+        "max": [
+          -0.1723385,
+          1.3215363,
+          -0.03065555
+        ]
+      },
+      "vertexCount": 1345,
+      "triangleCount": 2686,
+      "bytes": 118243,
+      "sha256": "b7de0dfefad3c526f7860cd05348373148b3db1132a5294a29b92ef9c30ad1c7",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "brachialis",
+      "name": "肱肌",
+      "nameEn": "Brachialis muscler",
+      "kind": "muscle",
+      "side": "right",
+      "path": "/models/brachialis.json",
+      "sourceId": "FBX:120536626",
+      "sourceObjectNames": [
+        "Brachialis_muscler"
+      ],
+      "sourceObjectIds": [
+        120536626
+      ],
+      "sourceFile": "z-muscular-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.24288884,
+          1.0521903,
+          -0.04225199
+        ],
+        "max": [
+          -0.18199319,
+          1.28449214,
+          -0.01510408
+        ]
+      },
+      "vertexCount": 1741,
+      "triangleCount": 3478,
+      "bytes": 154942,
+      "sha256": "ec5d9e638f4d3331833354f221679a1ed33cde00c7b79bbb8e7ed749bf7d10b9",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "pectoralis-major-abdominal",
+      "name": "胸大肌腹部",
+      "nameEn": "(Abdominal part of pectoralis major muscle)r",
+      "kind": "muscle",
+      "side": "right",
+      "path": "/models/pectoralis-major-abdominal.json",
+      "sourceId": "FBX:842702324",
+      "sourceObjectNames": [
+        "(Abdominal_part_of_pectoralis_major_muscle)r"
+      ],
+      "sourceObjectIds": [
+        842702324
+      ],
+      "sourceFile": "z-muscular-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.18619719,
+          1.17183268,
+          -0.01680436
+        ],
+        "max": [
+          -0.05408062,
+          1.34870291,
+          0.11619441
+        ]
+      },
+      "vertexCount": 756,
+      "triangleCount": 1508,
+      "bytes": 64381,
+      "sha256": "79cd3c0cb2dd157a985b526416c54c1a85c60a3a549901991bc40ea77c0ac8e7",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "pectoralis-major-clavicular",
+      "name": "胸大肌锁骨部",
+      "nameEn": "Clavicular head of pectoralis major muscler",
+      "kind": "muscle",
+      "side": "right",
+      "path": "/models/pectoralis-major-clavicular.json",
+      "sourceId": "FBX:55153873",
+      "sourceObjectNames": [
+        "Clavicular_head_of_pectoralis_major_muscler"
+      ],
+      "sourceObjectIds": [
+        55153873
+      ],
+      "sourceFile": "z-muscular-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.20014624,
+          1.303774,
+          -0.01625113
+        ],
+        "max": [
+          -0.02670995,
+          1.40940857,
+          0.04892487
+        ]
+      },
+      "vertexCount": 425,
+      "triangleCount": 850,
+      "bytes": 35849,
+      "sha256": "55af8f3abcafe39fec18af2c353c20be01a46344c7e6c6bf3adfacb80bd917bf",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "pectoralis-major-sternocostal",
+      "name": "胸大肌胸肋部",
+      "nameEn": "Sternocostal head of pectoralis major muscler",
+      "kind": "muscle",
+      "side": "right",
+      "path": "/models/pectoralis-major-sternocostal.json",
+      "sourceId": "FBX:589012392",
+      "sourceObjectNames": [
+        "Sternocostal_head_of_pectoralis_major_muscler"
+      ],
+      "sourceObjectIds": [
+        589012392
+      ],
+      "sourceFile": "z-muscular-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.19334219,
+          1.21258426,
+          -0.0159523
+        ],
+        "max": [
+          -0.00327439,
+          1.39477396,
+          0.12630239
+        ]
+      },
+      "vertexCount": 1611,
+      "triangleCount": 3222,
+      "bytes": 141288,
+      "sha256": "4643d84b4bb1f34221158e48d204ea6d55ee82df2b4c1f065f593dd3fedff988",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "pectoralis-minor",
+      "name": "胸小肌",
+      "nameEn": "Pectoralis minor muscler",
+      "kind": "muscle",
+      "side": "right",
+      "path": "/models/pectoralis-minor.json",
+      "sourceId": "FBX:414598510",
+      "sourceObjectNames": [
+        "Pectoralis_minor_muscler"
+      ],
+      "sourceObjectIds": [
+        414598510
+      ],
+      "sourceFile": "z-muscular-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.13525403,
+          1.26138639,
+          -0.01876639
+        ],
+        "max": [
+          -0.07640415,
+          1.40036011,
+          0.07630326
+        ]
+      },
+      "vertexCount": 2097,
+      "triangleCount": 4142,
+      "bytes": 185107,
+      "sha256": "25189a9df80e647fbc74080b34abbf445d200ee85d1a08f6c16dbb675badc395",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "deltoid-acromial",
+      "name": "三角肌肩峰部",
+      "nameEn": "Acromial part of deltoid muscler",
+      "kind": "muscle",
+      "side": "right",
+      "path": "/models/deltoid-acromial.json",
+      "sourceId": "FBX:969083175",
+      "sourceObjectNames": [
+        "Acromial_part_of_deltoid_muscler"
+      ],
+      "sourceObjectIds": [
+        969083175
+      ],
+      "sourceFile": "z-muscular-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.23491403,
+          1.26860678,
+          -0.06286647
+        ],
+        "max": [
+          -0.15944333,
+          1.41621172,
+          0.00053333
+        ]
+      },
+      "vertexCount": 1482,
+      "triangleCount": 2964,
+      "bytes": 131098,
+      "sha256": "769486b4ec37b0d9f08123c3a60c444d54befca2f359728312dbf20a8e8601d8",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "deltoid-clavicular",
+      "name": "三角肌锁骨部",
+      "nameEn": "Clavicular part of deltoid muscler",
+      "kind": "muscle",
+      "side": "right",
+      "path": "/models/deltoid-clavicular.json",
+      "sourceId": "FBX:506767053",
+      "sourceObjectNames": [
+        "Clavicular_part_of_deltoid_muscler"
+      ],
+      "sourceObjectIds": [
+        506767053
+      ],
+      "sourceFile": "z-muscular-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.2104665,
+          1.26823795,
+          -0.03443632
+        ],
+        "max": [
+          -0.0844633,
+          1.42370749,
+          0.02037125
+        ]
+      },
+      "vertexCount": 1453,
+      "triangleCount": 2902,
+      "bytes": 127612,
+      "sha256": "07115bdeb5764615b9911feb902670958d7df413b28a0c379347833714dd4e0b",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "deltoid-spinal",
+      "name": "三角肌肩胛冈部",
+      "nameEn": "Scapular spinal part of deltoid muscler",
+      "kind": "muscle",
+      "side": "right",
+      "path": "/models/deltoid-spinal.json",
+      "sourceId": "FBX:806276737",
+      "sourceObjectNames": [
+        "Scapular_spinal_part_of_deltoid_muscler"
+      ],
+      "sourceObjectIds": [
+        806276737
+      ],
+      "sourceFile": "z-muscular-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.22706828,
+          1.25076175,
+          -0.10307868
+        ],
+        "max": [
+          -0.0903063,
+          1.40720081,
+          -0.02301351
+        ]
+      },
+      "vertexCount": 2189,
+      "triangleCount": 4378,
+      "bytes": 196535,
+      "sha256": "7ac12ef3ea8d52fd59d9e6dc7c305cb073e18f57d2410bdbf4e12d99cdcd1dc8",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "subscapularis",
+      "name": "肩胛下肌",
+      "nameEn": "Subscapularis muscler",
+      "kind": "muscle",
+      "side": "right",
+      "path": "/models/subscapularis.json",
+      "sourceId": "FBX:599750783",
+      "sourceObjectNames": [
+        "Subscapularis_muscler"
+      ],
+      "sourceObjectIds": [
+        599750783
+      ],
+      "sourceFile": "z-muscular-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.17015752,
+          1.27751029,
+          -0.1063305
+        ],
+        "max": [
+          -0.06513308,
+          1.39208436,
+          -0.00136652
+        ]
+      },
+      "vertexCount": 1471,
+      "triangleCount": 2954,
+      "bytes": 130055,
+      "sha256": "268810cc8f6f9385e18dd70d16f45218d367b525729f283130f69cfb04568b11",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "teres-major",
+      "name": "大圆肌",
+      "nameEn": "Teres major muscler",
+      "kind": "muscle",
+      "side": "right",
+      "path": "/models/teres-major.json",
+      "sourceId": "FBX:795125640",
+      "sourceObjectNames": [
+        "Teres_major_muscler"
+      ],
+      "sourceObjectIds": [
+        795125640
+      ],
+      "sourceFile": "z-muscular-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.18446563,
+          1.25564802,
+          -0.10002991
+        ],
+        "max": [
+          -0.09882195,
+          1.34170568,
+          -0.01730828
+        ]
+      },
+      "vertexCount": 577,
+      "triangleCount": 1154,
+      "bytes": 49462,
+      "sha256": "ee1d70414dcac82b7d52c134d3bade0bddf20a42147ad1d80d782cc5d8c394d4",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "teres-minor",
+      "name": "小圆肌",
+      "nameEn": "Teres minor muscler",
+      "kind": "muscle",
+      "side": "right",
+      "path": "/models/teres-minor.json",
+      "sourceId": "FBX:822740360",
+      "sourceObjectNames": [
+        "Teres_minor_muscler"
+      ],
+      "sourceObjectIds": [
+        822740360
+      ],
+      "sourceFile": "z-muscular-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.19722734,
+          1.29471731,
+          -0.0972866
+        ],
+        "max": [
+          -0.10110706,
+          1.38421595,
+          -0.02140354
+        ]
+      },
+      "vertexCount": 763,
+      "triangleCount": 1522,
+      "bytes": 65505,
+      "sha256": "059b8343961271ef8cadd41804e02d76fe93ff7e1a98da64c951571404b73150",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "serratus-anterior",
+      "name": "前锯肌",
+      "nameEn": "Serratus anterior muscler",
+      "kind": "muscle",
+      "side": "right",
+      "path": "/models/serratus-anterior.json",
+      "sourceId": "FBX:968201470",
+      "sourceObjectNames": [
+        "Serratus_anterior_muscler"
+      ],
+      "sourceObjectIds": [
+        968201470
+      ],
+      "sourceFile": "z-muscular-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.14865291,
+          1.14790678,
+          -0.11042863
+        ],
+        "max": [
+          -0.06215871,
+          1.42261088,
+          0.06166442
+        ]
+      },
+      "vertexCount": 12618,
+      "triangleCount": 25240,
+      "bytes": 1176161,
+      "sha256": "d9995933578a271affab80852ff606b75e3e2dc2754fcd67a0f26de7d7419696",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "humerus",
+      "name": "肱骨",
+      "nameEn": "Humerusr",
+      "kind": "bone",
+      "side": "right",
+      "path": "/models/humerus.json",
+      "sourceId": "FBX:182055279",
+      "sourceObjectNames": [
+        "Humerusr"
+      ],
+      "sourceObjectIds": [
+        182055279
+      ],
+      "sourceFile": "z-skeletal-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.24883279,
+          1.08702254,
+          -0.0536262
+        ],
+        "max": [
+          -0.14460655,
+          1.40460443,
+          -0.00125916
+        ]
+      },
+      "vertexCount": 2143,
+      "triangleCount": 4280,
+      "bytes": 192241,
+      "sha256": "b53d5f92187bd17217426cf30d673a292324449c6a79ddb111faa8c8d065a70c",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "scapula",
+      "name": "肩胛骨",
+      "nameEn": "Scapular",
+      "kind": "bone",
+      "side": "right",
+      "path": "/models/scapula.json",
+      "sourceId": "FBX:253295747",
+      "sourceObjectNames": [
+        "Scapular"
+      ],
+      "sourceObjectIds": [
+        253295747
+      ],
+      "sourceFile": "z-skeletal-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.17357536,
+          1.25427485,
+          -0.11280737
+        ],
+        "max": [
+          -0.06061114,
+          1.41784,
+          0.00126469
+        ]
+      },
+      "vertexCount": 12665,
+      "triangleCount": 25325,
+      "bytes": 1185528,
+      "sha256": "c2f0b3a07ae8e40d9acd90de6280f0e786902842f4497b68c3f7cc9d4330fd11",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "clavicle",
+      "name": "锁骨",
+      "nameEn": "Clavicler",
+      "kind": "bone",
+      "side": "right",
+      "path": "/models/clavicle.json",
+      "sourceId": "FBX:790019466",
+      "sourceObjectNames": [
+        "Clavicler"
+      ],
+      "sourceObjectIds": [
+        790019466
+      ],
+      "sourceFile": "z-skeletal-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.15433063,
+          1.38911235,
+          -0.05226177
+        ],
+        "max": [
+          -0.01121451,
+          1.4252156,
+          0.05050987
+        ]
+      },
+      "vertexCount": 777,
+      "triangleCount": 1550,
+      "bytes": 66521,
+      "sha256": "8237e04ee6d59a74f1712a95fb4647d4ca35a181eaaaa1f22f8a3f648402a7ea",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "radius",
+      "name": "桡骨",
+      "nameEn": "Radiusr",
+      "kind": "bone",
+      "side": "right",
+      "path": "/models/radius.json",
+      "sourceId": "FBX:967327869",
+      "sourceObjectNames": [
+        "Radiusr"
+      ],
+      "sourceObjectIds": [
+        967327869
+      ],
+      "sourceFile": "z-skeletal-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.28866696,
+          0.85632384,
+          -0.04194078
+        ],
+        "max": [
+          -0.22687694,
+          1.09333146,
+          0.02673032
+        ]
+      },
+      "vertexCount": 394,
+      "triangleCount": 784,
+      "bytes": 33275,
+      "sha256": "a079fe86c39301dc6f4f3717af8591be553a91449bc9eb866b7a358de8f743b9",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "ulna",
+      "name": "尺骨",
+      "nameEn": "Ulnar",
+      "kind": "bone",
+      "side": "right",
+      "path": "/models/ulna.json",
+      "sourceId": "FBX:578190046",
+      "sourceObjectNames": [
+        "Ulnar"
+      ],
+      "sourceObjectIds": [
+        578190046
+      ],
+      "sourceFile": "z-skeletal-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.2556302,
+          0.85558039,
+          -0.06038804
+        ],
+        "max": [
+          -0.20323721,
+          1.11101985,
+          0.02285146
+        ]
+      },
+      "vertexCount": 454,
+      "triangleCount": 904,
+      "bytes": 38553,
+      "sha256": "dce27598e0605e2136a9296994c4cd2a3413df366cd4c2ae1eeea2cd2b781125",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places."
+      ]
+    },
+    {
+      "id": "skin-right-arm-crop",
+      "name": "右上肢与邻近胸部体表分区（参考表面）",
+      "nameEn": "Combined right upper-limb and adjacent thoracic surface regions",
+      "kind": "skin",
+      "side": "right",
+      "path": "/models/skin-right-arm-crop.json",
+      "sourceId": [
+        "FBX:150036705",
+        "FBX:338343683",
+        "FBX:647217125",
+        "FBX:938752480",
+        "FBX:721424928",
+        "FBX:584135255",
+        "FBX:464411030",
+        "FBX:383004941",
+        "FBX:299969574",
+        "FBX:166514732",
+        "FBX:355211606",
+        "FBX:145567484",
+        "FBX:313004807",
+        "FBX:925941986",
+        "FBX:764857394",
+        "FBX:947530386",
+        "FBX:27460368",
+        "FBX:855347202",
+        "FBX:787265256",
+        "FBX:675805919",
+        "FBX:118831288"
+      ],
+      "sourceObjectNames": [
+        "Anterior_region_of_armr",
+        "Posterior_region_of_armr",
+        "Deltoid_regionr",
+        "Anterior_region_of_forearmr",
+        "Posterior_region_of_forearmr",
+        "Lateral_border_of_forearmr",
+        "Medial_border_of_forearmr",
+        "Anterior_region_of_elbowr",
+        "Posterior_region_of_elbowr",
+        "Anterior_region_of_wristr",
+        "Posterior_region_of_wristr",
+        "Palmr",
+        "Dorsum_of_handr",
+        "Palmar_surfaces_of_digits_of_handr",
+        "Dorsal_surfaces_of_digits_of_handr",
+        "Pectoral_regionr",
+        "Mammary_regionr",
+        "Infraclavicular_fossar",
+        "Deltopectoral_triangler",
+        "Lateral_region_of_thoraxr",
+        "Scapular_regionr"
+      ],
+      "sourceObjectIds": [
+        150036705,
+        338343683,
+        647217125,
+        938752480,
+        721424928,
+        584135255,
+        464411030,
+        383004941,
+        299969574,
+        166514732,
+        355211606,
+        145567484,
+        313004807,
+        925941986,
+        764857394,
+        947530386,
+        27460368,
+        855347202,
+        787265256,
+        675805919,
+        118831288
+      ],
+      "sourceFile": "z-body-regions-100.fbx",
+      "source": "z-anatomy-pinned",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-surface-regions-combined",
+      "bounds": {
+        "min": [
+          -0.33999297,
+          0.69847125,
+          -0.13588427
+        ],
+        "max": [
+          -0.01672593,
+          1.43603015,
+          0.13057047
+        ]
+      },
+      "vertexCount": 12190,
+      "triangleCount": 18731,
+      "bytes": 1042638,
+      "sha256": "669ebca944bf3fd9f04fd2763a54a26f4d6bfc3ccb6881eea55a1dd8ce20bec2",
+      "adaptations": [
+        "Applied the original FBX scene matrixWorld, then centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; geometry positions serialized to 8 decimal places.",
+        "Combined named body-surface region patches; these are not nerve innervation fields or fascial layers."
+      ]
+    }
+  ],
+  "missingStructures": [
+    {
+      "id": "axillary-fascial-sheath",
+      "name": "腋部筋膜鞘／可注射组织间隙",
+      "status": "not-validated-in-source",
+      "kind": "fascia"
+    },
+    {
+      "id": "lateral-medial-cord",
+      "name": "臂丛外侧束／内侧束连续独立网格",
+      "status": "not-confirmed-as-independent-mesh",
+      "kind": "nerve"
+    }
+  ],
+  "nerveAvailability": [
+    {
+      "id": "median",
+      "name": "正中神经",
+      "sourceObjectId": 874085510,
+      "sourceObjectName": "Median_nerver",
+      "vertexCount": 2604,
+      "triangleCount": 5184,
+      "bounds": {
+        "min": [
+          -0.26398292,
+          0.8358869,
+          -0.02696465
+        ],
+        "max": [
+          -0.11048034,
+          1.39005351,
+          0.03478846
+        ]
+      },
+      "status": "independent source mesh exists; full distal branch coverage and source anatomical accuracy are not implied"
+    },
+    {
+      "id": "ulnar",
+      "name": "尺神经",
+      "sourceObjectId": 649745495,
+      "sourceObjectName": "Ulnar_nerver",
+      "vertexCount": 1596,
+      "triangleCount": 3168,
+      "bounds": {
+        "min": [
+          -0.23733139,
+          0.88296074,
+          -0.04473951
+        ],
+        "max": [
+          -0.10020643,
+          1.39984739,
+          0.01939158
+        ]
+      },
+      "status": "independent source mesh exists; full distal branch coverage and source anatomical accuracy are not implied"
+    },
+    {
+      "id": "radial",
+      "name": "桡神经",
+      "sourceObjectId": 41491164,
+      "sourceObjectName": "Radial_nerver",
+      "vertexCount": 1164,
+      "triangleCount": 2304,
+      "bounds": {
+        "min": [
+          -0.24424061,
+          1.09158087,
+          -0.0477876
+        ],
+        "max": [
+          -0.12087025,
+          1.37971008,
+          -0.01600601
+        ]
+      },
+      "status": "independent source mesh exists; full distal branch coverage and source anatomical accuracy are not implied"
+    },
+    {
+      "id": "musculocutaneous",
+      "name": "肌皮神经",
+      "sourceObjectId": 122786892,
+      "sourceObjectName": "Musculocutaneous_nerver",
+      "vertexCount": 732,
+      "triangleCount": 1440,
+      "bounds": {
+        "min": [
+          -0.22364032,
+          1.09164274,
+          -0.02845792
+        ],
+        "max": [
+          -0.17456906,
+          1.31090331,
+          -0.0075779
+        ]
+      },
+      "status": "independent source mesh exists; full distal branch coverage and source anatomical accuracy are not implied"
+    }
+  ],
+  "crossSourceAudit": {
+    "comparedWith": "ashemag/human-atlas@1c38bf35c254a891200d3cedecfd57abebe83d8d",
+    "decision": "Use only the pinned Z-Anatomy source for all active anatomy; the two sources differ and were not registered or mixed.",
+    "comparisons": [
+      {
+        "id": "axillary-artery",
+        "humanAtlasBounds": {
+          "min": [
+            -0.1514279991388321,
+            1.3363511562347412,
+            -0.019881099462509155
+          ],
+          "max": [
+            -0.07700250297784805,
+            1.4178812503814697,
+            0.0064050001092255116
+          ]
+        },
+        "zAnatomyBounds": {
+          "min": [
+            -0.13685186,
+            1.3634361,
+            -0.01376427
+          ],
+          "max": [
+            -0.07858443,
+            1.41434002,
+            -0.00060173
+          ]
+        },
+        "maxBoundsEndpointDifferenceMm": 27.084943765258718
+      },
+      {
+        "id": "axillary-vein",
+        "humanAtlasBounds": {
+          "min": [
+            -0.1571670025587082,
+            1.3110212087631226,
+            -0.008595299907028675
+          ],
+          "max": [
+            -0.07494799792766571,
+            1.4131611585617065,
+            0.015169000253081322
+          ]
+        },
+        "zAnatomyBounds": {
+          "min": [
+            -0.15647177,
+            1.30877411,
+            -0.0065288
+          ],
+          "max": [
+            -0.09187797,
+            1.40345168,
+            0.0054305
+          ]
+        },
+        "maxBoundsEndpointDifferenceMm": 16.929972072334294
+      },
+      {
+        "id": "coracobrachialis",
+        "humanAtlasBounds": {
+          "min": [
+            -0.1894260048866272,
+            1.2482411861419678,
+            -0.033053599298000336
+          ],
+          "max": [
+            -0.13015100359916687,
+            1.405981183052063,
+            0.006175000220537186
+          ]
+        },
+        "zAnatomyBounds": {
+          "min": [
+            -0.19567078,
+            1.23297989,
+            -0.0359205
+          ],
+          "max": [
+            -0.13484405,
+            1.39171422,
+            -0.00089922
+          ]
+        },
+        "maxBoundsEndpointDifferenceMm": 15.261296141967806
+      },
+      {
+        "id": "biceps-short-head",
+        "humanAtlasBounds": {
+          "min": [
+            -0.2123900055885315,
+            1.1433311700820923,
+            -0.02388479933142662
+          ],
+          "max": [
+            -0.13598600029945374,
+            1.4057412147521973,
+            0.009100999683141708
+          ]
+        },
+        "zAnatomyBounds": {
+          "min": [
+            -0.21968083,
+            1.12414253,
+            -0.02649922
+          ],
+          "max": [
+            -0.13819002,
+            1.39719999,
+            0.00793203
+          ]
+        },
+        "maxBoundsEndpointDifferenceMm": 19.1886400820922
+      },
+      {
+        "id": "humerus",
+        "humanAtlasBounds": {
+          "min": [
+            -0.2407439947128296,
+            1.1075712442398071,
+            -0.04896090179681778
+          ],
+          "max": [
+            -0.1401520073413849,
+            1.4145711660385132,
+            0.00021899999410379678
+          ]
+        },
+        "zAnatomyBounds": {
+          "min": [
+            -0.24883279,
+            1.08702254,
+            -0.0536262
+          ],
+          "max": [
+            -0.14460655,
+            1.40460443,
+            -0.00125916
+          ]
+        },
+        "maxBoundsEndpointDifferenceMm": 20.548704239807147
+      }
+    ]
+  },
+  "limitations": [
+    "Imported reference meshes, not patient-derived anatomy or independently anatomically validated meshes.",
+    "Source neutral arm position is not the abducted procedural position for an axillary block.",
+    "Independent target nerve meshes exist; continuity of every root, cord, branch and cutaneous field is not assured.",
+    "Body-surface patches are reference anatomy and must not be treated as nerve sensory territories.",
+    "No fascia, injectable compartment, needle path or spread simulation is represented by these source meshes.",
+    "No generated nerve curves, manual nerve displacement or cross-source fitting was performed."
+  ]
+}

@@ -1,0 +1,3053 @@
+{
+  "schemaVersion": 1,
+  "module": "right-interscalene-reference-anatomy",
+  "source": {
+    "id": "z-anatomy-pinned",
+    "repository": "https://github.com/LluisV/Z-Anatomy",
+    "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+    "dataset": "Original neutral Z-Anatomy source meshes; same fixed source and coordinate system as the axillary module",
+    "files": [
+      {
+        "cacheFile": "z-nervous-system-100.fbx",
+        "url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/FBX/NervousSystem100.fbx",
+        "bytes": 53887724,
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1"
+      },
+      {
+        "cacheFile": "z-muscular-system-100.fbx",
+        "url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/FBX/MuscularSystem100.fbx",
+        "bytes": 37343180,
+        "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279"
+      },
+      {
+        "cacheFile": "z-cardio-vascular-41.fbx",
+        "url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/FBX/CardioVascular41.fbx",
+        "bytes": 64889388,
+        "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680"
+      },
+      {
+        "cacheFile": "z-skeletal-system-100.fbx",
+        "url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/FBX/SkeletalSystem100.fbx",
+        "bytes": 41339660,
+        "sha256": "294a649765cd060a62a4095da52b9c8ef2d97769aa447e196448aa5f7d596dea"
+      }
+    ],
+    "licenses": [
+      {
+        "path": "/interscalene/source/Z-UPSTREAM-LICENSE.txt",
+        "url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/LICENSE",
+        "bytes": 20559,
+        "sha256": "5e7dd512c01cfb822e3253f8f8df923103a64e269deb9bb5303f23b2376cad46"
+      },
+      {
+        "path": "/interscalene/source/Z-MODEL-LICENSE.txt",
+        "url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/License.txt",
+        "bytes": 1514,
+        "sha256": "af62c06f620b9da20138e4c22a3f56565482dd058266540994ace97a4e24b693"
+      }
+    ],
+    "attributionPath": "/interscalene/ATTRIBUTION.md",
+    "licensePath": "/interscalene/source/Z-UPSTREAM-LICENSE.txt",
+    "inventoryPath": "/interscalene/source/mesh-inventory.json"
+  },
+  "license": "CC-BY-SA-4.0",
+  "coordinateSystem": {
+    "units": "m",
+    "up": "+Y",
+    "anterior": "+Z",
+    "right": "-X",
+    "pose": "source neutral standing anatomy with arm alongside trunk",
+    "transform": "Original FBX mesh matrixWorld, then uniform scale 0.01 cm to m. No source fitting, repositioning, clipping or nerve reconstruction."
+  },
+  "focus": {
+    "target": [
+      -0.038,
+      1.468,
+      -0.012
+    ],
+    "camera": [
+      -0.25,
+      1.51,
+      0.21
+    ],
+    "sliceY": 1.468,
+    "bounds": {
+      "min": [
+        -0.08,
+        1.43,
+        -0.07
+      ],
+      "max": [
+        0.005,
+        1.53,
+        0.055
+      ]
+    },
+    "plane": {
+      "center": [
+        -0.038,
+        1.468,
+        -0.012
+      ],
+      "u": [
+        0,
+        0,
+        1
+      ],
+      "v": [
+        1,
+        0,
+        0
+      ],
+      "n": [
+        0,
+        1,
+        0
+      ],
+      "width": 0.1,
+      "depth": 0.08,
+      "uMeaning": "positive screen horizontal points anteriorly (+Z); left is posterior",
+      "vMeaning": "positive image depth points medially (+X) from the right neck",
+      "nMeaning": "plane normal points cranially (+Y); u cross v equals n; positive image depth is drawn downward",
+      "status": "source-coordinate geometric reference only, not a validated clinical ultrasound scan plane",
+      "levelLimit": "Source Y 1.468 lies within the C6 vertebra bounding Y range; this does not identify individual nerve branches as C6."
+    },
+    "suggestedSliceRange": {
+      "min": 1.44,
+      "max": 1.495,
+      "step": 0.001,
+      "units": "m",
+      "meaning": "Horizontal source-coordinate geometry exploration; not procedural positioning or clinical scan correspondence."
+    }
+  },
+  "structures": [
+    {
+      "id": "brachial-roots",
+      "name": "臂丛近端合并网格（未分节）",
+      "nameEn": "Roots of brachial plexusr",
+      "kind": "nerve",
+      "side": "right",
+      "path": "/interscalene/brachial-roots.json",
+      "sourceId": "FBX:680949521",
+      "sourceObjectIds": [
+        680949521
+      ],
+      "sourceObjectNames": [
+        "Roots_of_brachial_plexusr"
+      ],
+      "sourceFile": "z-nervous-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.05603828,
+          1.43313372,
+          -0.03515413
+        ],
+        "max": [
+          -0.01310245,
+          1.50481486,
+          -0.00551593
+        ]
+      },
+      "vertexCount": 2388,
+      "triangleCount": 4608,
+      "bytes": 212564,
+      "sha256": "d682b44671d16a32f908b67a2626c53cfb2360484839a71c0e4808160b92219d",
+      "sourceChildMeshes": [],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ],
+      "topologyAudit": {
+        "method": "position-welded triangle connectivity of exported source geometry",
+        "components": [
+          {
+            "vertexCount": 300,
+            "bounds": {
+              "min": [
+                -0.03558247,
+                1.49124408,
+                -0.01612774
+              ],
+              "max": [
+                -0.01313801,
+                1.50481486,
+                -0.00551593
+              ]
+            }
+          },
+          {
+            "vertexCount": 156,
+            "bounds": {
+              "min": [
+                -0.03299953,
+                1.47755587,
+                -0.01220088
+              ],
+              "max": [
+                -0.02392371,
+                1.49856365,
+                -0.007895
+              ]
+            }
+          },
+          {
+            "vertexCount": 444,
+            "bounds": {
+              "min": [
+                -0.05539338,
+                1.45237505,
+                -0.01637477
+              ],
+              "max": [
+                -0.01310245,
+                1.49025488,
+                -0.01108756
+              ]
+            }
+          },
+          {
+            "vertexCount": 300,
+            "bounds": {
+              "min": [
+                -0.05483738,
+                1.45194745,
+                -0.01729093
+              ],
+              "max": [
+                -0.01701085,
+                1.47349489,
+                -0.01149889
+              ]
+            }
+          },
+          {
+            "vertexCount": 300,
+            "bounds": {
+              "min": [
+                -0.05283565,
+                1.44044316,
+                -0.02731237
+              ],
+              "max": [
+                -0.01520662,
+                1.45868957,
+                -0.01861129
+              ]
+            }
+          },
+          {
+            "vertexCount": 444,
+            "bounds": {
+              "min": [
+                -0.05583072,
+                1.43447328,
+                -0.02902755
+              ],
+              "max": [
+                -0.01415823,
+                1.44892359,
+                -0.01171562
+              ]
+            }
+          },
+          {
+            "vertexCount": 444,
+            "bounds": {
+              "min": [
+                -0.05603828,
+                1.43313372,
+                -0.03515413
+              ],
+              "max": [
+                -0.01371601,
+                1.43734121,
+                -0.01197003
+              ]
+            }
+          }
+        ],
+        "interpretation": "Topology only; components do not establish named spinal levels or biological completeness."
+      },
+      "semanticLimit": "Source label is Roots of brachial plexus. It is a merged unsegmented proximal plexus mesh: no independent C5/C6/C7 level labels. Do not relabel it an intrathecal spinal root or infer individual ventral-ramus identities from component count."
+    },
+    {
+      "id": "superior-trunk",
+      "name": "臂丛上干",
+      "nameEn": "Superior trunk of brachial plexusr",
+      "kind": "nerve",
+      "side": "right",
+      "path": "/interscalene/superior-trunk.json",
+      "sourceId": "FBX:443613078",
+      "sourceObjectIds": [
+        443613078
+      ],
+      "sourceObjectNames": [
+        "Superior_trunk_of_brachial_plexusr"
+      ],
+      "sourceFile": "z-nervous-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.08883715,
+          1.41748428,
+          -0.02888245
+        ],
+        "max": [
+          -0.05308522,
+          1.45425534,
+          -0.011504
+        ]
+      },
+      "vertexCount": 156,
+      "triangleCount": 288,
+      "bytes": 12665,
+      "sha256": "4f2b25026e389d3d11ca2e4d1412c81183e3d632a704113047cc450a29dd8b2c",
+      "sourceChildMeshes": [
+        "Posterior_division_of_superior_trunk_of_brachial_plexusr",
+        "Anterior_division_of_superior_trunk_of_brachial_plexusr"
+      ],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ],
+      "topologyAudit": {
+        "method": "position-welded triangle connectivity of exported source geometry",
+        "components": [
+          {
+            "vertexCount": 156,
+            "bounds": {
+              "min": [
+                -0.08883715,
+                1.41748428,
+                -0.02888245
+              ],
+              "max": [
+                -0.05308522,
+                1.45425534,
+                -0.011504
+              ]
+            }
+          }
+        ],
+        "interpretation": "Topology only; components do not establish named spinal levels or biological completeness."
+      }
+    },
+    {
+      "id": "middle-trunk",
+      "name": "臂丛中干",
+      "nameEn": "Middle trunk of brachial plexusr",
+      "kind": "nerve",
+      "side": "right",
+      "path": "/interscalene/middle-trunk.json",
+      "sourceId": "FBX:373690407",
+      "sourceObjectIds": [
+        373690407
+      ],
+      "sourceObjectNames": [
+        "Middle_trunk_of_brachial_plexusr"
+      ],
+      "sourceFile": "z-nervous-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.08496592,
+          1.41802526,
+          -0.02732454
+        ],
+        "max": [
+          -0.05155991,
+          1.44314373,
+          -0.02186857
+        ]
+      },
+      "vertexCount": 156,
+      "triangleCount": 288,
+      "bytes": 12701,
+      "sha256": "7d69f6804344bdada9848f75d81aa754e5339bea1adfc1d88cdc91e262ec45ae",
+      "sourceChildMeshes": [
+        "Anterior_division_of_middle_trunk_of_brachial_plexusr",
+        "Posterior_division_of_middle_trunk_of_brachial_plexusr"
+      ],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ],
+      "topologyAudit": {
+        "method": "position-welded triangle connectivity of exported source geometry",
+        "components": [
+          {
+            "vertexCount": 156,
+            "bounds": {
+              "min": [
+                -0.08496592,
+                1.41802526,
+                -0.02732454
+              ],
+              "max": [
+                -0.05155991,
+                1.44314373,
+                -0.02186857
+              ]
+            }
+          }
+        ],
+        "interpretation": "Topology only; components do not establish named spinal levels or biological completeness."
+      }
+    },
+    {
+      "id": "inferior-trunk",
+      "name": "臂丛下干",
+      "nameEn": "Inferior trunk of brachial plexusr",
+      "kind": "nerve",
+      "side": "right",
+      "path": "/interscalene/inferior-trunk.json",
+      "sourceId": "FBX:208648482",
+      "sourceObjectIds": [
+        208648482
+      ],
+      "sourceObjectNames": [
+        "Inferior_trunk_of_brachial_plexusr"
+      ],
+      "sourceFile": "z-nervous-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.08417804,
+          1.4154228,
+          -0.01778507
+        ],
+        "max": [
+          -0.05446887,
+          1.43722105,
+          -0.0100384
+        ]
+      },
+      "vertexCount": 300,
+      "triangleCount": 576,
+      "bytes": 25215,
+      "sha256": "a039bc0f6f72c5a46608f2ecc177a7881ca14585192c7a93c7c7fe5a7e0f0581",
+      "sourceChildMeshes": [
+        "Posterior_division_of_inferior_trunk_of_brachial_plexusr",
+        "Anterior_division_of_inferior_trunk_of_brachial_plexusr"
+      ],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ],
+      "topologyAudit": {
+        "method": "position-welded triangle connectivity of exported source geometry",
+        "components": [
+          {
+            "vertexCount": 300,
+            "bounds": {
+              "min": [
+                -0.08417804,
+                1.4154228,
+                -0.01778507
+              ],
+              "max": [
+                -0.05446887,
+                1.43722105,
+                -0.0100384
+              ]
+            }
+          }
+        ],
+        "interpretation": "Topology only; components do not establish named spinal levels or biological completeness."
+      }
+    },
+    {
+      "id": "superior-anterior-division",
+      "name": "臂丛上干前股",
+      "nameEn": "Anterior division of superior trunk of brachial plexusr",
+      "kind": "nerve",
+      "side": "right",
+      "path": "/interscalene/superior-anterior-division.json",
+      "sourceId": "FBX:420017778",
+      "sourceObjectIds": [
+        420017778
+      ],
+      "sourceObjectNames": [
+        "Anterior_division_of_superior_trunk_of_brachial_plexusr"
+      ],
+      "sourceFile": "z-nervous-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.11092985,
+          1.39872742,
+          -0.02885379
+        ],
+        "max": [
+          -0.08648524,
+          1.41929626,
+          -0.01347005
+        ]
+      },
+      "vertexCount": 156,
+      "triangleCount": 288,
+      "bytes": 12686,
+      "sha256": "b0c1f448beb878dca005b6df73343500015bf1a078c42c2f1b301e36c4db250c",
+      "sourceChildMeshes": [],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ],
+      "parentId": "superior-trunk",
+      "topologyAudit": {
+        "method": "position-welded triangle connectivity of exported source geometry",
+        "components": [
+          {
+            "vertexCount": 156,
+            "bounds": {
+              "min": [
+                -0.11092985,
+                1.39872742,
+                -0.02885379
+              ],
+              "max": [
+                -0.08648524,
+                1.41929626,
+                -0.01347005
+              ]
+            }
+          }
+        ],
+        "interpretation": "Topology only; components do not establish named spinal levels or biological completeness."
+      }
+    },
+    {
+      "id": "superior-posterior-division",
+      "name": "臂丛上干后股",
+      "nameEn": "Posterior division of superior trunk of brachial plexusr",
+      "kind": "nerve",
+      "side": "right",
+      "path": "/interscalene/superior-posterior-division.json",
+      "sourceId": "FBX:350342407",
+      "sourceObjectIds": [
+        350342407
+      ],
+      "sourceObjectNames": [
+        "Posterior_division_of_superior_trunk_of_brachial_plexusr"
+      ],
+      "sourceFile": "z-nervous-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.10136014,
+          1.39873564,
+          -0.02837006
+        ],
+        "max": [
+          -0.08685263,
+          1.4189831,
+          -0.02532716
+        ]
+      },
+      "vertexCount": 156,
+      "triangleCount": 288,
+      "bytes": 12686,
+      "sha256": "5480b888e01292d8755a326b5bfa64472da0227a88bbfc92e888ec48fecf8c69",
+      "sourceChildMeshes": [],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ],
+      "parentId": "superior-trunk",
+      "topologyAudit": {
+        "method": "position-welded triangle connectivity of exported source geometry",
+        "components": [
+          {
+            "vertexCount": 156,
+            "bounds": {
+              "min": [
+                -0.10136014,
+                1.39873564,
+                -0.02837006
+              ],
+              "max": [
+                -0.08685263,
+                1.4189831,
+                -0.02532716
+              ]
+            }
+          }
+        ],
+        "interpretation": "Topology only; components do not establish named spinal levels or biological completeness."
+      }
+    },
+    {
+      "id": "middle-anterior-division",
+      "name": "臂丛中干前股",
+      "nameEn": "Anterior division of middle trunk of brachial plexusr",
+      "kind": "nerve",
+      "side": "right",
+      "path": "/interscalene/middle-anterior-division.json",
+      "sourceId": "FBX:680798551",
+      "sourceObjectIds": [
+        680798551
+      ],
+      "sourceObjectNames": [
+        "Anterior_division_of_middle_trunk_of_brachial_plexusr"
+      ],
+      "sourceFile": "z-nervous-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.11117159,
+          1.39848423,
+          -0.02476649
+        ],
+        "max": [
+          -0.08319345,
+          1.42052066,
+          -0.01336395
+        ]
+      },
+      "vertexCount": 156,
+      "triangleCount": 288,
+      "bytes": 12683,
+      "sha256": "f0d7d2f202dda75384b70075000dc08df539dd830680182b018df618fd299167",
+      "sourceChildMeshes": [],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ],
+      "parentId": "middle-trunk",
+      "topologyAudit": {
+        "method": "position-welded triangle connectivity of exported source geometry",
+        "components": [
+          {
+            "vertexCount": 156,
+            "bounds": {
+              "min": [
+                -0.11117159,
+                1.39848423,
+                -0.02476649
+              ],
+              "max": [
+                -0.08319345,
+                1.42052066,
+                -0.01336395
+              ]
+            }
+          }
+        ],
+        "interpretation": "Topology only; components do not establish named spinal levels or biological completeness."
+      }
+    },
+    {
+      "id": "middle-posterior-division",
+      "name": "臂丛中干后股",
+      "nameEn": "Posterior division of middle trunk of brachial plexusr",
+      "kind": "nerve",
+      "side": "right",
+      "path": "/interscalene/middle-posterior-division.json",
+      "sourceId": "FBX:828702681",
+      "sourceObjectIds": [
+        828702681
+      ],
+      "sourceObjectNames": [
+        "Posterior_division_of_middle_trunk_of_brachial_plexusr"
+      ],
+      "sourceFile": "z-nervous-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.10134578,
+          1.39874661,
+          -0.02730538
+        ],
+        "max": [
+          -0.08318277,
+          1.42053914,
+          -0.02131819
+        ]
+      },
+      "vertexCount": 156,
+      "triangleCount": 288,
+      "bytes": 12680,
+      "sha256": "41f06dddfd0b8b80b06b2372b261ef3992150a2a2474373ca4906215cca77382",
+      "sourceChildMeshes": [],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ],
+      "parentId": "middle-trunk",
+      "topologyAudit": {
+        "method": "position-welded triangle connectivity of exported source geometry",
+        "components": [
+          {
+            "vertexCount": 156,
+            "bounds": {
+              "min": [
+                -0.10134578,
+                1.39874661,
+                -0.02730538
+              ],
+              "max": [
+                -0.08318277,
+                1.42053914,
+                -0.02131819
+              ]
+            }
+          }
+        ],
+        "interpretation": "Topology only; components do not establish named spinal levels or biological completeness."
+      }
+    },
+    {
+      "id": "inferior-anterior-division",
+      "name": "臂丛下干前股",
+      "nameEn": "Anterior division of inferior trunk of brachial plexusr",
+      "kind": "nerve",
+      "side": "right",
+      "path": "/interscalene/inferior-anterior-division.json",
+      "sourceId": "FBX:413748403",
+      "sourceObjectIds": [
+        413748403
+      ],
+      "sourceObjectNames": [
+        "Anterior_division_of_inferior_trunk_of_brachial_plexusr"
+      ],
+      "sourceFile": "z-nervous-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.10163705,
+          1.39827907,
+          -0.01774153
+        ],
+        "max": [
+          -0.08223315,
+          1.41778457,
+          -0.00918041
+        ]
+      },
+      "vertexCount": 300,
+      "triangleCount": 576,
+      "bytes": 25182,
+      "sha256": "b7d65aafebb26c1bcc656e61ce9c582485b198a3be8d2297286ac2e310200edb",
+      "sourceChildMeshes": [],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ],
+      "parentId": "inferior-trunk",
+      "topologyAudit": {
+        "method": "position-welded triangle connectivity of exported source geometry",
+        "components": [
+          {
+            "vertexCount": 300,
+            "bounds": {
+              "min": [
+                -0.10163705,
+                1.39827907,
+                -0.01774153
+              ],
+              "max": [
+                -0.08223315,
+                1.41778457,
+                -0.00918041
+              ]
+            }
+          }
+        ],
+        "interpretation": "Topology only; components do not establish named spinal levels or biological completeness."
+      }
+    },
+    {
+      "id": "inferior-posterior-division",
+      "name": "臂丛下干后股",
+      "nameEn": "Posterior division of inferior trunk of brachial plexusr",
+      "kind": "nerve",
+      "side": "right",
+      "path": "/interscalene/inferior-posterior-division.json",
+      "sourceId": "FBX:150925922",
+      "sourceObjectIds": [
+        150925922
+      ],
+      "sourceObjectNames": [
+        "Posterior_division_of_inferior_trunk_of_brachial_plexusr"
+      ],
+      "sourceFile": "z-nervous-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.11070222,
+          1.39953887,
+          -0.01779116
+        ],
+        "max": [
+          -0.08265118,
+          1.41799688,
+          -0.01343819
+        ]
+      },
+      "vertexCount": 156,
+      "triangleCount": 288,
+      "bytes": 12694,
+      "sha256": "4f54a0a49decf29cba69e66dfaddcfa2a13e6141d63ce759a1ade7d744212c97",
+      "sourceChildMeshes": [],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ],
+      "parentId": "inferior-trunk",
+      "topologyAudit": {
+        "method": "position-welded triangle connectivity of exported source geometry",
+        "components": [
+          {
+            "vertexCount": 156,
+            "bounds": {
+              "min": [
+                -0.11070222,
+                1.39953887,
+                -0.01779116
+              ],
+              "max": [
+                -0.08265118,
+                1.41799688,
+                -0.01343819
+              ]
+            }
+          }
+        ],
+        "interpretation": "Topology only; components do not establish named spinal levels or biological completeness."
+      }
+    },
+    {
+      "id": "posterior-cord",
+      "name": "臂丛后束（延续参考）",
+      "nameEn": "Posterior cord of brachial plexusr",
+      "kind": "nerve",
+      "side": "right",
+      "path": "/interscalene/posterior-cord.json",
+      "sourceId": "FBX:978614789",
+      "sourceObjectIds": [
+        978614789
+      ],
+      "sourceObjectNames": [
+        "Posterior_cord_of_brachial_plexusr"
+      ],
+      "sourceFile": "z-nervous-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.12232875,
+          1.37834597,
+          -0.02732474
+        ],
+        "max": [
+          -0.09996837,
+          1.40016949,
+          -0.02473634
+        ]
+      },
+      "vertexCount": 300,
+      "triangleCount": 576,
+      "bytes": 24810,
+      "sha256": "0c980f526e0efb311c0ae925d0cecfabc5c17237bf282a5e0524be506f505bbb",
+      "sourceChildMeshes": [],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ],
+      "topologyAudit": {
+        "method": "position-welded triangle connectivity of exported source geometry",
+        "components": [
+          {
+            "vertexCount": 300,
+            "bounds": {
+              "min": [
+                -0.12232875,
+                1.37834597,
+                -0.02732474
+              ],
+              "max": [
+                -0.09996837,
+                1.40016949,
+                -0.02473634
+              ]
+            }
+          }
+        ],
+        "interpretation": "Topology only; components do not establish named spinal levels or biological completeness."
+      }
+    },
+    {
+      "id": "long-thoracic-nerve",
+      "name": "胸长神经（邻近参考）",
+      "nameEn": "Long thoracic nerver",
+      "kind": "nerve",
+      "side": "right",
+      "path": "/interscalene/long-thoracic-nerve.json",
+      "sourceId": "FBX:512424127",
+      "sourceObjectIds": [
+        512424127
+      ],
+      "sourceObjectNames": [
+        "Long_thoracic_nerver"
+      ],
+      "sourceFile": "z-nervous-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.14366288,
+          1.19502151,
+          -0.0546038
+        ],
+        "max": [
+          -0.02297991,
+          1.4825784,
+          0.00546882
+        ]
+      },
+      "vertexCount": 2040,
+      "triangleCount": 4032,
+      "bytes": 181751,
+      "sha256": "5f0b2eb5c0e22ca0f85ecee843c96de23234d523823ebd0b1e4d9ffdd5a8f9cc",
+      "sourceChildMeshes": [],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ],
+      "topologyAudit": {
+        "method": "position-welded triangle connectivity of exported source geometry",
+        "components": [
+          {
+            "vertexCount": 1884,
+            "bounds": {
+              "min": [
+                -0.14366288,
+                1.19502151,
+                -0.0546038
+              ],
+              "max": [
+                -0.02678385,
+                1.4825784,
+                0.00546882
+              ]
+            }
+          },
+          {
+            "vertexCount": 156,
+            "bounds": {
+              "min": [
+                -0.03324502,
+                1.46801603,
+                -0.02296799
+              ],
+              "max": [
+                -0.02297991,
+                1.47074497,
+                -0.01634785
+              ]
+            }
+          }
+        ],
+        "interpretation": "Topology only; components do not establish named spinal levels or biological completeness."
+      }
+    },
+    {
+      "id": "dorsal-scapular-nerve",
+      "name": "肩胛背神经（邻近参考）",
+      "nameEn": "Dorsal scapular nerver",
+      "kind": "nerve",
+      "side": "right",
+      "path": "/interscalene/dorsal-scapular-nerve.json",
+      "sourceId": "FBX:582201452",
+      "sourceObjectIds": [
+        582201452
+      ],
+      "sourceObjectNames": [
+        "Dorsal_scapular_nerver"
+      ],
+      "sourceFile": "z-nervous-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.05859587,
+          1.30419934,
+          -0.10828351
+        ],
+        "max": [
+          -0.02543544,
+          1.48308778,
+          -0.01086113
+        ]
+      },
+      "vertexCount": 1308,
+      "triangleCount": 2592,
+      "bytes": 114506,
+      "sha256": "7c45928611505d5c96155e61e6eeae53bb68ed3baa8eb5b17280fe452e3d6141",
+      "sourceChildMeshes": [],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ],
+      "topologyAudit": {
+        "method": "position-welded triangle connectivity of exported source geometry",
+        "components": [
+          {
+            "vertexCount": 1308,
+            "bounds": {
+              "min": [
+                -0.05859587,
+                1.30419934,
+                -0.10828351
+              ],
+              "max": [
+                -0.02543544,
+                1.48308778,
+                -0.01086113
+              ]
+            }
+          }
+        ],
+        "interpretation": "Topology only; components do not establish named spinal levels or biological completeness."
+      }
+    },
+    {
+      "id": "anterior-scalene",
+      "name": "前斜角肌",
+      "nameEn": "Scalenus anterior muscler",
+      "kind": "muscle",
+      "side": "right",
+      "path": "/interscalene/anterior-scalene.json",
+      "sourceId": "FBX:874226674",
+      "sourceObjectIds": [
+        874226674
+      ],
+      "sourceObjectNames": [
+        "Scalenus_anterior_muscler"
+      ],
+      "sourceFile": "z-muscular-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.05493524,
+          1.41075099,
+          -0.01038972
+        ],
+        "max": [
+          -0.020613,
+          1.4935751,
+          0.00844181
+        ]
+      },
+      "vertexCount": 699,
+      "triangleCount": 1386,
+      "bytes": 59654,
+      "sha256": "4a1f55cd7a7b165e7fe2dcf743624e27ceea6a3d08edba149ae8b6c6e80152ee",
+      "sourceChildMeshes": [],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ]
+    },
+    {
+      "id": "middle-scalene",
+      "name": "中斜角肌",
+      "nameEn": "Scalenus medius muscler",
+      "kind": "muscle",
+      "side": "right",
+      "path": "/interscalene/middle-scalene.json",
+      "sourceId": "FBX:855884842",
+      "sourceObjectIds": [
+        855884842
+      ],
+      "sourceObjectNames": [
+        "Scalenus_medius_muscler"
+      ],
+      "sourceFile": "z-muscular-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.05418991,
+          1.41947794,
+          -0.02666638
+        ],
+        "max": [
+          -0.02396986,
+          1.51865566,
+          -0.00164515
+        ]
+      },
+      "vertexCount": 1037,
+      "triangleCount": 2078,
+      "bytes": 89556,
+      "sha256": "484c43b1ff0785e103c2280d95304100ba7566b59b8a8d4429472d8645dbf8da",
+      "sourceChildMeshes": [],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ]
+    },
+    {
+      "id": "posterior-scalene",
+      "name": "后斜角肌",
+      "nameEn": "Scalenus posterior muscler",
+      "kind": "muscle",
+      "side": "right",
+      "path": "/interscalene/posterior-scalene.json",
+      "sourceId": "FBX:152801301",
+      "sourceObjectIds": [
+        152801301
+      ],
+      "sourceObjectNames": [
+        "Scalenus_posterior_muscler"
+      ],
+      "sourceFile": "z-muscular-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.06981724,
+          1.42378926,
+          -0.03975786
+        ],
+        "max": [
+          -0.02560961,
+          1.47737885,
+          -0.01227028
+        ]
+      },
+      "vertexCount": 665,
+      "triangleCount": 1326,
+      "bytes": 57106,
+      "sha256": "f9186aef7f26908c57bf3b39927640f124c1effe3cf30c2885f5c4fe6464f633",
+      "sourceChildMeshes": [],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ]
+    },
+    {
+      "id": "sternocleidomastoid",
+      "name": "胸锁乳突肌",
+      "nameEn": "Sternocleidomastoid muscler",
+      "kind": "muscle",
+      "side": "right",
+      "path": "/interscalene/sternocleidomastoid.json",
+      "sourceId": "FBX:946502726",
+      "sourceObjectIds": [
+        946502726
+      ],
+      "sourceObjectNames": [
+        "Sternocleidomastoid_muscler"
+      ],
+      "sourceFile": "z-muscular-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.06143237,
+          1.38171506,
+          -0.049297
+        ],
+        "max": [
+          -0.00368423,
+          1.57543492,
+          0.06437483
+        ]
+      },
+      "vertexCount": 2472,
+      "triangleCount": 4952,
+      "bytes": 221360,
+      "sha256": "8e34070bac985ddd3fb294e4c74ebc4639563040107808695989537507951973",
+      "sourceChildMeshes": [],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ]
+    },
+    {
+      "id": "omohyoid",
+      "name": "肩胛舌骨肌",
+      "nameEn": "Omohyoid muscler",
+      "kind": "muscle",
+      "side": "right",
+      "path": "/interscalene/omohyoid.json",
+      "sourceId": "FBX:990931243",
+      "sourceObjectIds": [
+        990931243
+      ],
+      "sourceObjectNames": [
+        "Omohyoid_muscler"
+      ],
+      "sourceFile": "z-muscular-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.10315838,
+          1.39141858,
+          -0.05977595
+        ],
+        "max": [
+          -0.01236685,
+          1.49797893,
+          0.03370578
+        ]
+      },
+      "vertexCount": 1355,
+      "triangleCount": 2706,
+      "bytes": 118424,
+      "sha256": "b4e8f2f1d19f045d067dd79bfbc76b0dd09493d502337414b7368152517271ec",
+      "sourceChildMeshes": [],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ]
+    },
+    {
+      "id": "longus-colli",
+      "name": "颈长肌",
+      "nameEn": "Longus colli muscler",
+      "kind": "muscle",
+      "side": "right",
+      "path": "/interscalene/longus-colli.json",
+      "sourceId": "FBX:542597791",
+      "sourceObjectIds": [
+        542597791
+      ],
+      "sourceObjectNames": [
+        "Longus_colli_muscler"
+      ],
+      "sourceFile": "z-muscular-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.02606954,
+          1.38751936,
+          -0.02937039
+        ],
+        "max": [
+          -0.00128356,
+          1.54493678,
+          0.00474873
+        ]
+      },
+      "vertexCount": 2282,
+      "triangleCount": 6294,
+      "bytes": 230078,
+      "sha256": "60cf31d758555c44de5fc0815765a7f3564c9e18bb28d5f19f4168eb35784e44",
+      "sourceChildMeshes": [],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ]
+    },
+    {
+      "id": "levator-scapulae",
+      "name": "肩胛提肌",
+      "nameEn": "Levator scapulaer",
+      "kind": "muscle",
+      "side": "right",
+      "path": "/interscalene/levator-scapulae.json",
+      "sourceId": "FBX:142313545",
+      "sourceObjectIds": [
+        142313545
+      ],
+      "sourceObjectNames": [
+        "Levator_scapulaer"
+      ],
+      "sourceFile": "z-muscular-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.08668527,
+          1.38655949,
+          -0.09532261
+        ],
+        "max": [
+          -0.02523878,
+          1.53942633,
+          -0.00945286
+        ]
+      },
+      "vertexCount": 1543,
+      "triangleCount": 3082,
+      "bytes": 136465,
+      "sha256": "ff6c510e82c40eaa8416841357248b701642e8e90a480e1ce1d10df31f963690",
+      "sourceChildMeshes": [],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ]
+    },
+    {
+      "id": "common-carotid-artery",
+      "name": "右颈总动脉",
+      "nameEn": "Right common carotid artery",
+      "kind": "artery",
+      "side": "right",
+      "path": "/interscalene/common-carotid-artery.json",
+      "sourceId": "FBX:215814930",
+      "sourceObjectIds": [
+        215814930
+      ],
+      "sourceObjectNames": [
+        "Right_common_carotid_artery"
+      ],
+      "sourceFile": "z-cardio-vascular-41.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.03519179,
+          1.40983319,
+          -0.00408768
+        ],
+        "max": [
+          -0.0106614,
+          1.48657668,
+          0.0211166
+        ]
+      },
+      "vertexCount": 189,
+      "triangleCount": 354,
+      "bytes": 15381,
+      "sha256": "44a409e9b5e1f69c6d455cdc59b7ab40238d7375060b8e2a06fadd9bc72822c0",
+      "sourceChildMeshes": [
+        "External_carotid_arteryr",
+        "Internal_carotid_arteryr"
+      ],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ]
+    },
+    {
+      "id": "internal-jugular-vein",
+      "name": "右颈内静脉",
+      "nameEn": "Internal jugular veinr",
+      "kind": "vein",
+      "side": "right",
+      "path": "/interscalene/internal-jugular-vein.json",
+      "sourceId": "FBX:564632339",
+      "sourceObjectIds": [
+        564632339
+      ],
+      "sourceObjectNames": [
+        "Internal_jugular_veinr"
+      ],
+      "sourceFile": "z-cardio-vascular-41.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.03968487,
+          1.41151547,
+          -0.01981491
+        ],
+        "max": [
+          -0.0198071,
+          1.57417881,
+          0.02365902
+        ]
+      },
+      "vertexCount": 720,
+      "triangleCount": 1416,
+      "bytes": 61281,
+      "sha256": "e412b9bdf611fa863053c2abd653f30762f89cb0e1a4d36508790ad5c1b9fa7f",
+      "sourceChildMeshes": [
+        "Superior_thyroid_veinr",
+        "Common_facial_veinr",
+        "Lingual_veinr"
+      ],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ]
+    },
+    {
+      "id": "external-jugular-vein",
+      "name": "右颈外静脉",
+      "nameEn": "External jugular veinr",
+      "kind": "vein",
+      "side": "right",
+      "path": "/interscalene/external-jugular-vein.json",
+      "sourceId": "FBX:797954444",
+      "sourceObjectIds": [
+        797954444
+      ],
+      "sourceObjectNames": [
+        "External_jugular_veinr"
+      ],
+      "sourceFile": "z-cardio-vascular-41.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.05123315,
+          1.40845501,
+          -0.00254915
+        ],
+        "max": [
+          -0.03007541,
+          1.53594005,
+          0.01846777
+        ]
+      },
+      "vertexCount": 425,
+      "triangleCount": 826,
+      "bytes": 35658,
+      "sha256": "7670be2a49381835cc6e64c50539fbc267cf258632b990308543638ebc6fe75a",
+      "sourceChildMeshes": [
+        "Suprascapular_veinr",
+        "Anterior_jugular_veinr",
+        "Posterior_division_of_retromandibular_veinr",
+        "Posterior_auricular_veinr"
+      ],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ]
+    },
+    {
+      "id": "subclavian-artery",
+      "name": "右锁骨下动脉",
+      "nameEn": "Right subclavian artery",
+      "kind": "artery",
+      "side": "right",
+      "path": "/interscalene/subclavian-artery.json",
+      "sourceId": "FBX:329228351",
+      "sourceObjectIds": [
+        329228351
+      ],
+      "sourceObjectNames": [
+        "Right_subclavian_artery"
+      ],
+      "sourceFile": "z-cardio-vascular-41.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.08061443,
+          1.40816283,
+          -0.00547975
+        ],
+        "max": [
+          -0.01126835,
+          1.42353761,
+          0.0190123
+        ]
+      },
+      "vertexCount": 189,
+      "triangleCount": 354,
+      "bytes": 15438,
+      "sha256": "c2a796a0dc309344273f636ef1fd846459b1f727c8ac517c3a453eb39a8b37a6",
+      "sourceChildMeshes": [
+        "Vertebral_arteryr",
+        "Costocervical_trunkr",
+        "Thyrocervical_trunkr",
+        "Internal_thoracic_arteryr",
+        "Axillary_arteryr"
+      ],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ]
+    },
+    {
+      "id": "subclavian-vein",
+      "name": "右锁骨下静脉",
+      "nameEn": "Right subclavian vein",
+      "kind": "vein",
+      "side": "right",
+      "path": "/interscalene/subclavian-vein.json",
+      "sourceId": "FBX:669165463",
+      "sourceObjectIds": [
+        669165463
+      ],
+      "sourceObjectNames": [
+        "Right_subclavian_vein"
+      ],
+      "sourceFile": "z-cardio-vascular-41.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.09483583,
+          1.39708006,
+          -0.00135121
+        ],
+        "max": [
+          -0.01964295,
+          1.41654825,
+          0.02309953
+        ]
+      },
+      "vertexCount": 189,
+      "triangleCount": 354,
+      "bytes": 15371,
+      "sha256": "38c06649db20682c81239b3c265d9704749b251edf85b2ef4c7485d34cc9c9a2",
+      "sourceChildMeshes": [
+        "Axillary_veinr",
+        "External_jugular_veinr"
+      ],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ]
+    },
+    {
+      "id": "vertebral-artery",
+      "name": "右椎动脉",
+      "nameEn": "Vertebral arteryr",
+      "kind": "artery",
+      "side": "right",
+      "path": "/interscalene/vertebral-artery.json",
+      "sourceId": "FBX:24829767",
+      "sourceObjectIds": [
+        24829767
+      ],
+      "sourceObjectNames": [
+        "Vertebral_arteryr"
+      ],
+      "sourceFile": "z-cardio-vascular-41.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.04220938,
+          1.42031002,
+          -0.03071426
+        ],
+        "max": [
+          0.00093122,
+          1.5791949,
+          -0.00033213
+        ]
+      },
+      "vertexCount": 1015,
+      "triangleCount": 2006,
+      "bytes": 87299,
+      "sha256": "d06ea50d533e8a6413f5b31130cfc04cfa5a59995d49308ff8128f95d130b8d7",
+      "sourceChildMeshes": [
+        "Basilar_artery",
+        "Posterior_inferior_cerebellar_arteryr"
+      ],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ]
+    },
+    {
+      "id": "vertebra-c3",
+      "name": "第3颈椎",
+      "nameEn": "Vertebra C3",
+      "kind": "bone",
+      "side": "midline",
+      "path": "/interscalene/vertebra-c3.json",
+      "sourceId": "FBX:410742885",
+      "sourceObjectIds": [
+        410742885
+      ],
+      "sourceObjectNames": [
+        "Vertebra_C3"
+      ],
+      "sourceFile": "z-skeletal-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.02826077,
+          1.49305463,
+          -0.05398054
+        ],
+        "max": [
+          0.02826079,
+          1.51970577,
+          0.00020098
+        ]
+      },
+      "vertexCount": 1216,
+      "triangleCount": 2440,
+      "bytes": 104790,
+      "sha256": "e6e77fa9f558f669026ecbe60961504b45908d1c432bb65714acbbd1a12a2c02",
+      "sourceChildMeshes": [
+        "Levator_scapulaeo2l",
+        "Levator_scapulaeo2r"
+      ],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ]
+    },
+    {
+      "id": "vertebra-c4",
+      "name": "第4颈椎",
+      "nameEn": "Vertebra C4",
+      "kind": "bone",
+      "side": "midline",
+      "path": "/interscalene/vertebra-c4.json",
+      "sourceId": "FBX:638180452",
+      "sourceObjectIds": [
+        638180452
+      ],
+      "sourceObjectNames": [
+        "Vertebra_C4"
+      ],
+      "sourceFile": "z-skeletal-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.02890448,
+          1.4805547,
+          -0.05264845
+        ],
+        "max": [
+          0.02905533,
+          1.50559449,
+          -0.00029176
+        ]
+      },
+      "vertexCount": 966,
+      "triangleCount": 1940,
+      "bytes": 82211,
+      "sha256": "de9eae3d72baaadfe7a6625f7d2a45972c0a63f8864e6873b5d025634c223adb",
+      "sourceChildMeshes": [
+        "Scalenus_anterior_muscleel",
+        "Levator_scapulaeo3r",
+        "Iliocostalis_colli_muscleer",
+        "Levator_scapulaeo3l",
+        "Scalenus_anterior_muscleer",
+        "Iliocostalis_colli_muscleel"
+      ],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ]
+    },
+    {
+      "id": "vertebra-c5",
+      "name": "第5颈椎",
+      "nameEn": "Vertebra C5",
+      "kind": "bone",
+      "side": "midline",
+      "path": "/interscalene/vertebra-c5.json",
+      "sourceId": "FBX:842742587",
+      "sourceObjectIds": [
+        842742587
+      ],
+      "sourceObjectNames": [
+        "Vertebra_C5"
+      ],
+      "sourceFile": "z-skeletal-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.03071588,
+          1.46889508,
+          -0.05799686
+        ],
+        "max": [
+          0.03071589,
+          1.49139392,
+          -0.00155628
+        ]
+      },
+      "vertexCount": 1164,
+      "triangleCount": 2336,
+      "bytes": 99951,
+      "sha256": "f6e11527083b16573b498cd9c37dd5be13c98e6960b4a0178dd4d3d066360f0a",
+      "sourceChildMeshes": [
+        "Scalenus_anterior_musclee1l",
+        "Scalenus_posterior_muscleer",
+        "Scalenus_posterior_muscleel",
+        "Scalenus_anterior_musclee1r"
+      ],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ]
+    },
+    {
+      "id": "vertebra-c6",
+      "name": "第6颈椎",
+      "nameEn": "Vertebra C6",
+      "kind": "bone",
+      "side": "midline",
+      "path": "/interscalene/vertebra-c6.json",
+      "sourceId": "FBX:374197918",
+      "sourceObjectIds": [
+        374197918
+      ],
+      "sourceObjectNames": [
+        "Vertebra_C6"
+      ],
+      "sourceFile": "z-skeletal-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.03063074,
+          1.45372605,
+          -0.06676755
+        ],
+        "max": [
+          0.03063077,
+          1.47832608,
+          -0.00314526
+        ]
+      },
+      "vertexCount": 1148,
+      "triangleCount": 2304,
+      "bytes": 98412,
+      "sha256": "8fc4e1ce31a5f96a1bbc1d0a4edc1d93efaa73e5d53977501c98ab11e168bd96",
+      "sourceChildMeshes": [
+        "Scalenus_anterior_musclee2r",
+        "Scalenus_medius_muscleer",
+        "Scalenus_anterior_musclee2l",
+        "Scalenus_medius_muscleel"
+      ],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ]
+    },
+    {
+      "id": "vertebra-c7",
+      "name": "第7颈椎",
+      "nameEn": "Vertebra C7",
+      "kind": "bone",
+      "side": "midline",
+      "path": "/interscalene/vertebra-c7.json",
+      "sourceId": "FBX:611786850",
+      "sourceObjectIds": [
+        611786850
+      ],
+      "sourceObjectNames": [
+        "Vertebra_C7"
+      ],
+      "sourceFile": "z-skeletal-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.03561039,
+          1.43851411,
+          -0.07722647
+        ],
+        "max": [
+          0.03561041,
+          1.46552718,
+          -0.00692032
+        ]
+      },
+      "vertexCount": 1078,
+      "triangleCount": 2164,
+      "bytes": 92046,
+      "sha256": "2269d709556622b18757d73c32bb055baf13504da8afd65b87122ca5fb0617bc",
+      "sourceChildMeshes": [
+        "Scalenus_medius_musclee1l",
+        "Scalenus_medius_musclee1r"
+      ],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ]
+    },
+    {
+      "id": "vertebra-t1",
+      "name": "第1胸椎",
+      "nameEn": "Vertebra T1",
+      "kind": "bone",
+      "side": "midline",
+      "path": "/interscalene/vertebra-t1.json",
+      "sourceId": "FBX:157273536",
+      "sourceObjectIds": [
+        157273536
+      ],
+      "sourceObjectNames": [
+        "Vertebra_T1"
+      ],
+      "sourceFile": "z-skeletal-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.03884494,
+          1.42260647,
+          -0.08344422
+        ],
+        "max": [
+          0.03884496,
+          1.45337951,
+          -0.01126182
+        ]
+      },
+      "vertexCount": 973,
+      "triangleCount": 1946,
+      "bytes": 82169,
+      "sha256": "a8251f035041856121120e9687df1431978ac4b6fb7b7d92e79a88ab2bda349c",
+      "sourceChildMeshes": [
+        "Longissimus_thoracis_musclee25l",
+        "Longissimus_thoracis_musclee25r"
+      ],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ]
+    },
+    {
+      "id": "first-rib",
+      "name": "右第1肋",
+      "nameEn": "First ribr",
+      "kind": "bone",
+      "side": "right",
+      "path": "/interscalene/first-rib.json",
+      "sourceId": "FBX:467255143",
+      "sourceObjectIds": [
+        467255143
+      ],
+      "sourceObjectNames": [
+        "First_ribr"
+      ],
+      "sourceFile": "z-skeletal-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.07117549,
+          1.38714337,
+          -0.03353791
+        ],
+        "max": [
+          -0.01627353,
+          1.44654083,
+          0.03712943
+        ]
+      },
+      "vertexCount": 1607,
+      "triangleCount": 3210,
+      "bytes": 141714,
+      "sha256": "60fe85e1ede27476803287ba62c69ba1c32f7009492e9470e2a8f3a00ad70075",
+      "sourceChildMeshes": [
+        "Scalenus_anterior_muscleor",
+        "Serratus_anterior_muscleer",
+        "Longissimus_thoracis_musclee24r",
+        "Scalenus_medius_muscleor"
+      ],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ]
+    },
+    {
+      "id": "clavicle",
+      "name": "右锁骨",
+      "nameEn": "Clavicler",
+      "kind": "bone",
+      "side": "right",
+      "path": "/interscalene/clavicle.json",
+      "sourceId": "FBX:790019466",
+      "sourceObjectIds": [
+        790019466
+      ],
+      "sourceObjectNames": [
+        "Clavicler"
+      ],
+      "sourceFile": "z-skeletal-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.15433063,
+          1.38911235,
+          -0.05226177
+        ],
+        "max": [
+          -0.01121451,
+          1.4252156,
+          0.05050987
+        ]
+      },
+      "vertexCount": 777,
+      "triangleCount": 1550,
+      "bytes": 66521,
+      "sha256": "8237e04ee6d59a74f1712a95fb4647d4ca35a181eaaaa1f22f8a3f648402a7ea",
+      "sourceChildMeshes": [
+        "Ascending_part_of_trapezius_muscleor",
+        "Sternohyoid_muscleor",
+        "Clavicular_part_of_deltoid_muscleor",
+        "Subclavius_muscleor",
+        "Sternocleidomastoid_muscleo1r",
+        "Pectoralis_major_muscleor"
+      ],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ]
+    },
+    {
+      "id": "manubrium",
+      "name": "胸骨柄",
+      "nameEn": "Manubrium of sternum",
+      "kind": "bone",
+      "side": "midline",
+      "path": "/interscalene/manubrium.json",
+      "sourceId": "FBX:347245586",
+      "sourceObjectIds": [
+        347245586
+      ],
+      "sourceObjectNames": [
+        "Manubrium_of_sternum"
+      ],
+      "sourceFile": "z-skeletal-system-100.fbx",
+      "source": "z-anatomy-pinned",
+      "sourceCommit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "license": "CC-BY-SA-4.0",
+      "provenanceStatus": "source-mesh-extracted",
+      "bounds": {
+        "min": [
+          -0.02865859,
+          1.34993601,
+          0.0316018
+        ],
+        "max": [
+          0.02839919,
+          1.40392077,
+          0.08383232
+        ]
+      },
+      "vertexCount": 1333,
+      "triangleCount": 2662,
+      "bytes": 115212,
+      "sha256": "89a21d6b9e19f1240c3f906ae4faf99c89cff104308aeabcf2ec19d5eec4fa68",
+      "sourceChildMeshes": [
+        "Sternocostal_head_of_pectoralis_major_musclee2r",
+        "Sternocostal_head_of_pectoralis_major_musclee2l",
+        "Sternocleidomastoid_muscleor",
+        "Sternocleidomastoid_muscleol"
+      ],
+      "adaptations": [
+        "Applied original source FBX matrixWorld, then uniform centimeter-to-meter scale 0.01.",
+        "Deduplicated exact position+normal tuples; positions serialized to 8 decimal places; no geometric simplification.",
+        "Preserved full selected source mesh; no invented connections, anatomical fitting or procedural pose deformation."
+      ]
+    }
+  ],
+  "missingStructures": [
+    {
+      "id": "c5-ventral-ramus",
+      "name": "独立C5脊神经前支",
+      "kind": "nerve",
+      "status": "no-independent-source-level-label",
+      "replacement": null
+    },
+    {
+      "id": "c6-ventral-ramus",
+      "name": "独立C6脊神经前支",
+      "kind": "nerve",
+      "status": "no-independent-source-level-label",
+      "replacement": null
+    },
+    {
+      "id": "c7-ventral-ramus",
+      "name": "独立C7脊神经前支",
+      "kind": "nerve",
+      "status": "no-independent-source-level-label",
+      "replacement": null
+    },
+    {
+      "id": "phrenic-nerve",
+      "name": "膈神经",
+      "kind": "nerve",
+      "status": "no-named-mesh-found-in-fixed-source-inventory",
+      "replacement": null
+    },
+    {
+      "id": "prevertebral-fascia",
+      "name": "椎前筋膜及可注药组织间隙",
+      "kind": "fascia",
+      "status": "not-validated-in-source",
+      "replacement": null
+    },
+    {
+      "id": "pleural-dome",
+      "name": "胸膜顶",
+      "kind": "organ",
+      "status": "not-included-or-validated-for-this-export",
+      "replacement": null
+    }
+  ],
+  "sourceNerveAudit": {
+    "inventoryMeshCount": 712,
+    "independentC5C6C7NamedMeshes": [],
+    "namedPhrenicCandidates": [],
+    "sourceProximalMesh": {
+      "sourceId": "FBX:680949521",
+      "name": "Roots_of_brachial_plexusr",
+      "segmentationStatus": "merged-unsegmented"
+    },
+    "spinalRootCandidatesNotSubstituted": [
+      "Anterior_root_of_spinal_nervel",
+      "Anterior_root_of_spinal_nerver",
+      "Posterior_root_of_spinal_nervel",
+      "Posterior_root_of_spinal_nerver"
+    ],
+    "note": "Anterior/posterior spinal root source meshes are separate multi-level structures, not substitutes for individually identified plexus-forming ventral rami. No neural component was assigned a cervical level."
+  },
+  "sectionAudit": [
+    {
+      "sourceY": 1.44,
+      "structures": {
+        "brachial-roots": {
+          "segmentCount": 28,
+          "bounds": {
+            "min": [
+              -0.029137340629414577,
+              1.44,
+              -0.024529050964032826
+            ],
+            "max": [
+              -0.02763208058587689,
+              1.44,
+              -0.023285196320610282
+            ]
+          }
+        },
+        "superior-trunk": {
+          "segmentCount": 26,
+          "bounds": {
+            "min": [
+              -0.06885232737602279,
+              1.44,
+              -0.020158848136917346
+            ],
+            "max": [
+              -0.06440012704340269,
+              1.44,
+              -0.01638617118586193
+            ]
+          }
+        },
+        "middle-trunk": {
+          "segmentCount": 26,
+          "bounds": {
+            "min": [
+              -0.05859150272497027,
+              1.44,
+              -0.027149633374136613
+            ],
+            "max": [
+              -0.05240766072810774,
+              1.44,
+              -0.02415509548874633
+            ]
+          }
+        },
+        "inferior-trunk": {
+          "segmentCount": 0
+        },
+        "dorsal-scapular-nerve": {
+          "segmentCount": 24,
+          "bounds": {
+            "min": [
+              -0.04859461730728357,
+              1.44,
+              -0.04991849990885824
+            ],
+            "max": [
+              -0.047410025235478284,
+              1.44,
+              -0.04842630664902805
+            ]
+          }
+        },
+        "anterior-scalene": {
+          "segmentCount": 79,
+          "bounds": {
+            "min": [
+              -0.04443169961325205,
+              1.44,
+              0.0006044517983865034
+            ],
+            "max": [
+              -0.03423187490914117,
+              1.44,
+              0.00813109015114269
+            ]
+          }
+        },
+        "middle-scalene": {
+          "segmentCount": 63,
+          "bounds": {
+            "min": [
+              -0.04823463356569564,
+              1.44,
+              -0.014221345210206217
+            ],
+            "max": [
+              -0.03853644057424739,
+              1.44,
+              -0.0019509716390816141
+            ]
+          }
+        },
+        "sternocleidomastoid": {
+          "segmentCount": 180,
+          "bounds": {
+            "min": [
+              -0.04621857902941767,
+              1.44,
+              0.01775208345036562
+            ],
+            "max": [
+              -0.013808923141203706,
+              1.44,
+              0.0383522788035722
+            ]
+          }
+        },
+        "common-carotid-artery": {
+          "segmentCount": 24,
+          "bounds": {
+            "min": [
+              -0.023453920531961003,
+              1.44,
+              0.006808111719734883
+            ],
+            "max": [
+              -0.015273949368865182,
+              1.44,
+              0.015052686752850394
+            ]
+          }
+        },
+        "internal-jugular-vein": {
+          "segmentCount": 28,
+          "bounds": {
+            "min": [
+              -0.03318456887253162,
+              1.44,
+              0.014299657089194928
+            ],
+            "max": [
+              -0.024902274979537602,
+              1.44,
+              0.022466663207660022
+            ]
+          }
+        },
+        "vertebral-artery": {
+          "segmentCount": 27,
+          "bounds": {
+            "min": [
+              -0.02999836009550467,
+              1.44,
+              -0.011773579655631746
+            ],
+            "max": [
+              -0.027088852186363213,
+              1.44,
+              -0.009045795353958332
+            ]
+          }
+        }
+      }
+    },
+    {
+      "sourceY": 1.45,
+      "structures": {
+        "brachial-roots": {
+          "segmentCount": 28,
+          "bounds": {
+            "min": [
+              -0.03428383091966873,
+              1.45,
+              -0.020748203540581052
+            ],
+            "max": [
+              -0.029228533582057518,
+              1.45,
+              -0.01861353830638468
+            ]
+          }
+        },
+        "superior-trunk": {
+          "segmentCount": 24,
+          "bounds": {
+            "min": [
+              -0.058937251444610324,
+              1.45,
+              -0.015112425720713597
+            ],
+            "max": [
+              -0.05505514530353852,
+              1.45,
+              -0.012154621433131514
+            ]
+          }
+        },
+        "middle-trunk": {
+          "segmentCount": 0
+        },
+        "inferior-trunk": {
+          "segmentCount": 0
+        },
+        "dorsal-scapular-nerve": {
+          "segmentCount": 26,
+          "bounds": {
+            "min": [
+              -0.04097171793330836,
+              1.45,
+              -0.037246108859170346
+            ],
+            "max": [
+              -0.03973871491051254,
+              1.45,
+              -0.03567310580286785
+            ]
+          }
+        },
+        "anterior-scalene": {
+          "segmentCount": 88,
+          "bounds": {
+            "min": [
+              -0.04126735135303974,
+              1.45,
+              -0.004050765773724305
+            ],
+            "max": [
+              -0.029818336639601997,
+              1.45,
+              0.006629750964721217
+            ]
+          }
+        },
+        "middle-scalene": {
+          "segmentCount": 126,
+          "bounds": {
+            "min": [
+              -0.045859645604809006,
+              1.45,
+              -0.0236308903661592
+            ],
+            "max": [
+              -0.03343987815697035,
+              1.45,
+              -0.002681622269192549
+            ]
+          }
+        },
+        "sternocleidomastoid": {
+          "segmentCount": 161,
+          "bounds": {
+            "min": [
+              -0.044525416573087895,
+              1.45,
+              0.012891359571425981
+            ],
+            "max": [
+              -0.016102709331231146,
+              1.45,
+              0.034969922094729364
+            ]
+          }
+        },
+        "common-carotid-artery": {
+          "segmentCount": 26,
+          "bounds": {
+            "min": [
+              -0.025620479698276227,
+              1.45,
+              0.004310875976184077
+            ],
+            "max": [
+              -0.01741488867720429,
+              1.45,
+              0.012476257234334636
+            ]
+          }
+        },
+        "internal-jugular-vein": {
+          "segmentCount": 27,
+          "bounds": {
+            "min": [
+              -0.03408103910262805,
+              1.45,
+              0.013751747281844114
+            ],
+            "max": [
+              -0.026266807563075797,
+              1.45,
+              0.021647446034800587
+            ]
+          }
+        },
+        "vertebral-artery": {
+          "segmentCount": 24,
+          "bounds": {
+            "min": [
+              -0.02641440478740426,
+              1.45,
+              -0.015735234186182123
+            ],
+            "max": [
+              -0.023769440965097227,
+              1.45,
+              -0.012986808741117937
+            ]
+          }
+        }
+      }
+    },
+    {
+      "sourceY": 1.46,
+      "structures": {
+        "brachial-roots": {
+          "segmentCount": 52,
+          "bounds": {
+            "min": [
+              -0.050002385931821325,
+              1.46,
+              -0.0143555198225198
+            ],
+            "max": [
+              -0.03640903679342258,
+              1.46,
+              -0.011439043313476466
+            ]
+          }
+        },
+        "superior-trunk": {
+          "segmentCount": 0
+        },
+        "middle-trunk": {
+          "segmentCount": 0
+        },
+        "inferior-trunk": {
+          "segmentCount": 0
+        },
+        "dorsal-scapular-nerve": {
+          "segmentCount": 24,
+          "bounds": {
+            "min": [
+              -0.03420436428578983,
+              1.46,
+              -0.02605106437554347
+            ],
+            "max": [
+              -0.03307322179682033,
+              1.46,
+              -0.02470795651867402
+            ]
+          }
+        },
+        "anterior-scalene": {
+          "segmentCount": 93,
+          "bounds": {
+            "min": [
+              -0.037891780847337804,
+              1.46,
+              -0.00997033544953759
+            ],
+            "max": [
+              -0.024918356321592578,
+              1.46,
+              0.004445411169918308
+            ]
+          }
+        },
+        "middle-scalene": {
+          "segmentCount": 125,
+          "bounds": {
+            "min": [
+              -0.04356691371141496,
+              1.46,
+              -0.018128213481474923
+            ],
+            "max": [
+              -0.028676162477876126,
+              1.46,
+              -0.002995739987287376
+            ]
+          }
+        },
+        "sternocleidomastoid": {
+          "segmentCount": 157,
+          "bounds": {
+            "min": [
+              -0.04319199881218513,
+              1.46,
+              0.00851426781628973
+            ],
+            "max": [
+              -0.0183369429262142,
+              1.46,
+              0.032166368610912356
+            ]
+          }
+        },
+        "common-carotid-artery": {
+          "segmentCount": 27,
+          "bounds": {
+            "min": [
+              -0.028437368143541704,
+              1.46,
+              0.0013900312539095086
+            ],
+            "max": [
+              -0.020148249840896353,
+              1.46,
+              0.00955043814290434
+            ]
+          }
+        },
+        "internal-jugular-vein": {
+          "segmentCount": 27,
+          "bounds": {
+            "min": [
+              -0.03370052620845198,
+              1.46,
+              0.011287078606414824
+            ],
+            "max": [
+              -0.025802198298873442,
+              1.46,
+              0.019441438359656792
+            ]
+          }
+        },
+        "vertebral-artery": {
+          "segmentCount": 24,
+          "bounds": {
+            "min": [
+              -0.02448721231085841,
+              1.46,
+              -0.018119782836586176
+            ],
+            "max": [
+              -0.02186724373240917,
+              1.46,
+              -0.015537896989648557
+            ]
+          }
+        }
+      }
+    },
+    {
+      "sourceY": 1.468,
+      "structures": {
+        "brachial-roots": {
+          "segmentCount": 52,
+          "bounds": {
+            "min": [
+              -0.04260318407609937,
+              1.468,
+              -0.015548079930471538
+            ],
+            "max": [
+              -0.023150640410652814,
+              1.468,
+              -0.011352827637979623
+            ]
+          }
+        },
+        "superior-trunk": {
+          "segmentCount": 0
+        },
+        "middle-trunk": {
+          "segmentCount": 0
+        },
+        "inferior-trunk": {
+          "segmentCount": 0
+        },
+        "dorsal-scapular-nerve": {
+          "segmentCount": 24,
+          "bounds": {
+            "min": [
+              -0.030618408381850093,
+              1.468,
+              -0.01976303774147285
+            ],
+            "max": [
+              -0.02956244648302673,
+              1.468,
+              -0.018594850454440252
+            ]
+          }
+        },
+        "anterior-scalene": {
+          "segmentCount": 79,
+          "bounds": {
+            "min": [
+              -0.03505490767028207,
+              1.468,
+              -0.007518306214481928
+            ],
+            "max": [
+              -0.025588182368018964,
+              1.468,
+              0.002646443601412419
+            ]
+          }
+        },
+        "middle-scalene": {
+          "segmentCount": 86,
+          "bounds": {
+            "min": [
+              -0.04153536432972761,
+              1.468,
+              -0.013295622948360656
+            ],
+            "max": [
+              -0.031090391510685638,
+              1.468,
+              -0.0033449326162702715
+            ]
+          }
+        },
+        "sternocleidomastoid": {
+          "segmentCount": 139,
+          "bounds": {
+            "min": [
+              -0.0428096373358837,
+              1.468,
+              0.004962332232258189
+            ],
+            "max": [
+              -0.020203265037623822,
+              1.468,
+              0.029653508616080893
+            ]
+          }
+        },
+        "common-carotid-artery": {
+          "segmentCount": 24,
+          "bounds": {
+            "min": [
+              -0.030878813552848675,
+              1.468,
+              -0.0009516565359919483
+            ],
+            "max": [
+              -0.022582745664426175,
+              1.468,
+              0.007203890167527795
+            ]
+          }
+        },
+        "internal-jugular-vein": {
+          "segmentCount": 24,
+          "bounds": {
+            "min": [
+              -0.032332016794488216,
+              1.468,
+              0.008221760958086752
+            ],
+            "max": [
+              -0.024347581771987238,
+              1.468,
+              0.01652757573081515
+            ]
+          }
+        },
+        "vertebral-artery": {
+          "segmentCount": 26,
+          "bounds": {
+            "min": [
+              -0.022249443105387588,
+              1.468,
+              -0.01745513734002038
+            ],
+            "max": [
+              -0.019449249019100397,
+              1.468,
+              -0.014692256949489549
+            ]
+          }
+        }
+      }
+    },
+    {
+      "sourceY": 1.475,
+      "structures": {
+        "brachial-roots": {
+          "segmentCount": 24,
+          "bounds": {
+            "min": [
+              -0.036020729365464715,
+              1.475,
+              -0.012632706188561015
+            ],
+            "max": [
+              -0.03419213176036412,
+              1.475,
+              -0.011267004365879036
+            ]
+          }
+        },
+        "superior-trunk": {
+          "segmentCount": 0
+        },
+        "middle-trunk": {
+          "segmentCount": 0
+        },
+        "inferior-trunk": {
+          "segmentCount": 0
+        },
+        "dorsal-scapular-nerve": {
+          "segmentCount": 24,
+          "bounds": {
+            "min": [
+              -0.028446022500845818,
+              1.475,
+              -0.01573389340999304
+            ],
+            "max": [
+              -0.02740755373397739,
+              1.475,
+              -0.014609565068921884
+            ]
+          }
+        },
+        "anterior-scalene": {
+          "segmentCount": 70,
+          "bounds": {
+            "min": [
+              -0.032432293195330385,
+              1.475,
+              -0.009622079868635112
+            ],
+            "max": [
+              -0.02254074124577451,
+              1.475,
+              0.000785449530049988
+            ]
+          }
+        },
+        "middle-scalene": {
+          "segmentCount": 105,
+          "bounds": {
+            "min": [
+              -0.04003337487498655,
+              1.475,
+              -0.01573950734966766
+            ],
+            "max": [
+              -0.027571012036300455,
+              1.475,
+              -0.003912573693335345
+            ]
+          }
+        },
+        "sternocleidomastoid": {
+          "segmentCount": 137,
+          "bounds": {
+            "min": [
+              -0.04273938841272571,
+              1.475,
+              0.002209572901957957
+            ],
+            "max": [
+              -0.022096247282300342,
+              1.475,
+              0.027268755427736612
+            ]
+          }
+        },
+        "common-carotid-artery": {
+          "segmentCount": 26,
+          "bounds": {
+            "min": [
+              -0.0329334281132615,
+              1.475,
+              -0.002748169454270804
+            ],
+            "max": [
+              -0.024678293567103514,
+              1.475,
+              0.005315338494458994
+            ]
+          }
+        },
+        "internal-jugular-vein": {
+          "segmentCount": 26,
+          "bounds": {
+            "min": [
+              -0.03122312315148534,
+              1.475,
+              0.005895482337942132
+            ],
+            "max": [
+              -0.02340327721805963,
+              1.475,
+              0.01394597927812304
+            ]
+          }
+        },
+        "vertebral-artery": {
+          "segmentCount": 24,
+          "bounds": {
+            "min": [
+              -0.020326954826080962,
+              1.475,
+              -0.015560178660796642
+            ],
+            "max": [
+              -0.017512114532280305,
+              1.475,
+              -0.012707774146598927
+            ]
+          }
+        }
+      }
+    },
+    {
+      "sourceY": 1.485,
+      "structures": {
+        "brachial-roots": {
+          "segmentCount": 52,
+          "bounds": {
+            "min": [
+              -0.03020161058322155,
+              1.485,
+              -0.01389951068397873
+            ],
+            "max": [
+              -0.021399955851207905,
+              1.485,
+              -0.010038548674215185
+            ]
+          }
+        },
+        "superior-trunk": {
+          "segmentCount": 0
+        },
+        "middle-trunk": {
+          "segmentCount": 0
+        },
+        "inferior-trunk": {
+          "segmentCount": 0
+        },
+        "dorsal-scapular-nerve": {
+          "segmentCount": 0
+        },
+        "anterior-scalene": {
+          "segmentCount": 41,
+          "bounds": {
+            "min": [
+              -0.027925032589737962,
+              1.485,
+              -0.008051363441044504
+            ],
+            "max": [
+              -0.023227248567305927,
+              1.485,
+              -0.0025216732309892753
+            ]
+          }
+        },
+        "middle-scalene": {
+          "segmentCount": 80,
+          "bounds": {
+            "min": [
+              -0.03812678225890792,
+              1.485,
+              -0.012646900329575026
+            ],
+            "max": [
+              -0.027477925314939734,
+              1.485,
+              -0.004739394319973744
+            ]
+          }
+        },
+        "sternocleidomastoid": {
+          "segmentCount": 123,
+          "bounds": {
+            "min": [
+              -0.043498513244745955,
+              1.485,
+              -0.0017179422599969203
+            ],
+            "max": [
+              -0.024744324569382126,
+              1.485,
+              0.024328198494770165
+            ]
+          }
+        },
+        "common-carotid-artery": {
+          "segmentCount": 24,
+          "bounds": {
+            "min": [
+              -0.03508892090259156,
+              1.485,
+              -0.004071568095982349
+            ],
+            "max": [
+              -0.027084003168360078,
+              1.485,
+              0.0038438585508610134
+            ]
+          }
+        },
+        "internal-jugular-vein": {
+          "segmentCount": 26,
+          "bounds": {
+            "min": [
+              -0.03114804514433429,
+              1.485,
+              0.004091803281077094
+            ],
+            "max": [
+              -0.023598838320284435,
+              1.485,
+              0.011635210124588272
+            ]
+          }
+        },
+        "vertebral-artery": {
+          "segmentCount": 24,
+          "bounds": {
+            "min": [
+              -0.01920421017043039,
+              1.485,
+              -0.014563471856349503
+            ],
+            "max": [
+              -0.016511207319248152,
+              1.485,
+              -0.011861502461263685
+            ]
+          }
+        }
+      }
+    },
+    {
+      "sourceY": 1.495,
+      "structures": {
+        "brachial-roots": {
+          "segmentCount": 52,
+          "bounds": {
+            "min": [
+              -0.031083556887120424,
+              1.495,
+              -0.009430449679113823
+            ],
+            "max": [
+              -0.025187602991516803,
+              1.495,
+              -0.006122204245726483
+            ]
+          }
+        },
+        "superior-trunk": {
+          "segmentCount": 0
+        },
+        "middle-trunk": {
+          "segmentCount": 0
+        },
+        "inferior-trunk": {
+          "segmentCount": 0
+        },
+        "dorsal-scapular-nerve": {
+          "segmentCount": 0
+        },
+        "anterior-scalene": {
+          "segmentCount": 0
+        },
+        "middle-scalene": {
+          "segmentCount": 55,
+          "bounds": {
+            "min": [
+              -0.036067197892033935,
+              1.495,
+              -0.013392194769132804
+            ],
+            "max": [
+              -0.028736112386076207,
+              1.495,
+              -0.006486902346851567
+            ]
+          }
+        },
+        "sternocleidomastoid": {
+          "segmentCount": 125,
+          "bounds": {
+            "min": [
+              -0.04482397845478643,
+              1.495,
+              -0.005643781635909548
+            ],
+            "max": [
+              -0.02729167428735314,
+              1.495,
+              0.021671977342244127
+            ]
+          }
+        },
+        "common-carotid-artery": {
+          "segmentCount": 0
+        },
+        "internal-jugular-vein": {
+          "segmentCount": 25,
+          "bounds": {
+            "min": [
+              -0.032332727973481544,
+              1.495,
+              0.003615913574181175
+            ],
+            "max": [
+              -0.025336077021064676,
+              1.495,
+              0.01059417989086492
+            ]
+          }
+        },
+        "vertebral-artery": {
+          "segmentCount": 27,
+          "bounds": {
+            "min": [
+              -0.01864086996699349,
+              1.495,
+              -0.013902568699180306
+            ],
+            "max": [
+              -0.016057914600918363,
+              1.495,
+              -0.011307548135813465
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "Source geometry and named mesh presence are verified; clinical anatomical accuracy and completeness have not been independently validated.",
+    "Brachial plexus roots are clinically plexus-forming anterior/ventral rami, distinct from intrathecal anterior/posterior spinal roots; this source proximal mesh is unsegmented.",
+    "Independent named upper/middle/lower trunk meshes exist, but visual apposition and source hierarchy do not prove complete connected anatomy.",
+    "C5/C6/C7 nerve selection, phrenic nerve, fascial sheath, injectable compartment, safe needle path and anesthetic spread are not supplied.",
+    "The geometric plane uses original neutral anatomy. No patient-specific ultrasound registration, procedural pose or clinical scan-plane calibration was performed.",
+    "Selected source meshes remain whole; the UI may restrict the right-neck ROI visually without altering anatomy. No mesh is created to fill a source gap."
+  ]
+}

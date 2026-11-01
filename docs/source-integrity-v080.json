@@ -1,0 +1,9 @@
+{
+  "version": "0.8.0",
+  "unchangedPublicSourceFiles": 110,
+  "derivedSupplementFile": "src/data/reconstructed-plexus.json",
+  "derivedSupplementSha256": "f65ad422578cee16c4c1fb4ae6c441297ee0a2be2c86821fc4cabd6c44e1c0ed",
+  "derivedNeuralObjects": 8,
+  "base": "Z-Anatomy bone/muscle/vessel source retained",
+  "supplement": "Open3DModel, source-named, rigidly registered, clinical relationships unconfirmed"
+}

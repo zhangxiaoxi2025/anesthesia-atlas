@@ -1,0 +1,23 @@
+{
+  "status": "PASS_ZIP_INTEGRITY",
+  "package": "/Users/emma/Documents/ChatGPT/小项目/麻醉解剖教学工具_v0.4.4_逐根标注审阅试点_20261027.zip",
+  "files": 266,
+  "bytes": 11591886,
+  "sha256": "704dfdba61dfcf1a5fb17be989fdfde46e0e6b6bf26627898d9688ad6e24b752",
+  "crc": "PASS_ALL_FILES",
+  "exactEmbeddedFiles": [
+    "交付文件/腋路臂丛研习室-离线版.html",
+    "docs/preview-v044-root-review.png",
+    "docs/preview-v044-root-section.png",
+    "docs/preview-v044-mobile.png"
+  ],
+  "offlineSha256": "c8a5dd709531f51b03de73db6515f9a6dd25ef776625dffc86c5fd7e7b62f061",
+  "excluded": [
+    "dependencies",
+    "build outputs",
+    "workflow state",
+    "historical offline HTML",
+    "this receipt"
+  ],
+  "boundary": "Local package verification only; source annotation remains unconfirmed/unreviewed; no external upload or clinical certification."
+}

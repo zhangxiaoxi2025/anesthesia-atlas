@@ -1,0 +1,116 @@
+{
+  "pose": {
+    "title": "先对齐常用参考体位",
+    "description": "仰卧，上臂外展约90°并外旋，肘屈约90°，让腋部显露。这里用它作为敬礼位的教学参考，不把角度规定为所有人的唯一最佳体位。",
+    "points": [
+      "分清肩外展、肩外旋与肘屈曲；约90°指本图的肩外展和肘屈曲，未把肩外旋角度定为90°。",
+      "观察真实超声时，先确认其侧别、姿势与取景层面；与参考图不同应保留区别。",
+      "姿势会改变肌肉形态及神经血管关系；模型外观摆成敬礼位，不等于局部软组织已经验证。"
+    ],
+    "sourceIds": ["ambi-2015", "frkovic-2015", "hadzic-axillary"]
+  },
+  "probe": {
+    "title": "再对齐探头与屏幕方向",
+    "description": "以胸大肌止点远侧、上臂内侧附近作为参考取景，获得相对上臂长轴的短轴图。切面随上臂方向理解，不能用一个固定世界坐标平面代替。",
+    "points": [
+      "先看探头摆放和胸大肌、肱二头肌等定位关系，再看超声中的动静脉及四条神经。",
+      "屏幕上方为浅部，下方为深部；屏幕左右必须跟随该图的探头标记与屏幕标记侧，不凭神经位置或侧别猜测。",
+      "原图未提供标记或摆位信息时，明确标为方向未核实，不能把它说成与三维截面精确对齐。"
+    ],
+    "sourceIds": ["hadzic-axillary", "ambi-2015", "bowness-plan-a"]
+  },
+  "steps": [
+    {
+      "id": "v2-position",
+      "title": "01 看体位",
+      "description": "从仰卧、肩外展外旋与屈肘的参考姿势开始。先确认真实超声的侧别和摆位，理解它与中立位图谱的区别。",
+      "stage": "position"
+    },
+    {
+      "id": "v2-probe",
+      "title": "02 看探头与浅深",
+      "description": "把探头所在位置、上臂短轴与屏幕浅深对应起来。左右方向以原图的标记为准，未核实的标记不补猜。",
+      "stage": "position"
+    },
+    {
+      "id": "v2-landmarks",
+      "title": "03 先认血管与肌肉",
+      "description": "在真实声像中区分动脉、静脉，再认肱二头肌、喙肱肌，以及深部背阔肌/大圆肌联合腱。静态一帧未显示的结构，不靠补画宣称已识别。",
+      "stage": "sono"
+    },
+    {
+      "id": "v2-median",
+      "title": "04 找正中神经",
+      "description": "在动脉附近寻找并核对正中神经。教材中的典型位置只是参考，不将屏幕钟点位置当作个体必然关系。",
+      "nerveId": "median",
+      "stage": "sono"
+    },
+    {
+      "id": "v2-ulnar",
+      "title": "05 找尺神经与邻近静脉",
+      "description": "结合尺神经与动静脉的关系识别；保留静脉和变异信息，不把另一幅超声图的标签机械搬来。",
+      "nerveId": "ulnar",
+      "stage": "sono"
+    },
+    {
+      "id": "v2-radial",
+      "title": "06 看动脉后方的桡神经",
+      "description": "理解桡神经与动脉后方、深部肌腱的典型关系。动脉后方的声学增强不等于桡神经；仅对经核对的结构做联动。",
+      "nerveId": "radial",
+      "stage": "sono"
+    },
+    {
+      "id": "v2-musculocutaneous",
+      "title": "07 单独找肌皮神经",
+      "description": "看喙肱肌及肱二头肌附近的肌皮神经。它可能与血管周围三神经分离，位置随个体与层面变化；再在三维中追向前臂外侧皮神经。",
+      "nerveId": "musculocutaneous",
+      "stage": "sono"
+    },
+    {
+      "id": "v2-anatomy",
+      "title": "08 用三维解释这幅切面",
+      "description": "点选同名结构，比较真实超声与通用图谱中的关系，再沿三维走行追踪。这里是结构对应，不是同一病例配准，也不保证形状和坐标逐点相同。",
+      "stage": "anatomy"
+    },
+    {
+      "id": "v2-function",
+      "title": "09 从结构联系感觉与运动",
+      "description": "沿用四神经功能卡，分别查看皮肤感觉与肌肉运动。保留指端、前臂内外侧、近端已分支与肋间臂/腋神经边界，不由超声色标直接生成阻滞效果。",
+      "stage": "function"
+    }
+  ],
+  "notes": [
+    "真实超声参考图与通用三维模型只作同名结构和局部关系对应；不是同一病例配准。",
+    "敬礼位是本版采用的参考入口，角度不代表唯一最佳体位；原图的实际姿势与探头标记必须保留。",
+    "图谱中立位与敬礼位之间的软组织形态尚需专项验证，不能只旋转骨头后宣称解剖关系已校准。",
+    "只联动原图中经核对的结构；未显示或方向未核实的内容应直接说明。",
+    "本版不标定安全进针或注药位置，不重建可注药空间，也不预测实际扩散、阻滞成功或手术麻醉范围。",
+    "四神经的感觉与运动内容沿用原版；皮肤范围不等同皮节、深部关节感觉或确定的阻滞范围。"
+  ],
+  "sources": [
+    {
+      "id": "hadzic-axillary",
+      "title": "Hadzic’s Textbook of Regional Anesthesia and Acute Pain Management, 2e — Chapter 32E: Ultrasound-Guided Axillary Brachial Plexus Block",
+      "url": "https://accessanesthesiology.mhmedical.com/content.aspx?bookid=2070&sectionid=157602228",
+      "usage": "正规教材公开部分：探头对上臂短轴、胸大肌止点远侧，局部神经血管与肌肉。作者团队公开教学版本补核声像与变异，见证据记录。"
+    },
+    {
+      "id": "ambi-2015",
+      "title": "Ambi et al. — Comparison between perivascular and perineural ultrasound-guided axillary brachial plexus block using levobupivacaine — Indian J Anaesth. 2015;59:658–663",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4645355/",
+      "usage": "原始试验Methods：仰卧，肩外展90°并外旋、屈肘90°，腋部短轴取景；这里只用体位与取景，不采用药量或操作步骤。"
+    },
+    {
+      "id": "frkovic-2015",
+      "title": "Frkovic et al. — Influence of arm position on ultrasound visibility of the axillary brachial plexus — Eur J Anaesthesiol. 2015;32:771–780",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26090566/",
+      "usage": "原始20志愿者观察研究：姿势与层面比较；不能将其中一组较有利的可见性结果解释为所有患者的唯一最佳姿势或更高临床成功率。"
+    },
+    {
+      "id": "bowness-plan-a",
+      "title": "Bowness et al. — International consensus on anatomical structures to identify on ultrasound for the performance of basic blocks — RAPM. 2022;47:106–112",
+      "url": "https://esraeurope.org/wp-content/uploads/2022/09/Bowness-anatomical-structures-PlanA.pdf",
+      "usage": "ASRA/ESRA认可的解剖识别共识：腋路四神经、动静脉、联合腱及肌肉的识别框架；区分动态定位扫描与最终观察界面，不是配准或体位变形验证。"
+    }
+  ]
+}

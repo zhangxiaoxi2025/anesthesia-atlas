@@ -1,0 +1,69 @@
+{
+  "method": "rigid least squares area weighted whole bone centroids; C4 C6 withheld; vertex nearest only",
+  "train": [
+    "c3",
+    "c5",
+    "c7",
+    "t1",
+    "clavicle"
+  ],
+  "rotation_row_major": [
+    [
+      0.9998191645240558,
+      0.014934556395104295,
+      -0.011772734419021488
+    ],
+    [
+      -0.014965589197932063,
+      0.9998847517843118,
+      -0.002552310558349009
+    ],
+    [
+      0.011733260006414004,
+      0.00272803491710627,
+      0.9999274415851953
+    ]
+  ],
+  "translation_m": [
+    -0.14086886215472388,
+    -0.005977213352533706,
+    0.7011394021408873
+  ],
+  "bones": {
+    "c3": {
+      "centroid_error_mm": 0.21833303118539388,
+      "vertex_to_target_p50_mm": 1.1716762091964483,
+      "vertex_to_target_p95_mm": 3.4800049616023885
+    },
+    "c4": {
+      "centroid_error_mm": 0.7026775837908593,
+      "vertex_to_target_p50_mm": 1.2590818223543465,
+      "vertex_to_target_p95_mm": 3.5585990757681416
+    },
+    "c5": {
+      "centroid_error_mm": 0.45270316542216715,
+      "vertex_to_target_p50_mm": 1.3127634301781654,
+      "vertex_to_target_p95_mm": 4.167090868577357
+    },
+    "c6": {
+      "centroid_error_mm": 0.9620749574367006,
+      "vertex_to_target_p50_mm": 1.2944795307703316,
+      "vertex_to_target_p95_mm": 3.283474803902207
+    },
+    "c7": {
+      "centroid_error_mm": 0.8891431302441403,
+      "vertex_to_target_p50_mm": 1.4117180253379047,
+      "vertex_to_target_p95_mm": 3.521447372622786
+    },
+    "t1": {
+      "centroid_error_mm": 1.0254704049807766,
+      "vertex_to_target_p50_mm": 1.4586581382900476,
+      "vertex_to_target_p95_mm": 3.66135297808796
+    },
+    "clavicle": {
+      "centroid_error_mm": 1.7345377292138227,
+      "vertex_to_target_p50_mm": 2.261111978441477,
+      "vertex_to_target_p95_mm": 4.547310527414084
+    }
+  }
+}

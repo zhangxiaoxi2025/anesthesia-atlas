@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "id": "vazin2016-axillary-ef",
+  "title": "腋路体位与真实超声参考 · Vazin 等 2016 Figure 1(e/f)",
+  "source": {
+    "authors": "Mojgan Vazin et al.",
+    "year": 2016,
+    "journal": "BioMed Research International",
+    "title": "Low-Volume Brachial Plexus Block Providing Surgical Anesthesia for Distal Arm Surgery Comparing Supraclavicular, Infraclavicular, and Axillary Approach: A Randomized Observer Blind Trial",
+    "doi": "10.1155/2016/7094121",
+    "pmcid": "PMC5136641",
+    "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5136641/",
+    "figure": "Figure 1, axillary panels (e) and (f) only",
+    "metadataUrl": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5136641.1/PMC5136641.1.json",
+    "xmlUrl": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5136641.1/PMC5136641.1.xml",
+    "imageUrl": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5136641.1/BMRI2016-7094121.001.jpg",
+    "originalPath": "/ultrasound/source/BMRI2016-7094121.001.jpg",
+    "originalWidth": 662,
+    "originalHeight": 663,
+    "originalSha256": "8eb74da265eec44507f4e7971a1e2137f8717515dc1f656ef5175a0cace82afc",
+    "originalMd5": "089f8415c2d4384586b8a4e6e9f4c344",
+    "xmlSha256": "8fa144d1c680980c67a76e9ddacd4554be5d41b84b8be4e72526d15449191bf5",
+    "retrievedDate": "2026-10-23",
+    "retrievalRoute": "NCBI PMC official world-readable Cloud Service on AWS; exact article-version objects only.",
+    "scope": "Main-text Figure 1 only; no Supporting Information requested or downloaded.",
+    "originalFigureCaption": "Ultrasound-guided brachial plexus blocks using a short axis, in-plane technique. Supraclavicular brachial plexus block (a) with the transducer parallel with the clavicle and with needle tip positioned subfascial and intracluster injection (b). Infraclavicular brachial plexus block (c) with the transducer in the deltopectoral groove and with needle tip position (d) close to the axillary artery (AA) at each of the cords, that is, lateral (L), medial (M), and posterior (P) cord. Axillary brachial plexus block (e) with needle tip position (f) at each of the four individual nerves, that is, musculocutaneous (Mc), median (Me), ulnar (Ul), and radial (Ra) nerve. Pl: pleura; MaP: major pectoral muscle; MiP: minor pectoral muscle; AV: axillary vein."
+  },
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "verified": true,
+    "evidence": "/ultrasound/source/PMC5136641.1.xml — article/front/article-meta/permissions/license/@xlink:href",
+    "copyright": "Copyright © 2016 Mojgan Vazin et al.",
+    "attribution": "Vazin M et al. BioMed Res Int. 2016;2016:7094121. doi:10.1155/2016/7094121. Figure 1(e/f), CC BY 4.0. Source: NCBI PubMed Central Cloud Service. Cropped from the original figure; no other pixel changes.",
+    "thirdPartyFigureNotice": "No separate third-party credit or exclusion is present in the Figure 1 caption or its JATS figure element."
+  },
+  "panels": [
+    {
+      "id": "position",
+      "path": "/ultrasound/axillary-position-vazin2016.png",
+      "width": 289,
+      "height": 225,
+      "caption": "原论文 Figure 1(e)：腋路体位、探头与平面内操作照片；保留原图，仅裁切。原图未明确标出左/右侧与探头标记端。",
+      "orientationStatus": "patient-side-and-probe-marker-unconfirmed",
+      "sourcePanel": "1(e)",
+      "crop": {
+        "left": 0,
+        "top": 425,
+        "right": 289,
+        "bottom": 650,
+        "coordinates": "original 662x663 image; origin top-left; half-open [left,top,right,bottom)"
+      },
+      "sha256": "4c6ce08e0a0f2b7323b88cec636142de42033379a2fd8434fb7549195420bddb",
+      "bytes": 70571,
+      "changes": "Lossless PNG serialization of an unscaled crop from the source JPEG; no pixel annotation, mirroring, enhancement or AI editing."
+    },
+    {
+      "id": "ultrasound",
+      "path": "/ultrasound/axillary-ultrasound-vazin2016.png",
+      "width": 372,
+      "height": 225,
+      "caption": "原论文 Figure 1(f)：真实腋路短轴超声。原标注 Mc=肌皮、Me=正中、Ul=尺、Ra=桡神经，AA=腋动脉；图左 Cephalad、图右 Caudad。",
+      "orientationStatus": "screen-cephalad-caudad-confirmed-patient-side-unconfirmed",
+      "sourcePanel": "1(f)",
+      "crop": {
+        "left": 290,
+        "top": 425,
+        "right": 662,
+        "bottom": 650,
+        "coordinates": "original 662x663 image; origin top-left; half-open [left,top,right,bottom)"
+      },
+      "sha256": "cb36a22bd99f09ea6c4fa84e6f832ebb4a9c0e57f2473bbd675758dc53668d38",
+      "bytes": 67822,
+      "changes": "Lossless PNG serialization of an unscaled crop from the source JPEG; no pixel annotation, mirroring, enhancement or AI editing."
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "musculocutaneous",
+      "name": "肌皮神经",
+      "panelId": "ultrasound",
+      "sourceLabel": "Mc",
+      "xPct": 22.312,
+      "yPct": 25.333,
+      "sourcePixelX": 373,
+      "sourcePixelY": 482,
+      "status": "source-label-center-visually-checked",
+      "meaning": "识别用热点，位于原作者标注中心附近；不是针尖、给药点、神经边界分割或安全区域。"
+    },
+    {
+      "id": "median",
+      "name": "正中神经",
+      "panelId": "ultrasound",
+      "sourceLabel": "Me",
+      "xPct": 40.054,
+      "yPct": 19.111,
+      "sourcePixelX": 439,
+      "sourcePixelY": 468,
+      "status": "source-label-center-visually-checked",
+      "meaning": "识别用热点，位于原作者标注中心附近；不是针尖、给药点、神经边界分割或安全区域。"
+    },
+    {
+      "id": "ulnar",
+      "name": "尺神经",
+      "panelId": "ultrasound",
+      "sourceLabel": "Ul",
+      "xPct": 65.86,
+      "yPct": 29.333,
+      "sourcePixelX": 535,
+      "sourcePixelY": 491,
+      "status": "source-label-center-visually-checked",
+      "meaning": "识别用热点，位于原作者标注中心附近；不是针尖、给药点、神经边界分割或安全区域。"
+    },
+    {
+      "id": "radial",
+      "name": "桡神经",
+      "panelId": "ultrasound",
+      "sourceLabel": "Ra",
+      "xPct": 62.634,
+      "yPct": 39.556,
+      "sourcePixelX": 523,
+      "sourcePixelY": 514,
+      "status": "source-label-center-visually-checked",
+      "meaning": "识别用热点，位于原作者标注中心附近；不是针尖、给药点、神经边界分割或安全区域。"
+    }
+  ],
+  "orientation": {
+    "side": "unconfirmed",
+    "status": "screen-anatomical-direction-confirmed-patient-side-and-physical-probe-marker-pending",
+    "screenLeft": "Cephalad / 头侧（原图文字）",
+    "screenRight": "Caudad / 尾侧（原图文字）",
+    "nearField": "图像上缘为浅层/探头侧；这是超声屏幕深度方向，不等同当前三维模型的固定世界轴。",
+    "probeMarker": "原照片未能确认物理探头标记端，不补猜。",
+    "matchesCurrent3DSide": false
+  },
+  "notes": [
+    "这是成人论文中的真实腋路超声与对应探头照片，非颈部、锁骨上或锁骨下数据；原大图其他面板已从交互用裁图中排除。",
+    "原文方法说明腋路为仰卧、肩外展约90°并屈肘暴露腋窝；照片与图注不是个体三维配准数据。",
+    "原图 f 明确有 AA 与四神经标注；本次没有确认腋静脉可可靠识别的位置，故不创建 AV 热点。大图面板 d 的 AV 属锁骨下示例，不能移到本腋路面板。",
+    "保留原作者针道箭头和原标签，供阅读原图；它们不能作为当前学习者或患者的进针方向、深度或安全位置建议。",
+    "四个热点只用于选中同名神经，标的是原作者虚线标注中心，不是神经轮廓或可注药区域。",
+    "原图含作者选定的局部视图与解剖排列，不能当成所有人固定钟点关系。",
+    "本素材是两张静态图片，没有动态扫查、跟踪坐标、探头压力、三维体数据或患者级标定。",
+    "与三维仅建立名称和教学主题对应；真实超声与三维之间的空间/姿势配准尚未完成。",
+    "来源图为662×663整图，腋路超声有效像素有限，界面可放大显示但不得声称新增分辨率或结构细节。"
+  ]
+}

@@ -1,0 +1,374 @@
+{
+  "date": "2026-10-31",
+  "terminalNames": [
+    {
+      "id": "musculocutaneous",
+      "labels": [
+        "肌皮神经",
+        "尺神经",
+        "正中神经",
+        "桡神经"
+      ],
+      "selected": "当前选择 · 源模型肌皮神经Musculocutaneous nerve参考根源：C5–C7"
+    },
+    {
+      "id": "ulnar",
+      "labels": [
+        "肌皮神经",
+        "尺神经",
+        "正中神经",
+        "桡神经"
+      ],
+      "selected": "当前选择 · 源模型尺神经Ulnar nerve参考根源：C8–T1（可有C7贡献）"
+    },
+    {
+      "id": "median",
+      "labels": [
+        "肌皮神经",
+        "尺神经",
+        "正中神经",
+        "桡神经"
+      ],
+      "selected": "当前选择 · 源模型正中神经Median nerve参考根源：C5–T1（常用概括，根源可有变异）"
+    },
+    {
+      "id": "radial",
+      "labels": [
+        "肌皮神经",
+        "尺神经",
+        "正中神经",
+        "桡神经"
+      ],
+      "selected": "当前选择 · 源模型桡神经Radial nerve参考根源：C5–T1"
+    }
+  ],
+  "animationSamples": [
+    {
+      "cameraDistance": "0.271048",
+      "cameraPosition": "-0.240178,1.035195,0.001262",
+      "cameraTarget": "-0.170756,1.296869,0.014486",
+      "copyCarrierOpacity": "0.000",
+      "cutaway": "true",
+      "engine": "three.js r159",
+      "faceLabelPositions": "[{\"x\":221.5,\"y\":315.7,\"width\":46,\"height\":20,\"id\":\"source\",\"name\":\"原位面\",\"anchorX\":127.2,\"anchorY\":337.7}]",
+      "facePixelSize": "{\"source\":{\"x\":127.2,\"y\":337.7,\"width\":234.6,\"height\":273.7}}",
+      "liftAmount": "0.0000",
+      "liftedSliceVisible": "false",
+      "progress": "0.0224",
+      "roi": "-0.2388286939180007,1.245813485,-0.13780737,0.06384496,1.49139392,0.10883232000000001",
+      "route": "axillary",
+      "selectedIds": "",
+      "selectedNerve": "radial",
+      "sourceCoordinates": "unchanged",
+      "sourceIntersectionCount": "21",
+      "sourcePlaneVisible": "true",
+      "testid": "source-slice-canvas",
+      "view": "transverse",
+      "visibleSourceIds": "brachial-roots superior-trunk middle-trunk inferior-trunk superior-anterior-division superior-posterior-division middle-anterior-division middle-posterior-division inferior-anterior-division inferior-posterior-division posterior-cord long-thoracic-nerve dorsal-scapular-nerve anterior-scalene middle-scalene posterior-scalene sternocleidomastoid omohyoid longus-colli levator-scapulae common-carotid-artery internal-jugular-vein external-jugular-vein subclavian-artery subclavian-vein vertebral-artery vertebra-c4 vertebra-c5 vertebra-c6 vertebra-c7 vertebra-t1 first-rib clavicle manubrium median ulnar radial musculocutaneous axillary-nerve medial-brachial-cutaneous axillary-artery axillary-vein brachial-artery brachial-vein basilic-vein cephalic-vein deep-brachial-artery coracobrachialis biceps-long-head biceps-short-head triceps-lateral-head triceps-long-head triceps-medial-head brachialis pectoralis-major-abdominal pectoralis-major-clavicular pectoralis-major-sternocostal pectoralis-minor deltoid-acromial deltoid-clavicular deltoid-spinal subscapularis teres-major teres-minor serratus-anterior humerus scapula"
+    },
+    {
+      "cameraDistance": "0.271048",
+      "cameraPosition": "-0.240178,1.035195,0.001262",
+      "cameraTarget": "-0.170756,1.296869,0.014486",
+      "copyCarrierOpacity": "0.900",
+      "cutaway": "true",
+      "engine": "three.js r159",
+      "faceLabelPositions": "[{\"x\":216.5,\"y\":312,\"width\":56,\"height\":20,\"id\":\"copy\",\"name\":\"抽出副本\",\"anchorX\":364.5,\"anchorY\":310},{\"x\":315.8,\"y\":315.7,\"width\":46,\"height\":20,\"id\":\"source\",\"name\":\"原位面\",\"anchorX\":361.8,\"anchorY\":337.7}]",
+      "facePixelSize": "{\"source\":{\"x\":127.2,\"y\":337.7,\"width\":234.6,\"height\":273.7},\"copy\":{\"x\":124.5,\"y\":30.1,\"width\":239.9,\"height\":279.9}}",
+      "liftAmount": "1.0000",
+      "liftedSliceVisible": "true",
+      "progress": "1.0000",
+      "roi": "-0.2388286939180007,1.245813485,-0.13780737,0.06384496,1.49139392,0.10883232000000001",
+      "route": "axillary",
+      "selectedIds": "",
+      "selectedNerve": "radial",
+      "sourceCoordinates": "unchanged",
+      "sourceIntersectionCount": "21",
+      "sourcePlaneVisible": "true",
+      "testid": "source-slice-canvas",
+      "view": "transverse",
+      "visibleSourceIds": "brachial-roots superior-trunk middle-trunk inferior-trunk superior-anterior-division superior-posterior-division middle-anterior-division middle-posterior-division inferior-anterior-division inferior-posterior-division posterior-cord long-thoracic-nerve dorsal-scapular-nerve anterior-scalene middle-scalene posterior-scalene sternocleidomastoid omohyoid longus-colli levator-scapulae common-carotid-artery internal-jugular-vein external-jugular-vein subclavian-artery subclavian-vein vertebral-artery vertebra-c4 vertebra-c5 vertebra-c6 vertebra-c7 vertebra-t1 first-rib clavicle manubrium median ulnar radial musculocutaneous axillary-nerve medial-brachial-cutaneous axillary-artery axillary-vein brachial-artery brachial-vein basilic-vein cephalic-vein deep-brachial-artery coracobrachialis biceps-long-head biceps-short-head triceps-lateral-head triceps-long-head triceps-medial-head brachialis pectoralis-major-abdominal pectoralis-major-clavicular pectoralis-major-sternocostal pectoralis-minor deltoid-acromial deltoid-clavicular deltoid-spinal subscapularis teres-major teres-minor serratus-anterior humerus scapula"
+    }
+  ],
+  "midPeel": {
+    "cameraDistance": "0.271048",
+    "cameraPosition": "-0.240178,1.035195,0.001262",
+    "cameraTarget": "-0.170756,1.296869,0.014486",
+    "copyCarrierOpacity": "0.000",
+    "cutaway": "true",
+    "engine": "three.js r159",
+    "faceLabelPositions": "[{\"x\":216.5,\"y\":177.2,\"width\":56,\"height\":20,\"id\":\"copy\",\"name\":\"抽出副本\",\"anchorX\":126,\"anchorY\":199.2},{\"x\":315.8,\"y\":613.4,\"width\":46,\"height\":20,\"id\":\"source\",\"name\":\"原位面\",\"anchorX\":361.8,\"anchorY\":611.4}]",
+    "facePixelSize": "{\"source\":{\"x\":127.2,\"y\":337.7,\"width\":234.6,\"height\":273.7},\"copy\":{\"x\":126,\"y\":199.2,\"width\":237,\"height\":276.5}}",
+    "liftAmount": "0.4559",
+    "liftedSliceVisible": "true",
+    "progress": "0.6000",
+    "roi": "-0.2388286939180007,1.245813485,-0.13780737,0.06384496,1.49139392,0.10883232000000001",
+    "route": "axillary",
+    "selectedIds": "",
+    "selectedNerve": "radial",
+    "sourceCoordinates": "unchanged",
+    "sourceIntersectionCount": "21",
+    "sourcePlaneVisible": "true",
+    "testid": "source-slice-canvas",
+    "view": "transverse",
+    "visibleSourceIds": "brachial-roots superior-trunk middle-trunk inferior-trunk superior-anterior-division superior-posterior-division middle-anterior-division middle-posterior-division inferior-anterior-division inferior-posterior-division posterior-cord long-thoracic-nerve dorsal-scapular-nerve anterior-scalene middle-scalene posterior-scalene sternocleidomastoid omohyoid longus-colli levator-scapulae common-carotid-artery internal-jugular-vein external-jugular-vein subclavian-artery subclavian-vein vertebral-artery vertebra-c4 vertebra-c5 vertebra-c6 vertebra-c7 vertebra-t1 first-rib clavicle manubrium median ulnar radial musculocutaneous axillary-nerve medial-brachial-cutaneous axillary-artery axillary-vein brachial-artery brachial-vein basilic-vein cephalic-vein deep-brachial-artery coracobrachialis biceps-long-head biceps-short-head triceps-lateral-head triceps-long-head triceps-medial-head brachialis pectoralis-major-abdominal pectoralis-major-clavicular pectoralis-major-sternocostal pectoralis-minor deltoid-acromial deltoid-clavicular deltoid-spinal subscapularis teres-major teres-minor serratus-anterior humerus scapula"
+  },
+  "beforeCapture": {
+    "durationMs": "15000",
+    "planeCenter": "-0.17027464505994952,1.2986844590420121,-0.023968534224977377",
+    "planeMode": "bone-axis",
+    "planeNormal": "0.25612305006932723,0.9654121690065006,0.04878859659130103",
+    "progress": "0.600",
+    "stage": "2",
+    "testid": "slice-workbench-axillary"
+  },
+  "afterCapture": {
+    "durationMs": "15000",
+    "planeCenter": "-0.17027464505994952,1.2986844590420121,-0.023968534224977377",
+    "planeMode": "captured",
+    "planeNormal": "0.6387367537399402,-0.1653201009679845,-0.7514550043999297",
+    "progress": "0.000",
+    "stage": "0",
+    "testid": "slice-workbench-axillary"
+  },
+  "afterTilt": {
+    "durationMs": "15000",
+    "planeCenter": "-0.17027464505994952,1.2986844590420121,-0.023968534224977377",
+    "planeMode": "captured",
+    "planeNormal": "0.6456378721109458,-0.07873453158738652,-0.7595739671893481",
+    "progress": "0.000",
+    "stage": "0",
+    "testid": "slice-workbench-axillary"
+  },
+  "axillaryFinal": {
+    "clip": {
+      "height": 735,
+      "width": 1000,
+      "x": 240,
+      "y": 1097.9765625
+    },
+    "scene": {
+      "cameraDistance": "0.271048",
+      "cameraPosition": "-0.240178,1.035195,0.001262",
+      "cameraTarget": "-0.170756,1.296869,0.014486",
+      "copyCarrierOpacity": "0.900",
+      "cutaway": "true",
+      "engine": "three.js r159",
+      "faceLabelPositions": "[{\"x\":216.5,\"y\":312,\"width\":56,\"height\":20,\"id\":\"copy\",\"name\":\"抽出副本\",\"anchorX\":364.5,\"anchorY\":310},{\"x\":315.8,\"y\":315.7,\"width\":46,\"height\":20,\"id\":\"source\",\"name\":\"原位面\",\"anchorX\":361.8,\"anchorY\":337.7}]",
+      "facePixelSize": "{\"source\":{\"x\":127.2,\"y\":337.7,\"width\":234.6,\"height\":273.7},\"copy\":{\"x\":124.5,\"y\":30.1,\"width\":239.9,\"height\":279.9}}",
+      "liftAmount": "1.0000",
+      "liftedSliceVisible": "true",
+      "progress": "1.0000",
+      "roi": "-0.2388286939180007,1.245813485,-0.13780737,0.06384496,1.49139392,0.10883232000000001",
+      "route": "axillary",
+      "selectedIds": "",
+      "selectedNerve": "radial",
+      "sourceCoordinates": "unchanged",
+      "sourceIntersectionCount": "21",
+      "sourcePlaneVisible": "true",
+      "testid": "source-slice-canvas",
+      "view": "transverse",
+      "visibleSourceIds": "brachial-roots superior-trunk middle-trunk inferior-trunk superior-anterior-division superior-posterior-division middle-anterior-division middle-posterior-division inferior-anterior-division inferior-posterior-division posterior-cord long-thoracic-nerve dorsal-scapular-nerve anterior-scalene middle-scalene posterior-scalene sternocleidomastoid omohyoid longus-colli levator-scapulae common-carotid-artery internal-jugular-vein external-jugular-vein subclavian-artery subclavian-vein vertebral-artery vertebra-c4 vertebra-c5 vertebra-c6 vertebra-c7 vertebra-t1 first-rib clavicle manubrium median ulnar radial musculocutaneous axillary-nerve medial-brachial-cutaneous axillary-artery axillary-vein brachial-artery brachial-vein basilic-vein cephalic-vein deep-brachial-artery coracobrachialis biceps-long-head biceps-short-head triceps-lateral-head triceps-long-head triceps-medial-head brachialis pectoralis-major-abdominal pectoralis-major-clavicular pectoralis-major-sternocostal pectoralis-minor deltoid-acromial deltoid-clavicular deltoid-spinal subscapularis teres-major teres-minor serratus-anterior humerus scapula"
+    }
+  },
+  "mobile": {
+    "bodyWidth": 390,
+    "clip": {
+      "height": 648.3984375,
+      "width": 390,
+      "x": 0,
+      "y": 2158.8515625
+    },
+    "labels": [
+      "肌皮神经",
+      "尺神经",
+      "正中神经",
+      "桡神经"
+    ],
+    "scene": {
+      "cameraDistance": "0.271048",
+      "cameraPosition": "-0.240178,1.035195,0.001262",
+      "cameraTarget": "-0.170756,1.296869,0.014486",
+      "copyCarrierOpacity": "0.900",
+      "cutaway": "true",
+      "engine": "three.js r159",
+      "faceLabelPositions": "[{\"x\":143,\"y\":249.8,\"width\":48,\"height\":18,\"id\":\"copy\",\"name\":\"抽出副本\",\"anchorX\":262.9,\"anchorY\":247.8},{\"x\":220.8,\"y\":249.9,\"width\":40,\"height\":18,\"id\":\"source\",\"name\":\"原位面\",\"anchorX\":260.8,\"anchorY\":269.9}]",
+      "facePixelSize": "{\"source\":{\"x\":73.2,\"y\":269.9,\"width\":187.5,\"height\":218.8},\"copy\":{\"x\":71.1,\"y\":24.1,\"width\":191.8,\"height\":223.7}}",
+      "liftAmount": "1.0000",
+      "liftedSliceVisible": "true",
+      "progress": "1.0000",
+      "roi": "-0.2388286939180007,1.245813485,-0.13780737,0.06384496,1.49139392,0.10883232000000001",
+      "route": "axillary",
+      "selectedIds": "",
+      "selectedNerve": "radial",
+      "sourceCoordinates": "unchanged",
+      "sourceIntersectionCount": "21",
+      "sourcePlaneVisible": "true",
+      "testid": "source-slice-canvas",
+      "view": "transverse",
+      "visibleSourceIds": "brachial-roots superior-trunk middle-trunk inferior-trunk superior-anterior-division superior-posterior-division middle-anterior-division middle-posterior-division inferior-anterior-division inferior-posterior-division posterior-cord long-thoracic-nerve dorsal-scapular-nerve anterior-scalene middle-scalene posterior-scalene sternocleidomastoid omohyoid longus-colli levator-scapulae common-carotid-artery internal-jugular-vein external-jugular-vein subclavian-artery subclavian-vein vertebral-artery vertebra-c4 vertebra-c5 vertebra-c6 vertebra-c7 vertebra-t1 first-rib clavicle manubrium median ulnar radial musculocutaneous axillary-nerve medial-brachial-cutaneous axillary-artery axillary-vein brachial-artery brachial-vein basilic-vein cephalic-vein deep-brachial-artery coracobrachialis biceps-long-head biceps-short-head triceps-lateral-head triceps-long-head triceps-medial-head brachialis pectoralis-major-abdominal pectoralis-major-clavicular pectoralis-major-sternocostal pectoralis-minor deltoid-acromial deltoid-clavicular deltoid-spinal subscapularis teres-major teres-minor serratus-anterior humerus scapula"
+    },
+    "viewport": 390
+  },
+  "interscaleneFinal": {
+    "clip": {
+      "height": 735,
+      "width": 1170,
+      "x": 50,
+      "y": 1890.484375
+    },
+    "scene": {
+      "cameraDistance": "0.311027",
+      "cameraPosition": "-0.082000,1.740409,0.111610",
+      "cameraTarget": "-0.082000,1.455000,-0.012000",
+      "copyCarrierOpacity": "0.900",
+      "cutaway": "true",
+      "engine": "three.js r159",
+      "faceLabelPositions": "[{\"x\":238.5,\"y\":312,\"width\":56,\"height\":20,\"id\":\"copy\",\"name\":\"抽出副本\",\"anchorX\":406.4,\"anchorY\":310},{\"x\":356.8,\"y\":315.6,\"width\":46,\"height\":20,\"id\":\"source\",\"name\":\"原位面\",\"anchorX\":402.8,\"anchorY\":337.6}]",
+      "facePixelSize": "{\"source\":{\"x\":130.2,\"y\":337.6,\"width\":272.6,\"height\":272.6},\"copy\":{\"x\":126.6,\"y\":30.2,\"width\":279.8,\"height\":279.8}}",
+      "hoveredId": "",
+      "inspectedId": "",
+      "liftAmount": "1.0000",
+      "liftedSliceVisible": "true",
+      "progress": "1.0000",
+      "roi": "-0.2388286939180007,1.245813485,-0.13780737,0.06384496,1.49139392,0.10883232000000001",
+      "route": "interscalene",
+      "selectedIds": "superior-trunk",
+      "selectedNerve": "",
+      "sourceCoordinates": "unchanged",
+      "sourceIntersectionCount": "16",
+      "sourcePlaneVisible": "true",
+      "testid": "source-slice-canvas",
+      "view": "transverse",
+      "visibleSourceIds": "brachial-roots superior-trunk middle-trunk inferior-trunk superior-anterior-division superior-posterior-division middle-anterior-division middle-posterior-division inferior-anterior-division inferior-posterior-division posterior-cord long-thoracic-nerve dorsal-scapular-nerve anterior-scalene middle-scalene posterior-scalene sternocleidomastoid omohyoid longus-colli levator-scapulae common-carotid-artery internal-jugular-vein external-jugular-vein subclavian-artery subclavian-vein vertebral-artery vertebra-c4 vertebra-c5 vertebra-c6 vertebra-c7 vertebra-t1 first-rib clavicle manubrium median ulnar radial musculocutaneous axillary-nerve medial-brachial-cutaneous axillary-artery axillary-vein brachial-artery brachial-vein basilic-vein cephalic-vein deep-brachial-artery coracobrachialis biceps-long-head biceps-short-head triceps-lateral-head triceps-long-head triceps-medial-head brachialis pectoralis-major-abdominal pectoralis-major-clavicular pectoralis-major-sternocostal pectoralis-minor deltoid-acromial deltoid-clavicular deltoid-spinal subscapularis teres-major teres-minor serratus-anterior humerus scapula"
+    },
+    "work": {
+      "durationMs": "15000",
+      "planeCenter": "-0.038,1.455,-0.012",
+      "planeMode": "bone-axis",
+      "planeNormal": "-8.903351762461695e-9,-0.9176340051370426,-0.3974265122210017",
+      "progress": "1.000",
+      "stage": "3",
+      "testid": "slice-workbench-interscalene"
+    }
+  },
+  "devErrors": [],
+  "offline": {
+    "url": "http://127.0.0.1:4179/%E9%BA%BB%E9%86%89%E8%A7%A3%E5%89%96%E5%8F%8C%E5%85%A5%E8%B7%AF%E5%88%87%E9%9D%A2%E8%81%94%E5%8A%A8-v0.7.0.html",
+    "selections": [
+      {
+        "name": "C5脊神经前支（臂丛根）",
+        "card": "当前选择 · 源模型臂丛上干源已具名结构",
+        "ids": "superior-trunk"
+      },
+      {
+        "name": "C6脊神经前支（臂丛根）",
+        "card": "当前选择 · 源模型臂丛上干源已具名结构",
+        "ids": "superior-trunk"
+      },
+      {
+        "name": "C7脊神经前支（臂丛根）",
+        "card": "当前选择 · 源模型臂丛中干源已具名结构",
+        "ids": "middle-trunk"
+      },
+      {
+        "name": "C8脊神经前支（臂丛根）",
+        "card": "当前选择 · 源模型臂丛下干源已具名结构",
+        "ids": "inferior-trunk"
+      },
+      {
+        "name": "T1脊神经前支（臂丛根）",
+        "card": "当前选择 · 源模型臂丛下干源已具名结构",
+        "ids": "inferior-trunk"
+      },
+      {
+        "name": "臂丛上干",
+        "card": "当前选择 · 源模型臂丛上干源已具名结构",
+        "ids": "superior-trunk"
+      },
+      {
+        "name": "臂丛中干",
+        "card": "当前选择 · 源模型臂丛中干源已具名结构",
+        "ids": "middle-trunk"
+      },
+      {
+        "name": "臂丛下干",
+        "card": "当前选择 · 源模型臂丛下干源已具名结构",
+        "ids": "inferior-trunk"
+      }
+    ],
+    "interscalene": {
+      "cameraDistance": "0.311027",
+      "cameraPosition": "-0.082000,1.740409,0.111610",
+      "cameraTarget": "-0.082000,1.455000,-0.012000",
+      "copyCarrierOpacity": "0.900",
+      "cutaway": "true",
+      "engine": "three.js r159",
+      "faceLabelPositions": "[{\"x\":238.5,\"y\":312,\"width\":56,\"height\":20,\"id\":\"copy\",\"name\":\"抽出副本\",\"anchorX\":406.4,\"anchorY\":310},{\"x\":356.8,\"y\":315.6,\"width\":46,\"height\":20,\"id\":\"source\",\"name\":\"原位面\",\"anchorX\":402.8,\"anchorY\":337.6}]",
+      "facePixelSize": "{\"source\":{\"x\":130.2,\"y\":337.6,\"width\":272.6,\"height\":272.6},\"copy\":{\"x\":126.6,\"y\":30.2,\"width\":279.8,\"height\":279.8}}",
+      "hoveredId": "",
+      "inspectedId": "",
+      "liftAmount": "1.0000",
+      "liftedSliceVisible": "true",
+      "progress": "1.0000",
+      "roi": "-0.2388286939180007,1.245813485,-0.13780737,0.06384496,1.49139392,0.10883232000000001",
+      "route": "interscalene",
+      "selectedIds": "inferior-trunk",
+      "selectedNerve": "",
+      "sourceCoordinates": "unchanged",
+      "sourceIntersectionCount": "16",
+      "sourcePlaneVisible": "true",
+      "testid": "source-slice-canvas",
+      "view": "transverse",
+      "visibleSourceIds": "brachial-roots superior-trunk middle-trunk inferior-trunk superior-anterior-division superior-posterior-division middle-anterior-division middle-posterior-division inferior-anterior-division inferior-posterior-division posterior-cord long-thoracic-nerve dorsal-scapular-nerve anterior-scalene middle-scalene posterior-scalene sternocleidomastoid omohyoid longus-colli levator-scapulae common-carotid-artery internal-jugular-vein external-jugular-vein subclavian-artery subclavian-vein vertebral-artery vertebra-c4 vertebra-c5 vertebra-c6 vertebra-c7 vertebra-t1 first-rib clavicle manubrium median ulnar radial musculocutaneous axillary-nerve medial-brachial-cutaneous axillary-artery axillary-vein brachial-artery brachial-vein basilic-vein cephalic-vein deep-brachial-artery coracobrachialis biceps-long-head biceps-short-head triceps-lateral-head triceps-long-head triceps-medial-head brachialis pectoralis-major-abdominal pectoralis-major-clavicular pectoralis-major-sternocostal pectoralis-minor deltoid-acromial deltoid-clavicular deltoid-spinal subscapularis teres-major teres-minor serratus-anterior humerus scapula"
+    },
+    "axillary": {
+      "card": "当前选择 · 源模型肌皮神经Musculocutaneous nerve参考根源：C5–C7",
+      "images": [
+        {
+          "loaded": true,
+          "srcType": "data:image/png;base6"
+        },
+        {
+          "loaded": true,
+          "srcType": "data:image/png;base6"
+        },
+        {
+          "loaded": true,
+          "srcType": "data:image/jpeg;base"
+        },
+        {
+          "loaded": true,
+          "srcType": "data:image/jpeg;base"
+        }
+      ],
+      "scene": {
+        "cameraDistance": "0.271048",
+        "cameraPosition": "-0.240178,1.035195,0.001262",
+        "cameraTarget": "-0.170756,1.296869,0.014486",
+        "copyCarrierOpacity": "0.900",
+        "cutaway": "true",
+        "engine": "three.js r159",
+        "faceLabelPositions": "[{\"x\":216.5,\"y\":312,\"width\":56,\"height\":20,\"id\":\"copy\",\"name\":\"抽出副本\",\"anchorX\":364.5,\"anchorY\":310},{\"x\":315.8,\"y\":315.7,\"width\":46,\"height\":20,\"id\":\"source\",\"name\":\"原位面\",\"anchorX\":361.8,\"anchorY\":337.7}]",
+        "facePixelSize": "{\"source\":{\"x\":127.2,\"y\":337.7,\"width\":234.6,\"height\":273.7},\"copy\":{\"x\":124.5,\"y\":30.1,\"width\":239.9,\"height\":279.9}}",
+        "hoveredId": "",
+        "inspectedId": "",
+        "liftAmount": "1.0000",
+        "liftedSliceVisible": "true",
+        "progress": "1.0000",
+        "roi": "-0.2388286939180007,1.245813485,-0.13780737,0.06384496,1.49139392,0.10883232000000001",
+        "route": "axillary",
+        "selectedIds": "",
+        "selectedNerve": "musculocutaneous",
+        "sourceCoordinates": "unchanged",
+        "sourceIntersectionCount": "21",
+        "sourcePlaneVisible": "true",
+        "testid": "source-slice-canvas",
+        "view": "transverse",
+        "visibleSourceIds": "brachial-roots superior-trunk middle-trunk inferior-trunk superior-anterior-division superior-posterior-division middle-anterior-division middle-posterior-division inferior-anterior-division inferior-posterior-division posterior-cord long-thoracic-nerve dorsal-scapular-nerve anterior-scalene middle-scalene posterior-scalene sternocleidomastoid omohyoid longus-colli levator-scapulae common-carotid-artery internal-jugular-vein external-jugular-vein subclavian-artery subclavian-vein vertebral-artery vertebra-c4 vertebra-c5 vertebra-c6 vertebra-c7 vertebra-t1 first-rib clavicle manubrium median ulnar radial musculocutaneous axillary-nerve medial-brachial-cutaneous axillary-artery axillary-vein brachial-artery brachial-vein basilic-vein cephalic-vein deep-brachial-artery coracobrachialis biceps-long-head biceps-short-head triceps-lateral-head triceps-long-head triceps-medial-head brachialis pectoralis-major-abdominal pectoralis-major-clavicular pectoralis-major-sternocostal pectoralis-minor deltoid-acromial deltoid-clavicular deltoid-spinal subscapularis teres-major teres-minor serratus-anterior humerus scapula"
+      }
+    },
+    "errors": []
+  },
+  "boundary": "UI checks on local HTTP, including exact packaged single file. Not file protocol, physical iPad or clinical registration validation."
+}

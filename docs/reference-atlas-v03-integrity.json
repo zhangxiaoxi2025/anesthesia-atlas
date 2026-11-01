@@ -1,0 +1,26 @@
+{
+  "status": "PASS_REFERENCE_ATLAS_V03_SOURCE_INTEGRITY",
+  "images": [
+    {
+      "id": "han2014-orientation",
+      "path": "/reference-atlas/han2014/han2014-figure1-original.jpg",
+      "height": 461,
+      "width": 647,
+      "bytes": 51227,
+      "sha256": "43ff11bd7e776f642c0b82867de6c7c73a47d24a9c3c17f109ebb6d4185ead55",
+      "license": "CC-BY-NC-3.0"
+    },
+    {
+      "id": "han2014-vascular-variants",
+      "path": "/reference-atlas/han2014/han2014-figure4-original.jpg",
+      "height": 458,
+      "width": 683,
+      "bytes": 84179,
+      "sha256": "c8bb24732f83cecfb6cc38819abff6da5af8b225694ed047a3820908d420445f",
+      "license": "CC-BY-NC-3.0"
+    }
+  ],
+  "officialArticleSha256": "8d2f7c71a651f285745ab11f6a392648610ac103b32b841df98a337695cffbbe",
+  "externalReferences": 2,
+  "boundary": "Verifies the retained official source/license snapshot, original JPEG bytes/dimensions and link-only restricted references. Visual identity was separately checked with view_image. Does not certify clinical interpretation, patient-side/probe-marker orientation, same-patient registration or a native salute-pose 3D asset."
+}

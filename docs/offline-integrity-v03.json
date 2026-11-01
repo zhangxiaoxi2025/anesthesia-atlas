@@ -1,0 +1,49 @@
+{
+  "status": "PASS_OFFLINE_PACKAGE_INTEGRITY",
+  "structures": 47,
+  "bytes": 8823256,
+  "sha256": "fa238d647278f5b27a4555f75f46c19cc35fa1f041fb74b4e28635e752c7c083",
+  "externalScriptTags": 0,
+  "externalStylesheetTags": 0,
+  "embeddedMedia": 4,
+  "embeddedMediaExternalUrls": 0,
+  "media": [
+    {
+      "id": "position",
+      "path": "/ultrasound/axillary-position-vazin2016.png",
+      "width": 289,
+      "height": 225,
+      "bytes": 70571,
+      "sha256": "4c6ce08e0a0f2b7323b88cec636142de42033379a2fd8434fb7549195420bddb"
+    },
+    {
+      "id": "ultrasound",
+      "path": "/ultrasound/axillary-ultrasound-vazin2016.png",
+      "width": 372,
+      "height": 225,
+      "bytes": 67822,
+      "sha256": "cb36a22bd99f09ea6c4fa84e6f832ebb4a9c0e57f2473bbd675758dc53668d38"
+    },
+    {
+      "id": "han2014-orientation",
+      "path": "/reference-atlas/han2014/han2014-figure1-original.jpg",
+      "width": 647,
+      "height": 461,
+      "bytes": 51227,
+      "sha256": "43ff11bd7e776f642c0b82867de6c7c73a47d24a9c3c17f109ebb6d4185ead55"
+    },
+    {
+      "id": "han2014-vascular-variants",
+      "path": "/reference-atlas/han2014/han2014-figure4-original.jpg",
+      "width": 683,
+      "height": 458,
+      "bytes": 84179,
+      "sha256": "c8bb24732f83cecfb6cc38819abff6da5af8b225694ed047a3820908d420445f"
+    }
+  ],
+  "embeddedUltrasoundAttribution": true,
+  "embeddedReferenceAttribution": true,
+  "sourcePose": "original-neutral-unmodified",
+  "inlineSyntax": "PARSE_OK",
+  "boundary": "Static package integrity only. file:// browser runtime and physical iPad not verified. Clinical source images and original neutral atlas are different poses and datasets; no ultrasound-to-3D registration is claimed."
+}

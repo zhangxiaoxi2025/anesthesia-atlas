@@ -1,0 +1,12 @@
+{
+  "status": "PASS_EMBEDDED_DATA_IDENTICAL",
+  "compared": "entire parsed anatomy-data object",
+  "fromVersion": "0.4.2",
+  "toVersion": "0.4.3",
+  "originalModelArraysUnchanged": true,
+  "mediaAndAttributionAndLicensesUnchanged": true,
+  "oldBytes": 11921784,
+  "newBytes": 11938806,
+  "oldSha256": "be2624cee39b7b720b093663bf988e70ff0cb11e86e1ef47d2e4444a7112b5bd",
+  "newSha256": "ca8c0b162d63ee9a10c16ca502ae6103af65b5bde92e99e7cb16ba7d2db5e679"
+}

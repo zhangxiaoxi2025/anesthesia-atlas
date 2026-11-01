@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "status": "source-verified-local-noncommercial",
+  "reviewStatus": "figure-source-and-labels-checked-clinical-teaching-review-pending",
+  "items": [
+    {
+      "id": "han2014-orientation",
+      "title": "腋窝短轴方位参考 · Han 2014",
+      "type": "orientation-schematic",
+      "path": "/reference-atlas/han2014/han2014-figure1-original.jpg",
+      "width": 647,
+      "height": 461,
+      "figure": "Figure 1",
+      "description": "论文原图以腋动脉为中心，用十二等分圆盘说明记录方位；图上为前、图下为后，左为外侧、右为内侧。这是示意图，不是真实超声或人体横断标本。",
+      "source": {
+        "authors": "Han JH, Kim YJ, Kim JH, Kim DY, Lee GY, Kim CH",
+        "title": "Topographic pattern of the brachial plexus at the axillary fossa through real-time ultrasonography in Koreans",
+        "year": 2014,
+        "journal": "Korean Journal of Anesthesiology",
+        "volume": "67",
+        "issue": "5",
+        "pages": "310–316",
+        "doi": "10.4097/kjae.2014.67.5.310",
+        "pmcid": "PMC4252342",
+        "url": "https://ekja.org/journal/view.php?doi=10.4097/kjae.2014.67.5.310",
+        "retrievedDate": "2026-10-24",
+        "htmlPath": "/reference-atlas/han2014/source-article.html",
+        "htmlSha256": "8d2f7c71a651f285745ab11f6a392648610ac103b32b841df98a337695cffbbe",
+        "imageUrl": "https://ekja.org/upload//thumbnails/kjae-67-310-g001.jpg"
+      },
+      "license": {
+        "id": "CC-BY-NC-3.0",
+        "url": "https://creativecommons.org/licenses/by-nc/3.0/",
+        "verified": true,
+        "copyright": "Copyright © the Korean Society of Anesthesiologists, 2014",
+        "attribution": "Han JH et al. Korean J Anesthesiol. 2014;67(5):310–316. doi:10.4097/kjae.2014.67.5.310. Figures 1 and 4. © Korean Society of Anesthesiologists 2014. CC BY-NC 3.0. Source: official KJA article. Original figure files reproduced without pixel changes; no endorsement implied.",
+        "evidencePath": "/reference-atlas/han2014/license-evidence.json",
+        "evidenceHtmlPath": "/reference-atlas/han2014/source-article.html",
+        "useScope": "Non-commercial local learning and teaching under the stated license; commercial use is not granted by this license."
+      },
+      "orientationNote": "方位仅按本研究 Figure 1 及方法定义；不套用 Vazin 原图的头侧/尾侧，也不自动对应中立位三维坐标。",
+      "limitations": [
+        "图中没有描绘四条神经的实际位置，不能作为固定钟点排列或注药点。",
+        "它是二维方位示意，不是体位照片、真实超声、解剖标本或三维体数据。",
+        "研究方法为仰卧、肩外展90°并外旋、肘屈90°；未定义肩外旋角度为90°。",
+        "不代表与Vazin2016图、其他图谱或本工具三维完成同病例配准。"
+      ],
+      "sha256": "43ff11bd7e776f642c0b82867de6c7c73a47d24a9c3c17f109ebb6d4185ead55",
+      "bytes": 51227,
+      "mimeType": "image/jpeg",
+      "changes": "None. Exact bytes of the official full-figure JPEG; no crop, resize, mirroring, annotation or AI editing.",
+      "visualReview": {
+        "status": "reviewed-original-pixels",
+        "date": "2026-10-24",
+        "method": "view_image on downloaded official file",
+        "scope": "Figure identity and visible labels; does not establish patient-side or probe-marker registration."
+      }
+    },
+    {
+      "id": "han2014-vascular-variants",
+      "title": "真实超声中的血管变异 · Han 2014",
+      "type": "ultrasound-vascular-variation",
+      "path": "/reference-atlas/han2014/han2014-figure4-original.jpg",
+      "width": 683,
+      "height": 458,
+      "figure": "Figure 4",
+      "description": "原图A展示多条腋静脉，B展示双腋动脉；每行左侧为声像，右侧为原作者血管标注。AA为腋动脉，AV为腋静脉，用于理解个体血管排列可变。",
+      "source": {
+        "authors": "Han JH, Kim YJ, Kim JH, Kim DY, Lee GY, Kim CH",
+        "title": "Topographic pattern of the brachial plexus at the axillary fossa through real-time ultrasonography in Koreans",
+        "year": 2014,
+        "journal": "Korean Journal of Anesthesiology",
+        "volume": "67",
+        "issue": "5",
+        "pages": "310–316",
+        "doi": "10.4097/kjae.2014.67.5.310",
+        "pmcid": "PMC4252342",
+        "url": "https://ekja.org/journal/view.php?doi=10.4097/kjae.2014.67.5.310",
+        "retrievedDate": "2026-10-24",
+        "htmlPath": "/reference-atlas/han2014/source-article.html",
+        "htmlSha256": "8d2f7c71a651f285745ab11f6a392648610ac103b32b841df98a337695cffbbe",
+        "imageUrl": "https://ekja.org/upload//thumbnails/kjae-67-310-g004.jpg"
+      },
+      "license": {
+        "id": "CC-BY-NC-3.0",
+        "url": "https://creativecommons.org/licenses/by-nc/3.0/",
+        "verified": true,
+        "copyright": "Copyright © the Korean Society of Anesthesiologists, 2014",
+        "attribution": "Han JH et al. Korean J Anesthesiol. 2014;67(5):310–316. doi:10.4097/kjae.2014.67.5.310. Figures 1 and 4. © Korean Society of Anesthesiologists 2014. CC BY-NC 3.0. Source: official KJA article. Original figure files reproduced without pixel changes; no endorsement implied.",
+        "evidencePath": "/reference-atlas/han2014/license-evidence.json",
+        "evidenceHtmlPath": "/reference-atlas/han2014/source-article.html",
+        "useScope": "Non-commercial local learning and teaching under the stated license; commercial use is not granted by this license."
+      },
+      "orientationNote": "保留原图A/B、AA/AV、箭头和屏幕标记。图注未确认具体患者左右侧、物理探头标记端或与Figure 1以外资料的坐标配准，不补猜。",
+      "limitations": [
+        "这是两个血管变异示例，不是所有患者的典型排列或变异率图。",
+        "原图只明确标注AA/AV，没有四条神经的完整标注；不创建神经、针尖或注药热点。",
+        "静态图不含扫查、压力、彩色多普勒或可压缩性动态信息，不能单凭画面完成血管鉴别。",
+        "研究采集体位来自原文方法；不证明它与其他作者图片或通用三维为同一患者/同一解剖层面。",
+        "这是期刊公开JPEG，不是原始超声DICOM；放大不增加结构细节。"
+      ],
+      "sha256": "c8bb24732f83cecfb6cc38819abff6da5af8b225694ed047a3820908d420445f",
+      "bytes": 84179,
+      "mimeType": "image/jpeg",
+      "changes": "None. Exact bytes of the official full-figure JPEG; no crop, resize, mirroring, annotation or AI editing.",
+      "visualReview": {
+        "status": "reviewed-original-pixels",
+        "date": "2026-10-24",
+        "method": "view_image on downloaded official file",
+        "scope": "Figure identity and visible labels; does not establish patient-side or probe-marker registration."
+      }
+    }
+  ],
+  "externalReferences": [
+    {
+      "id": "nysora-axillary-reference",
+      "title": "NYSORA · Ultrasound-Guided Axillary Brachial Plexus Block",
+      "authors": "NYSORA; Catherine Vandepitte, Ana M. Lopez, Hassanin Jalil (related textbook chapter)",
+      "type": "official-article-external-only",
+      "url": "https://nysora.com/regional-anesthesia/techniques/upper-extremity/axillary/ultrasound-guided-axillary-brachial-plexus-block/",
+      "description": "查看现成腋路解剖横断面、真实超声及探头体位资料。图片仅链接原站，本工具未复制或内嵌这些受限素材。",
+      "images": [
+        {
+          "figure": "Figure 1",
+          "title": "腋窝解剖横断面与终末神经超声对照",
+          "url": "https://www.nysora.com/wp-content/uploads/2018/09/regional-anesthesia-cross-sectional-anatomy-of-the-axillary-fossa-and-ultrasound-image-of-the-terminal-nerves-of-brachial-plexus-1030x333-2.jpg"
+        },
+        {
+          "figure": "Figure 4",
+          "title": "体位与探头放置局部照片",
+          "url": "https://www.nysora.com/wp-content/uploads/2018/09/regional-anesthesia-patient-position-and-needle-insertion-for-ultrasound-guided-axillary-brachial-plexus-block-1030x561-1.jpg"
+        }
+      ],
+      "usage": "External links only; no local image copy, embedded image or proxy. No open license confirmed for redistribution in this tool.",
+      "limitations": [
+        "原页允许观看不等于获得软件再分发授权。",
+        "未确认标本来源、完整90/90角度或超声/横断面同病例配准。"
+      ]
+    },
+    {
+      "id": "hadzic-chapter-32e",
+      "title": "Hadzic's Textbook of Regional Anesthesia and Acute Pain Management, 2e · Chapter 32E",
+      "authors": "Catherine Vandepitte, Ana M. Lopez, Hassanin Jalil",
+      "type": "publisher-chapter-external-only",
+      "url": "https://accessanesthesiology.mhmedical.com/content.aspx?bookid=2070&sectionid=157602228",
+      "figures": [
+        "Figure 32E–2: cross-sectional anatomy and ultrasound",
+        "Figure 32E–3: common arrangements and variants"
+      ],
+      "description": "正式教材章节与图号，属于与NYSORA相近的教学图源体系，不作为独立病例验证。",
+      "usage": "Publisher link only; McGraw Hill rights reserved. No book figures downloaded or embedded.",
+      "limitations": [
+        "出版社访问可能需要机构订阅或人工验证。",
+        "章节和图号可查不等于取得图片复用许可。"
+      ]
+    }
+  ],
+  "notes": [
+    "Han2014素材按CC BY-NC3.0用于非商业本地学习教学；其他模型/照片的许可证各自保留，不能把本许可套给NYSORA或教材图。",
+    "这些是来源准确的二维参考资料，不是已找到原生敬礼位自由旋转三维模型；不以自行变形填补该缺口。"
+  ]
+}

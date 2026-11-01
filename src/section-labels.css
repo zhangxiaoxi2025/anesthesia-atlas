@@ -1,0 +1,40 @@
+.sl-wrapper{container-type:inline-size;width:100%;min-width:0;color:#344b46}
+.sl-summary,.sl-index-heading{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:12px;padding:3px 0 7px}
+.sl-summary strong,.sl-index-heading strong{font-size:13px;color:#244c42}.sl-summary span,.sl-index-heading span{font-size:11px;color:#697e74}
+.sl-diagram-scroll{width:100%;max-width:100%;overflow-x:auto;overscroll-behavior-x:contain;border:1px solid #dce2d4;border-radius:8px;background:#fafbf5;scrollbar-width:thin}
+.sl-diagram{display:block;width:100%;min-width:560px;height:auto;max-width:none}
+.sl-plot{fill:#f4f5ec;stroke:#ccd7c7;stroke-width:1}
+.sl-direction{font-family:inherit;font-size:11px;fill:#5f766d}
+.sl-source-contour{fill:none;stroke-width:1.3;opacity:.78;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke;pointer-events:none}
+.sl-contour-group{cursor:pointer;outline:none}
+.sl-hit-contour{fill:none;stroke:transparent;stroke-width:13;pointer-events:stroke;vector-effect:non-scaling-stroke}
+.sl-contour-group.sl-active .sl-source-contour,.sl-contour-group:focus-visible .sl-source-contour{stroke-width:2.8;opacity:1}
+.sl-contour-group:focus-visible .sl-source-contour{filter:drop-shadow(0 0 2px #174e3f)}
+.sl-leaders{pointer-events:none}.sl-leaders path{fill:none;stroke-width:.7;opacity:.48;vector-effect:non-scaling-stroke}.sl-leaders circle{stroke:none;opacity:.8}
+.sl-leaders .sl-active path{stroke-width:1.7;opacity:.95}.sl-leaders .sl-active circle{opacity:1}
+.sl-label{cursor:pointer}.sl-label rect{fill:#fafbf5;stroke:#dce3d5;stroke-width:.7}
+.sl-label.sl-active rect,.sl-label:hover rect{fill:#edf4e8;stroke:#557d68;stroke-width:1.2}
+.sl-label.sl-bone-reference rect{fill:#e7f3ed;stroke:#4f967d;stroke-width:1.2}
+.sl-contour-group.sl-bone-reference .sl-source-contour{stroke:#36836a;stroke-width:2;opacity:.95}
+.sl-index button.sl-bone-reference{border-color:#72a88e;background:#edf6f0}
+.sl-label.sl-bone-reference.sl-active rect{fill:#d7eadf;stroke:#285e46;stroke-width:2}
+.sl-contour-group.sl-bone-reference.sl-active .sl-source-contour{stroke:#245e46;stroke-width:2.8;opacity:1}
+.sl-label-name{font-family:inherit;font-size:12.5px;fill:#274b41;font-weight:550}
+.sl-label-number{font-family:inherit;font-size:10px;fill:#172d29;font-weight:750}
+.sl-current-badge,.sl-index-number{display:inline-grid;place-items:center;flex:0 0 auto;width:21px;height:21px;border-radius:50%;font-weight:700;font-size:11px;color:#17322b;background:#e1ead8}
+.sl-active-description{display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin:8px 0 11px;min-height:24px;font-size:12px;line-height:1.6}
+.sl-active-description strong{font-size:13px;font-weight:600}.sl-active-description>span:last-child{color:#687e72}
+.sl-index{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px;max-height:242px;overflow-y:auto;overscroll-behavior-y:contain;padding:1px 4px 3px 1px;scrollbar-width:thin}
+.sl-index button{appearance:none;display:flex;align-items:center;gap:7px;width:100%;min-width:0;text-align:left;padding:6px 7px;border:1px solid #e0e5da;border-radius:6px;background:#fbfcf7;color:#3e554a;font-family:inherit;cursor:pointer;min-height:45px}
+.sl-index button:hover,.sl-index button.sl-index-active{background:#edf4e8;border-color:#7b9a83}
+.sl-index button:focus-visible{outline:2px solid #245f4d;outline-offset:1px}
+.sl-index button>span:last-child{min-width:0}.sl-index strong{display:block;font-size:12px;font-weight:550;line-height:1.45;overflow-wrap:anywhere}
+.sl-index small{display:block;font-size:11px;color:#748475;line-height:1.4;margin-top:2px}
+.sl-footnote,.sl-empty{font-size:11px;line-height:1.7;color:#748174;margin:9px 0 0}
+.sl-scroll-hint{display:none;font-size:11px;line-height:1.5;color:#6d7f72;margin:0 0 7px}
+.sl-expanded .sl-diagram{max-width:980px;margin:auto}.sl-expanded .sl-index{max-height:none;grid-template-columns:repeat(3,minmax(0,1fr))}
+.sl-expanded .sl-index strong{font-size:13px}.sl-expanded .sl-footnote{font-size:12px}
+@container(max-width:559px){.sl-scroll-hint{display:block}.sl-index strong{font-size:12px}.sl-footnote{font-size:12px}}
+@container(max-width:399px){.sl-summary{align-items:flex-start;flex-wrap:wrap}.sl-index{grid-template-columns:1fr;max-height:270px}.sl-index strong{font-size:13px}.sl-index-heading{flex-wrap:wrap}.sl-index button{min-height:45px}}
+@media(prefers-reduced-motion:reduce){.sl-wrapper *{scroll-behavior:auto}}
+

@@ -1,0 +1,377 @@
+{
+  "file": "/Users/emma/Downloads/01外周神经阻滞与超声介入解剖（第3版）2023年.pdf",
+  "bytes": 98464249,
+  "sha256": "07fc17f47409ee192f8ee65c316098514cc321c4f5a6a30cdfc865ca1d065234",
+  "pages": 384,
+  "encrypted": false,
+  "first18TextPages": 0,
+  "outline": [
+    {
+      "title": "封面",
+      "pdfPage": 1,
+      "level": 0
+    },
+    {
+      "title": "书名",
+      "pdfPage": 2,
+      "level": 0
+    },
+    {
+      "title": "版权",
+      "pdfPage": 3,
+      "level": 0
+    },
+    {
+      "title": "前言",
+      "pdfPage": 4,
+      "level": 0
+    },
+    {
+      "title": "目录",
+      "pdfPage": 18,
+      "level": 0
+    },
+    {
+      "title": "第一部分  基础篇",
+      "pdfPage": 21,
+      "level": 0
+    },
+    {
+      "title": "第1章  区域麻醉的功能解剖学",
+      "pdfPage": 21,
+      "level": 1
+    },
+    {
+      "title": "第2章  局部麻醉药：临床药理学和合理选择",
+      "pdfPage": 43,
+      "level": 1
+    },
+    {
+      "title": "第3章  外周神经阻滞相关器材",
+      "pdfPage": 57,
+      "level": 1
+    },
+    {
+      "title": "第4章  神经电刺激仪",
+      "pdfPage": 65,
+      "level": 1
+    },
+    {
+      "title": "第5章  优化超声图像",
+      "pdfPage": 75,
+      "level": 1
+    },
+    {
+      "title": "第6章  区域麻醉中的监测和记录",
+      "pdfPage": 83,
+      "level": 1
+    },
+    {
+      "title": "第7章  外周神经阻滞的适应证",
+      "pdfPage": 95,
+      "level": 1
+    },
+    {
+      "title": "第8章  连续外周神经阻滞",
+      "pdfPage": 105,
+      "level": 1
+    },
+    {
+      "title": "第9章  局部麻醉药全身毒性和过敏反应",
+      "pdfPage": 111,
+      "level": 1
+    },
+    {
+      "title": "第10章  外周神经阻滞的神经系统并发症",
+      "pdfPage": 121,
+      "level": 1
+    },
+    {
+      "title": "第11章  区域麻醉的准备以及围手术期管理",
+      "pdfPage": 127,
+      "level": 1
+    },
+    {
+      "title": "第二部分  头颈阻滞",
+      "pdfPage": 135,
+      "level": 0
+    },
+    {
+      "title": "第12章  颈丛阻滞",
+      "pdfPage": 135,
+      "level": 1
+    },
+    {
+      "title": "第三部分  上肢阻滞",
+      "pdfPage": 147,
+      "level": 0
+    },
+    {
+      "title": "第13章  肌间沟臂丛阻滞",
+      "pdfPage": 147,
+      "level": 1
+    },
+    {
+      "title": "第14章  锁骨上臂丛阻滞",
+      "pdfPage": 157,
+      "level": 1
+    },
+    {
+      "title": "第15章  锁骨下臂丛阻滞",
+      "pdfPage": 163,
+      "level": 1
+    },
+    {
+      "title": "第16章  肋锁间隙臂丛阻滞",
+      "pdfPage": 171,
+      "level": 1
+    },
+    {
+      "title": "第17章  腋路臂丛阻滞",
+      "pdfPage": 177,
+      "level": 1
+    },
+    {
+      "title": "第18章  用于肩部镇痛的神经阻滞：保留膈神经的神经阻滞",
+      "pdfPage": 185,
+      "level": 1
+    },
+    {
+      "title": "第19章  肘部神经阻滞",
+      "pdfPage": 195,
+      "level": 1
+    },
+    {
+      "title": "第20章  腕部神经阻滞",
+      "pdfPage": 205,
+      "level": 1
+    },
+    {
+      "title": "第四部分  下肢阻滞",
+      "pdfPage": 217,
+      "level": 0
+    },
+    {
+      "title": "第21章  腰丛阻滞",
+      "pdfPage": 217,
+      "level": 1
+    },
+    {
+      "title": "第22章  髂筋膜阻滞",
+      "pdfPage": 227,
+      "level": 1
+    },
+    {
+      "title": "第23章  髋部镇痛阻滞",
+      "pdfPage": 235,
+      "level": 1
+    },
+    {
+      "title": "第24章  股神经阻滞",
+      "pdfPage": 243,
+      "level": 1
+    },
+    {
+      "title": "第25章  缝匠肌平面神经阻滞：隐神经、收肌管和股三角阻滞",
+      "pdfPage": 251,
+      "level": 1
+    },
+    {
+      "title": "第26章  股外侧皮神经阻滞",
+      "pdfPage": 261,
+      "level": 1
+    },
+    {
+      "title": "第27章  闭孔神经阻滞",
+      "pdfPage": 267,
+      "level": 1
+    },
+    {
+      "title": "第28章  近端坐骨神经阻滞",
+      "pdfPage": 277,
+      "level": 1
+    },
+    {
+      "title": "第29章  腘窝坐骨神经阻滞",
+      "pdfPage": 287,
+      "level": 1
+    },
+    {
+      "title": "第30章  膝部神经阻滞",
+      "pdfPage": 295,
+      "level": 1
+    },
+    {
+      "title": "第31章  腘动脉与膝关节后囊间隙（iPACK）阻滞",
+      "pdfPage": 301,
+      "level": 1
+    },
+    {
+      "title": "第32章  踝部阻滞",
+      "pdfPage": 307,
+      "level": 1
+    },
+    {
+      "title": "第五部分  躯干和腹壁阻滞",
+      "pdfPage": 319,
+      "level": 0
+    },
+    {
+      "title": "第33章  肋间神经阻滞",
+      "pdfPage": 319,
+      "level": 1
+    },
+    {
+      "title": "第34章  胸神经阻滞",
+      "pdfPage": 327,
+      "level": 1
+    },
+    {
+      "title": "第35章  前锯肌平面阻滞",
+      "pdfPage": 335,
+      "level": 1
+    },
+    {
+      "title": "第36章  胸椎旁阻滞",
+      "pdfPage": 341,
+      "level": 1
+    },
+    {
+      "title": "第37章  竖脊肌平面阻滞",
+      "pdfPage": 351,
+      "level": 1
+    },
+    {
+      "title": "第38章  腹横肌平面阻滞",
+      "pdfPage": 359,
+      "level": 1
+    },
+    {
+      "title": "第39章  腹直肌鞘阻滞",
+      "pdfPage": 369,
+      "level": 1
+    },
+    {
+      "title": "第40章  腰方肌阻滞",
+      "pdfPage": 375,
+      "level": 1
+    },
+    {
+      "title": "封底",
+      "pdfPage": 383,
+      "level": 0
+    }
+  ],
+  "intakeDate": "2026-10-29",
+  "titleVerified": "外周神经阻滞与超声介入解剖（第3版）",
+  "publisherVerified": "北京大学医学出版社",
+  "chinesePublication": "2023-04",
+  "chineseISBN": "9787565928543",
+  "translators": [
+    "李泉",
+    "陈志霞"
+  ],
+  "originalTitle": "Hadzic’s Peripheral Nerve Blocks and Anatomy for Ultrasound-Guided Regional Anesthesia",
+  "originalPrintISBN": "9780071838931",
+  "originalCopyrightYear": 2022,
+  "sourceAccess": "user-provided local PDF; read-only inspection",
+  "inspectionLevel": "copyright, contents and selected figure pages only; not full-book or full-chapter review",
+  "visualPagesRoot": [
+    3,
+    18,
+    21,
+    152
+  ],
+  "visualPagesIndependentAgent": [
+    147,
+    148,
+    149,
+    150,
+    151,
+    152
+  ],
+  "selectedFigures": [
+    {
+      "pdfPage": 148,
+      "printedPage": 130,
+      "figure": "13-2",
+      "kind": "anatomical drawing",
+      "use": "root-trunk-division-cord relationships"
+    },
+    {
+      "pdfPage": 149,
+      "printedPage": 131,
+      "figure": "13-3",
+      "kind": "dissection photograph",
+      "use": "named trunks and neighbouring structures; not all roots individually labelled"
+    },
+    {
+      "pdfPage": 149,
+      "printedPage": 131,
+      "figure": "13-4",
+      "kind": "anatomical cross-section drawing",
+      "use": "C6-level relationships"
+    },
+    {
+      "pdfPage": 152,
+      "printedPage": 134,
+      "figure": "13-8",
+      "kind": "ultrasound and transducer-position photograph",
+      "use": "C5/C6/C7 and neighbouring source labels"
+    },
+    {
+      "pdfPage": 152,
+      "printedPage": 134,
+      "figure": "13-9",
+      "kind": "mirror ultrasound anatomy illustration",
+      "use": "structural explanation; distinct from true ultrasound"
+    }
+  ],
+  "priorityChapters": [
+    {
+      "chapter": 1,
+      "title": "区域麻醉的功能解剖学",
+      "pdfRange": [
+        21,
+        42
+      ],
+      "printedRange": [
+        3,
+        24
+      ],
+      "status": "contents and opening page verified"
+    },
+    {
+      "chapter": 13,
+      "title": "肌间沟臂丛阻滞",
+      "pdfRange": [
+        147,
+        156
+      ],
+      "printedRange": [
+        129,
+        138
+      ],
+      "status": "pages147-152 visually reviewed; rest not yet read"
+    },
+    {
+      "chapter": 17,
+      "title": "腋路臂丛阻滞",
+      "pdfRange": [
+        177,
+        184
+      ],
+      "printedRange": [
+        159,
+        166
+      ],
+      "status": "contents and bookmarks only; chapter not yet reviewed"
+    }
+  ],
+  "gray2Status": "user reports found; file not yet provided; official Elsevier TOC verified for 2nd edition",
+  "productChanges": false,
+  "bookImagesCopiedIntoProduct": false,
+  "reusePermission": "not established for redistribution; reading source only",
+  "temporaryImages": "tmp/pdfs/hadzic-cn-intake and tmp/pdfs/hadzic-cn-clinical; exclude from public assets and distribution packages",
+  "clinicalIdentityBoundary": "does not assign C5-T1 identity to current source mesh; existing candidate remains unconfirmed/unreviewed"
+}

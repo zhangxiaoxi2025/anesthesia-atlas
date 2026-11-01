@@ -1,0 +1,221 @@
+/**
+ * Fixed reference-pose reconstruction, not a validated biomechanical rig.
+ * Source assets remain immutable. All soft tissues use the SAME spatial field.
+ * Shoulder girdle rhythm, tissue sliding and individual variation are not solved.
+ */
+const EPS = 1e-12;
+const add = (a, b) => a.map((x, i) => x + b[i]);
+const sub = (a, b) => a.map((x, i) => x - b[i]);
+const mul = (a, s) => a.map(x => x * s);
+const dot = (a, b) => a.reduce((s, x, i) => s + x * b[i], 0);
+const cross = (a, b) => [a[1] * b[2] - a[2] * b[1], a[2] * b[0] - a[0] * b[2], a[0] * b[1] - a[1] * b[0]];
+const norm = a => Math.hypot(...a);
+const unit = a => { const n = norm(a); if (n < EPS) throw new Error('Degenerate pose axis'); return mul(a, 1 / n); };
+const clamp = (x, lo = 0, hi = 1) => Math.min(hi, Math.max(lo, x));
+const smooth = (lo, hi, x) => { const t = clamp((x - lo) / (hi - lo)); return t * t * (3 - 2 * t); };
+const reject = (a, n) => sub(a, mul(n, dot(a, n)));
+
+// Mesh-derived geometric anchors, in source meters. Shoulder is a least-squares
+// fit to a proximal humeral-head subset; elbow is a distal end-band centroid;
+// wrist is the mean of radius/ulna distal end-band centroids. These are NOT
+// patient-measured joint centers. Methods and residuals are in docs/pose-audit.md.
+export const POSE_SOURCE_LANDMARKS = Object.freeze({
+  shoulder: Object.freeze([-0.16778086, 1.38272440, -0.02636277]),
+  elbow: Object.freeze([-0.21916471, 1.10667315, -0.03619230]),
+  wrist: Object.freeze([-0.259179635, 0.866903475, 0.014406455]),
+});
+const S = POSE_SOURCE_LANDMARKS.shoulder, E = POSE_SOURCE_LANDMARKS.elbow, W = POSE_SOURCE_LANDMARKS.wrist;
+const upper = unit(sub(E, S)), forearm = unit(sub(W, E)), targetUpper = [-1, 0, 0];
+const shoulderAxis = unit(cross(upper, targetUpper));
+const shoulderAngle = Math.acos(clamp(dot(upper, targetUpper), -1, 1));
+const bendDirection = unit(reject([0, 0, 1], forearm));
+const elbowAxis = unit(cross(forearm, bendDirection));
+const elbowBisector = unit(add(forearm, bendDirection));
+const elbowAngle = Math.PI / 2, externalAngle = Math.PI / 2;
+
+function rotate(point, pivot, axis, angle) {
+  const r = sub(point, pivot), c = Math.cos(angle), s = Math.sin(angle);
+  return add(pivot, add(add(mul(r, c), mul(cross(axis, r), s)), mul(axis, dot(axis, r) * (1 - c))));
+}
+// The swept distal half-space alone would also catch the anterior chest.
+// Smooth proximal/medial support confines the same field to the elbow/forearm
+// region while retaining the complete distal swept arc.
+const elbowWeight = p => smooth(-0.035, 0.035, dot(sub(p, E), elbowBisector))
+  * (1 - smooth(E[1] + 0.055, E[1] + 0.115, p[1]))
+  * (1 - smooth(E[0] + 0.055, E[0] + 0.115, p[0]));
+const shoulderWeight = p => 1 - smooth(S[0] + 0.003, S[0] + 0.093, p[0]);
+
+/** Integrate a smooth rotational velocity field; unlike position blending,
+ * this composes a continuous flow across a transition instead of disjoining
+ * per-object transforms. RK4 is a numerical approximation; the audit samples
+ * its local Jacobian and deformation, and does not claim clinical validity. */
+function rotationFlow(point, pivot, axis, angle, weight) {
+  if (weight(point) < EPS) return point.slice();
+  // Most limb vertices remain inside the rigid part of the support throughout
+  // the entire arc. The exact rotation avoids unnecessary integration there.
+  if ([0, 0.25, 0.5, 0.75, 1].every(t => weight(rotate(point, pivot, axis, angle * t)) > 1 - EPS)) {
+    return rotate(point, pivot, axis, angle);
+  }
+  const steps = 20, dt = angle / steps;
+  const velocity = p => mul(cross(axis, sub(p, pivot)), weight(p));
+  let p = point.slice();
+  for (let i = 0; i < steps; i++) {
+    const k1 = velocity(p), k2 = velocity(add(p, mul(k1, dt / 2)));
+    const k3 = velocity(add(p, mul(k2, dt / 2))), k4 = velocity(add(p, mul(k3, dt)));
+    p = p.map((x, d) => x + dt * (k1[d] + 2 * k2[d] + 2 * k3[d] + k4[d]) / 6);
+  }
+  return p;
+}
+
+function softPoint(point) {
+  let p = rotationFlow(point, E, elbowAxis, elbowAngle, elbowWeight);
+  p = rotationFlow(p, S, shoulderAxis, shoulderAngle, shoulderWeight);
+  // This roll weight depends on axial distance only, which is invariant under
+  // rotation around targetUpper. It is one common twist for ALL soft tissues.
+  const roll = smooth(-0.015, 0.065, dot(sub(p, S), targetUpper));
+  return rotate(p, S, targetUpper, externalAngle * roll);
+}
+function rigidArmPoint(point, distal) {
+  let p = distal ? rotate(point, E, elbowAxis, elbowAngle) : point.slice();
+  p = rotate(p, S, shoulderAxis, shoulderAngle);
+  return rotate(p, S, targetUpper, externalAngle);
+}
+
+/** Exposed for numerical audit and non-mesh annotations. Bone IDs receive the
+ * rigid segment transform; every nerve/vessel/muscle/surface uses softPoint. */
+export function transformPosePoint(point, pose = 'salute', structureId) {
+  if (pose !== 'neutral' && pose !== 'salute') throw new Error('Only fixed neutral/salute poses are supported');
+  if (pose === 'neutral') return point.slice();
+  if (structureId === 'humerus') return rigidArmPoint(point, false);
+  if (structureId === 'radius' || structureId === 'ulna') return rigidArmPoint(point, true);
+  if (structureId === 'scapula' || structureId === 'clavicle') return point.slice();
+  return softPoint(point);
+}
+function boundsOf(positions) {
+  const min = [Infinity, Infinity, Infinity], max = [-Infinity, -Infinity, -Infinity];
+  positions.forEach((x, i) => { const d = i % 3; min[d] = Math.min(min[d], x); max[d] = Math.max(max[d], x); });
+  return { min, max };
+}
+const origins = new WeakMap(), caches = new WeakMap();
+
+export function poseAnatomy(anatomy, pose = 'neutral') {
+  if (!anatomy?.structures?.length) throw new Error('poseAnatomy requires loaded source geometry');
+  if (pose !== 'neutral' && pose !== 'salute') throw new Error('Only fixed neutral/salute poses are supported');
+  const source = origins.get(anatomy) || anatomy;
+  if (caches.get(source)?.has(pose)) return caches.get(source).get(pose);
+  const start = typeof performance !== 'undefined' ? performance.now() : Date.now();
+  const structures = source.structures.map(s => {
+    const input = s.geometry.positions, positions = new Array(input.length);
+    for (let i = 0; i < input.length; i += 3) {
+      const p = transformPosePoint([input[i], input[i + 1], input[i + 2]], pose, s.kind === 'bone' ? s.id : undefined);
+      positions[i] = p[0]; positions[i + 1] = p[1]; positions[i + 2] = p[2];
+    }
+    const geometry = { ...s.geometry, positions, indices: Array.from(s.geometry.indices || []) };
+    if (pose === 'salute') delete geometry.normals; // Recompute against deformed surfaces in the viewer.
+    else if (s.geometry.normals) geometry.normals = Array.from(s.geometry.normals);
+    return { ...s, geometry, bounds: boundsOf(positions), sourceBounds: s.bounds,
+      sourceGeometrySha256: s.sha256,
+      poseAdaptation: pose === 'salute' ? 'fixed-reference-teaching-reconstruction-unvalidated' : 'source-neutral' };
+  });
+  const shoulder = S.slice(), elbow = transformPosePoint(E, pose, 'humerus');
+  const wrist = transformPosePoint(W, pose, 'radius');
+  const posed = { ...source, structures,
+    poseMetadata: { pose,
+      label: pose === 'salute' ? '参考敬礼位 · 教学重建' : '源模型参考中立位',
+      reviewStatus: 'not-clinically-reviewed', sourcePosePreserved: true,
+      shoulder, elbow, wrist, sourceLandmarks: POSE_SOURCE_LANDMARKS,
+      engineeringParameters: { shoulderAlignmentDegrees: shoulderAngle * 180 / Math.PI,
+        externalRotationDegrees: 90, elbowFlexionDegrees: 90,
+        note: 'Fixed engineering construction parameters, not patient positioning instructions or measured clinical joint angles.' },
+      method: 'common smooth rotational flow for every soft tissue; rigid source bone segments; no source asset mutation',
+      limitations: ['Teaching reconstruction awaiting clinical review; no patient-specific ultrasound registration.',
+        'Shoulder girdle/scapulohumeral rhythm, soft tissue sliding, fascia and tissue mechanics are not validated.',
+        'Smooth deformation does not establish correct nerve/vessel course in the procedural position.',
+        'Source gaps and limited proximal musculocutaneous geometry remain; no generated nerve connections.'],
+    },
+  };
+  origins.set(posed, source);
+  const referencePlane = getProbeFrame(posed, { station: 0.64 });
+  posed.poseMetadata.referencePlane = referencePlane;
+  posed.focus = { ...source.focus, target: referencePlane.center,
+    camera: add(referencePlane.center, pose === 'salute' ? [0.13, 0.20, 0.40] : [-0.23, 0.14, 0.40]),
+    sliceY: referencePlane.sourceY };
+  posed.poseMetadata.computeMilliseconds = (typeof performance !== 'undefined' ? performance.now() : Date.now()) - start;
+  if (!caches.has(source)) caches.set(source, new Map());
+  caches.get(source).set(pose, posed);
+  return posed;
+}
+
+function sectionCenter(geometry, y) {
+  const p = geometry.positions, ix = geometry.indices;
+  const min = [Infinity, y, Infinity], max = [-Infinity, y, -Infinity];
+  let count = 0;
+  const edge = (a, b) => {
+    const ay = p[a * 3 + 1], by = p[b * 3 + 1];
+    if (!((ay < y && y <= by) || (by < y && y <= ay))) return;
+    const t = (y - ay) / (by - ay);
+    for (const d of [0, 2]) { const value = p[a * 3 + d] + t * (p[b * 3 + d] - p[a * 3 + d]);
+      min[d] = Math.min(min[d], value); max[d] = Math.max(max[d], value); }
+    count++;
+  };
+  for (let i = 0; i < ix.length; i += 3) { edge(ix[i], ix[i + 1]); edge(ix[i + 1], ix[i + 2]); edge(ix[i + 2], ix[i]); }
+  return count ? min.map((x, d) => (x + max[d]) / 2) : null;
+}
+function sourceVesselCenter(source, y) {
+  for (const id of ['brachial-artery', 'axillary-artery']) {
+    const structure = source.structures.find(s => s.id === id);
+    const center = structure && sectionCenter(structure.geometry, y);
+    if (center) return { center, id, name: structure.name };
+  }
+  throw new Error('No source arterial intersection at requested station');
+}
+function surfaceRay(source, origin, direction) {
+  const mesh = source.structures.find(s => s.kind === 'skin');
+  if (!mesh) return null;
+  const p = mesh.geometry.positions, ix = mesh.geometry.indices;
+  let nearest = Infinity;
+  for (let i = 0; i < ix.length; i += 3) {
+    const a = p.slice(ix[i] * 3, ix[i] * 3 + 3), b = p.slice(ix[i + 1] * 3, ix[i + 1] * 3 + 3), c = p.slice(ix[i + 2] * 3, ix[i + 2] * 3 + 3);
+    const e1 = sub(b, a), e2 = sub(c, a), h = cross(direction, e2), det = dot(e1, h);
+    if (Math.abs(det) < 1e-10) continue;
+    const inv = 1 / det, tvec = sub(origin, a), u = inv * dot(tvec, h);
+    if (u < 0 || u > 1) continue;
+    const q = cross(tvec, e1), v = inv * dot(direction, q);
+    if (v < 0 || u + v > 1) continue;
+    const t = inv * dot(e2, q);
+    if (t > 0.003 && t < 0.09 && t < nearest) nearest = t;
+  }
+  return Number.isFinite(nearest) ? add(origin, mul(direction, nearest)) : null;
+}
+
+/** Probe coordinates: station 0 proximal -> 1 distal; u screen horizontal,
+ * v depth away from the probe, n proximal-to-distal local arterial long axis.
+ * This is an oblique geometric reference plane, NOT ultrasound image synthesis
+ * or same-patient image registration. width/depth/footprint are in meters. */
+export function getProbeFrame(posedAnatomy, { station = 0.64 } = {}) {
+  const source = origins.get(posedAnatomy) || posedAnatomy;
+  const pose = posedAnatomy.poseMetadata?.pose || 'neutral';
+  if (pose === 'salute' && !origins.has(posedAnatomy)) throw new Error('Use getProbeFrame on a live poseAnatomy result');
+  station = clamp(Number.isFinite(station) ? station : 0.64);
+  const sourceY = 1.34 - station * 0.07;
+  const vessel = sourceVesselCenter(source, sourceY);
+  const map = p => transformPosePoint(p, pose);
+  const center = map(vessel.center);
+  const proximal = map(sourceVesselCenter(source, sourceY + 0.002).center);
+  const distal = map(sourceVesselCenter(source, sourceY - 0.002).center);
+  const n = unit(sub(distal, proximal));
+  const outwardSource = unit(reject([1, 0, 0], upper));
+  const actualSurface = surfaceRay(source, vessel.center, outwardSource);
+  const sourceSkin = actualSurface || add(vessel.center, mul(outwardSource, 0.04));
+  const skinCenter = map(sourceSkin);
+  const v = unit(reject(sub(center, skinCenter), n));
+  const u = unit(cross(v, n));
+  const footprint = { center: skinCenter, start: add(skinCenter, mul(u, -0.07)),
+    end: add(skinCenter, mul(u, 0.07)), width: 0.14 };
+  return { center, u, v, n, width: 0.14, depth: 0.12, skinCenter, footprint,
+    sourceY, station, sourceVesselId: vessel.id, sourceVesselName: vessel.name,
+    surfaceStatus: actualSurface ? 'mapped-source-surface-ray-intersection' : 'estimated-reference-surface-offset',
+    label: '近端上臂局部短轴参考平面',
+    registrationStatus: 'geometry-only-no-patient-ultrasound-registration',
+  };
+}

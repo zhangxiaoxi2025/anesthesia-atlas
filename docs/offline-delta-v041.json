@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-26",
+  "status": "PASS_UNCHANGED_SOURCE_ASSETS",
+  "previousOfflineSha256": "d8bce0d0756e239c8bc8869d993d53ce08a3d578e58edd9719ae600c4fee7381",
+  "currentOfflineSha256": "50c6fcaa53bad88dab55ad4c499efc795bddf3a4261bc29aca7ddfce81a8ee9c",
+  "axillaryRecordsUnchanged": 47,
+  "neckRecordsUnchanged": 35,
+  "mediaBytesUnchanged": 5,
+  "attributionLicenseEvidenceUnchanged": {
+    "embeddedUltrasoundAttribution": true,
+    "embeddedReferenceAttribution": true,
+    "embeddedReferenceEvidence": true,
+    "embeddedInterscaleneAttribution": true,
+    "embeddedInterscaleneLicenses": true,
+    "embeddedInterscaleneUltrasoundAttribution": true,
+    "embeddedInterscaleneUltrasoundEvidence": true,
+    "embeddedAttribution": true,
+    "embeddedLicense": true
+  },
+  "boundary": "Only the UI/code changed. Source identity and array equality do not constitute clinical certification."
+}

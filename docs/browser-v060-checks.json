@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-30",
+  "environment": "IAB local HTTP desktop and simulated390x844",
+  "neck": {
+    "active": "c7",
+    "canvas": {
+      "engine": "three.js r159",
+      "liftedSliceVisible": "false",
+      "progress": "1.0000",
+      "roi": "-0.2388286939180007,1.245813485,-0.13780737,0.06384496,1.49139392,0.10883232000000001",
+      "route": "interscalene",
+      "selectedIds": "middle-trunk",
+      "selectedNerve": "",
+      "sourceCoordinates": "unchanged",
+      "sourcePlaneVisible": "true",
+      "testid": "source-slice-canvas",
+      "view": "transverse",
+      "visibleSourceIds": "brachial-roots superior-trunk middle-trunk inferior-trunk superior-anterior-division superior-posterior-division middle-anterior-division middle-posterior-division inferior-anterior-division inferior-posterior-division posterior-cord long-thoracic-nerve dorsal-scapular-nerve anterior-scalene middle-scalene posterior-scalene sternocleidomastoid omohyoid longus-colli levator-scapulae common-carotid-artery internal-jugular-vein external-jugular-vein subclavian-artery subclavian-vein vertebral-artery vertebra-c4 vertebra-c5 vertebra-c6 vertebra-c7 vertebra-t1 first-rib clavicle manubrium median ulnar radial musculocutaneous axillary-nerve medial-brachial-cutaneous axillary-artery axillary-vein brachial-artery brachial-vein basilic-vein cephalic-vein deep-brachial-artery coracobrachialis biceps-long-head biceps-short-head triceps-lateral-head triceps-long-head triceps-medial-head brachialis pectoralis-major-abdominal pectoralis-major-clavicular pectoralis-major-sternocostal pectoralis-minor deltoid-acromial deltoid-clavicular deltoid-spinal subscapularis teres-major teres-minor serratus-anterior humerus scapula"
+    },
+    "includesMiddle": true,
+    "level": "1.431",
+    "max": "1.49139392",
+    "panel": {
+      "panelId": "b",
+      "targetId": "c7",
+      "testid": "plexus-ultrasound"
+    }
+  },
+  "axillary": {
+    "sourceImage": "/ultrasound/axillary-ultrasound-vazin2016.png",
+    "sourceBrachialArtery": true,
+    "noRenamedAA": true,
+    "allFourNervesPresent": true
+  },
+  "terminalSelection": [
+    {
+      "label": "正中神经",
+      "selected": "median"
+    },
+    {
+      "label": "尺神经",
+      "selected": "ulnar"
+    },
+    {
+      "label": "桡神经",
+      "selected": "radial"
+    },
+    {
+      "label": "肌皮神经",
+      "selected": "musculocutaneous"
+    }
+  ],
+  "planeToggleOff": "false",
+  "skinToggleEnabled": true,
+  "isolationAndNerveHidden": {
+    "message": "所选结构有真实交线，但当前图层或单独观察模式未显示；请打开对应图层。",
+    "visible": ""
+  },
+  "modelSourceModal": {
+    "count": "76",
+    "listed": 76
+  },
+  "actualHorizontalDragAfterTransverse": "free",
+  "mobile": {
+    "axillary": {
+      "width": 390,
+      "scrollWidth": 390,
+      "panelHeightEqualsScroll": true,
+      "diagramOwnScroll": 540
+    },
+    "interscalene": {
+      "plotClient": 308,
+      "plotScroll": 540,
+      "route": "interscalene",
+      "scrollWidth": 390,
+      "width": 390
+    }
+  },
+  "coldStart": {
+    "neckView": "transverse",
+    "armView": "transverse",
+    "warningsAndErrors": []
+  },
+  "developmentHmr": {
+    "note": "A historical dependency-length warning was observed while adding showPlane to a useEffect during hot reload; the final fresh tab has no warnings/errors."
+  },
+  "fileRuntime": "not verified; existing browser protocol policy prohibits file URLs; no retry or workaround",
+  "physicalIPad": "not tested"
+}

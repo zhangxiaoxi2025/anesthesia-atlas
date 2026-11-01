@@ -1,0 +1,67 @@
+{
+  "id": "hsu2020-figure1",
+  "title": "Hsu 等2020 Figure 1：臂丛标本与根—干—股—束关系",
+  "path": "/root-reference/hsu2020-figure1-original.jpg",
+  "source": {
+    "authors": [
+      "Po-Cheng Hsu",
+      "Ke-Vin Chang",
+      "Kamal Mezian",
+      "Ondřej Naňka",
+      "Wei-Ting Wu",
+      "Yi-Chiang Yang",
+      "Stefan Meng",
+      "Vincenzo Ricci",
+      "Levent Özçakar"
+    ],
+    "title": "Sonographic Pearls for Imaging the Brachial Plexus and Its Pathologies",
+    "journal": "Diagnostics",
+    "year": 2020,
+    "volume": 10,
+    "issue": 5,
+    "article": 324,
+    "doi": "10.3390/diagnostics10050324",
+    "pmcid": "PMC7277999",
+    "figure": "Figure 1 (complete A–D)",
+    "articleUrl": "https://www.mdpi.com/2075-4418/10/5/324",
+    "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7277999/",
+    "imageUrl": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7277999.1/diagnostics-10-00324-g001.jpg",
+    "jatsUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7277999/fullTextXML",
+    "jatsBytes": 83410,
+    "jatsSha256": "50d690b317c178f947db6fed0a5773b45d086825b19a544bd53d2fcebc7aa58a",
+    "retrievedDate": "2026-10-27"
+  },
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "verified": true,
+    "evidenceLocation": "JATS /article/front/article-meta/permissions/license",
+    "copyright": "© 2020 by the authors.",
+    "evidence": "Article permissions explicitly grant Creative Commons Attribution (CC BY) 4.0. Figure 1 caption/attrib has no separate third-party exception in the inspected JATS.",
+    "attribution": "Hsu PC, Chang KV, Mezian K, Naňka O, Wu WT, Yang YC, Meng S, Ricci V, Özçakar L. Diagnostics. 2020;10(5):324. doi:10.3390/diagnostics10050324. Figure 1, ©2020 authors, CC BY4.0. Source: official NCBI PMC OA Cloud. Full original JPEG unchanged. No author endorsement."
+  },
+  "bytes": 179045,
+  "width": 714,
+  "height": 578,
+  "sha256": "85bc3d77862fbfd5b54c7a0b93d7377c36edd38ecba25d607443c756a9bcbd10",
+  "mimeType": "image/jpeg",
+  "changes": "None: complete official A–D JPEG, byte-for-byte; no crop, resize, mirror, annotation, enhancement or AI generation.",
+  "visualReview": {
+    "status": "original-pixels-viewed",
+    "date": "2026-10-27",
+    "method": "view_image",
+    "observations": [
+      "A: cadaveric overview with visible C5, C6, C7, C8, T1 labels and vertebral background after removal of anterior scalene.",
+      "B: five roots, three trunks, six divisions, three cords and branches are visible and labeled.",
+      "C: specimen includes C4–T1 labels plus ST/MT/IT; D: terminal branch numeric labels refer to the original caption."
+    ]
+  },
+  "orientationNote": "A画面右侧为脊柱侧、左侧为外周上肢；B按左侧根到右侧末支组织。只是原图布局；未确认患者左右侧，不把图的屏幕方向套入三维坐标或超声探头方向。",
+  "limitations": [
+    "二维标本照片与拓扑图可作命名和连接关系核对，不能单独确证现有合并网格每一段的C5–T1身份或生成精确3D坐标。",
+    "A/C并未逐孔独立描出和标注所有椎间孔边界，骨孔细节需另一来源核对。",
+    "原图不是同病例三维、原始体数据或超声配准资料；不据此推定注射定位或阻滞覆盖。",
+    "完整原图作为不同标本参照接入候选审阅界面，原像素未改；未据此重建模型或核定节段身份。"
+  ],
+  "originalResearchRecord": "docs/source-guided-root-assets/hsu2020-figure1-source.json"
+}

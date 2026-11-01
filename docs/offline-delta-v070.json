@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-31",
+  "version": "0.7.0",
+  "unchangedSourceFiles": 110,
+  "unchangedEmbeddedDataFields": 28,
+  "previous": {
+    "path": "交付文件/历史版本/麻醉解剖双入路切面联动-v0.6.0.html",
+    "sha256": "0204ca8d1c4b28422486f0c2f9ecc13101dfc03f359758a30d7131d8aa3f3c14"
+  },
+  "current": {
+    "path": "交付文件/麻醉解剖双入路切面联动-v0.7.0.html",
+    "bytes": 12369690,
+    "sha256": "c94f36a9cc6b55a928c71a6d7c83c0df6f0a6a3a3719f21d1437f624910f291e"
+  },
+  "changes": "Application code, camera, cut-plane calculations, labels and presentation only.",
+  "boundary": "Unchanged assets do not establish clinical identity, probe calibration or spatial registration."
+}

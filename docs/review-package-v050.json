@@ -1,0 +1,22 @@
+{
+  "status": "PASS_LOCAL_ARCHIVE_INTEGRITY",
+  "archive": "/Users/emma/Documents/ChatGPT/小项目/麻醉解剖教学工具_v0.5.0_肌间沟根干联动_20261029.zip",
+  "files": 288,
+  "bytes": 16436144,
+  "sha256": "2e9b60e9ac584f819d0e63e04bb340c7fbc0eaa3f8e1776cce5a32a53cb8fec5",
+  "zipCrc": "PASS",
+  "htmlEntriesEqual": true,
+  "htmlSha256": "b7a50fa26b9be5611be1342193309bfd0db8e64c604dbd35740cd48d54b39305",
+  "excluded": [
+    "dependencies/build outputs",
+    "workflow state",
+    "temporary book renders",
+    "historical HTML copies"
+  ],
+  "softwareStatus": "PASS_LOCAL_TEACHING_DELIVERY_WITH_LIMITS",
+  "rootIdentityStatus": "unconfirmed",
+  "clinicalReviewStatus": "awaiting_clinician_review",
+  "fileRuntime": "not verified; browser URL policy blocked file protocol",
+  "physicalIPad": "not verified",
+  "previewServerStopped": true
+}

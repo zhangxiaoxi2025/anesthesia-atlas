@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-31",
+  "version": "0.7.0",
+  "archive": {
+    "path": "/Users/emma/Documents/ChatGPT/小项目/麻醉解剖教学工具_v0.7.0_近景斜切与常驻标注_20261031.zip",
+    "bytes": 17026037,
+    "sha256": "3520d672d69242fc761a85aacf37262453bb1f6c1a0e6d0570582b95c2f63207",
+    "entries": 322,
+    "crc": "PASS",
+    "currentHtmlAndScreenshots": "byte-identical"
+  },
+  "singleFile": {
+    "path": "/Users/emma/Documents/ChatGPT/小项目/anesthesia-atlas/交付文件/麻醉解剖双入路切面联动-v0.7.0.html",
+    "bytes": 12369690,
+    "sha256": "c94f36a9cc6b55a928c71a6d7c83c0df6f0a6a3a3719f21d1437f624910f291e"
+  },
+  "runtime": "Exact single-file HTML verified through local HTTP; file protocol and physical iPad not tested.",
+  "clinical": "Root identity unconfirmed, source/US registration not performed.",
+  "excluded": "Dependency/build caches, workflow files, temporary textbook page renders, historical HTML, book PDFs and prior ZIPs.",
+  "receiptOutsideArchive": true
+}

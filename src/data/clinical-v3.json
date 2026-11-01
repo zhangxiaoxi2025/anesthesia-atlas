@@ -1,0 +1,136 @@
+{
+  "pose": {
+    "title": "先看现成体位图与文献姿势",
+    "description": "文献中的常用参考姿势是仰卧、肩外展约90°并外旋、肘屈约90°。先看来源图中的体位与探头局部照片；照片没有完整展示所有关节角度，不能据此量角或补成已验证的三维摆位。",
+    "points": [
+      "肩外展、肩外旋和肘屈曲分别理解；约90°指肩外展与肘屈曲，没有把肩外旋角度规定为90°。",
+      "Vazin Figure 1(e)是腋路局部体位/探头照片；完整参考角度另有Han原始研究方法支持，不将照片外观当成精确测量。",
+      "这一姿势是文献参考，不代表所有人的唯一最佳体位。当前三维保留来源中立位，不再作敬礼位姿态变换。"
+    ],
+    "sourceIds": ["vazin-2016", "han-2014", "hadzic-axillary"]
+  },
+  "probe": {
+    "title": "对照原图的探头与屏幕方向",
+    "description": "教材描述在胸大肌止点远侧获取相对上臂长轴的短轴图。这里只解释现成图谱的取景概念；本版不在三维中放置探头，也不把中立位网格切面当成该超声的扫描面或腋路操作面。",
+    "points": [
+      "Vazin Figure 1(f)保留原图方向：屏幕左侧标Cephalad（头侧），右侧标Caudad（尾侧）；不改标成固定左内、右外。",
+      "屏幕上方为浅部，向下为深部；患者左/右侧与物理探头标记端尚未核实，不由神经位置反推。",
+      "Han Figure 1是方位示意，Figure 4才是真实超声血管变异图；不同来源各保留自己的方向信息，不互换标签或静默镜像。"
+    ],
+    "sourceIds": ["hadzic-axillary", "vazin-2016", "han-2014"]
+  },
+  "steps": [
+    {
+      "id": "v3-position",
+      "title": "01 看体位来源",
+      "description": "从现成局部体位照与文献姿势开始，分清肩外展、外旋和肘屈曲。照片用于理解腋部显露，不证明全部关节角度或模型姿态已验证。",
+      "stage": "position"
+    },
+    {
+      "id": "v3-direction",
+      "title": "02 保留原图方向",
+      "description": "核对照片、原图标记与浅深方向。Vazin超声左标头侧、右标尾侧；其患者侧别和物理探头标记端未核实，不与中立位三维建立空间联动。",
+      "stage": "position"
+    },
+    {
+      "id": "v3-landmarks",
+      "title": "03 先认原图标志",
+      "description": "在Vazin超声中先核对AA腋动脉标签，再看四神经原作者标注。肌肉、联合腱与动静脉关系可查教材；本帧未可靠确认的静脉或肌腱不补画成识别热点。",
+      "stage": "sono"
+    },
+    {
+      "id": "v3-median",
+      "title": "04 对应正中神经",
+      "description": "点选原图Me标签认识正中神经，再到三维追踪同名神经。两者是不同体位、不同病例/数据来源的参考，不把图中钟点关系当成每个人的固定位置。",
+      "nerveId": "median",
+      "stage": "sono"
+    },
+    {
+      "id": "v3-ulnar",
+      "title": "05 对应尺神经",
+      "description": "用原图Ul标签认识尺神经，观察它与AA的局部关系。Vazin这一帧没有已核实的AV热点；不能拿其他入路或其他图片的静脉位置补到本图。",
+      "nerveId": "ulnar",
+      "stage": "sono"
+    },
+    {
+      "id": "v3-radial",
+      "title": "06 对应桡神经",
+      "description": "用原图Ra标签核对桡神经，结合教材理解其与动脉后方、深部肌腱的典型关系。原作者标签附近的选择点用于选结构，不是神经轮廓分割或注药定位。",
+      "nerveId": "radial",
+      "stage": "sono"
+    },
+    {
+      "id": "v3-musculocutaneous",
+      "title": "07 单独认识肌皮神经",
+      "description": "用原图Mc标签认识肌皮神经，再查它与喙肱肌、肱二头肌的关系。它可与血管周围三神经分开；在中立位三维中沿走行追向前臂外侧皮神经，不补造源模型缺失段。",
+      "nerveId": "musculocutaneous",
+      "stage": "sono"
+    },
+    {
+      "id": "v3-variation",
+      "title": "08 看真实血管变异",
+      "description": "查看Han Figure 4：A为多条腋静脉，B为双腋动脉的真实超声例图。个体血管和神经关系需要分别识别；这两例不是所有人的模板，也不能替代四神经完整识别图。",
+      "stage": "variation"
+    },
+    {
+      "id": "v3-anatomy",
+      "title": "09 在中立位三维追踪走行",
+      "description": "三维保留Z-Anatomy来源中立位，只用来选择同名结构并追踪走行。网格切面是中立位模型参考切面，其中肱动脉、肱静脉仍按来源名称显示；它不是真实超声或腋路扫描/操作面。",
+      "stage": "anatomy"
+    },
+    {
+      "id": "v3-function",
+      "title": "10 从走行联系感觉与运动",
+      "description": "沿用四神经功能卡，分别看皮肤感觉与肌群动作。肌皮神经联系前臂外侧皮肤；前臂内侧皮肤不归尺神经，指端也不全部归桡神经。典型支配图不等于确定的阻滞或手术麻醉范围。",
+      "stage": "function"
+    }
+  ],
+  "notes": [
+    "本版优先使用现成体位图和真实超声；NYSORA/Hadzic图谱提供外链查阅，不复制其受限图片。",
+    "Vazin Figure 1(e/f)为同篇论文的腋路体位与超声配对教学面板，不宣称已经证明二者同一受试者、同一次同步采集或精确配准。",
+    "真实超声与Z-Anatomy中立位模型来自不同数据，姿势也不同；只联动同名结构的选择，不投影对应像素，不建立探头坐标链。",
+    "三维不再作敬礼位姿态变换；模型参考切面不称超声、扫描面或腋路操作面，不将肱血管改标为腋血管。",
+    "超声选择点依据原作者标注，未显示的结构不补成已识别热点；选择神经不代表已验证其内外边界、针尖安全或阻滞成功。",
+    "本版不标定进针、注药位置或可注药空间，不预测药液扩散，不提供剂量或个体操作处方。",
+    "感觉、运动与深部关节感觉分别理解；保留近端已分支、腋神经、肋间臂神经及内侧皮支的边界，功能内容继续沿用原版。",
+    "本版为本地教学审阅候选，仍待麻醉医生审阅；文件许可、图片校验和程序运行不等于临床验证。"
+  ],
+  "sources": [
+    {
+      "id": "vazin-2016",
+      "title": "Vazin et al. — Low-Volume Brachial Plexus Block Providing Surgical Anesthesia for Distal Arm Surgery Comparing Supraclavicular, Infraclavicular, and Axillary Approach — BioMed Res Int. 2016:7094121",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5136641/",
+      "usage": "Figure 1(e/f)局部体位照和四神经真实超声；CC BY 4.0，已核官方JATS和原图裁切。只采用图像及标注，不引入药量或操作处方；侧别和物理探头标记端未核实。"
+    },
+    {
+      "id": "han-2014",
+      "title": "Han et al. — Topographic pattern of the brachial plexus at the axillary fossa through real-time ultrasonography in Koreans — Korean J Anesthesiol. 2014;67:310–316",
+      "url": "https://ekja.org/journal/view.php?doi=10.4097/kjae.2014.67.5.310",
+      "usage": "原始研究方法支持仰卧、肩外展90°并外旋、肘屈90°；Figure 1为方位示意、Figure 4为真实超声血管变异。原页CC BY-NC 3.0，限其许可范围内使用并保留署名与修改说明。"
+    },
+    {
+      "id": "hadzic-axillary",
+      "title": "Hadzic’s Textbook of Regional Anesthesia and Acute Pain Management, 2e — Chapter 32E: Ultrasound-Guided Axillary Brachial Plexus Block",
+      "url": "https://accessanesthesiology.mhmedical.com/content.aspx?bookid=2070&sectionid=157602228",
+      "usage": "正式教材外链；Figure 32E–2横断面与超声、32E–3排列变异，及胸大肌止点远侧/上臂短轴取景的公开文字。受限图像不复制到本工具。"
+    },
+    {
+      "id": "nysora-axillary",
+      "title": "NYSORA — Ultrasound-Guided Axillary Brachial Plexus Block",
+      "url": "https://nysora.com/regional-anesthesia/techniques/upper-extremity/axillary/ultrasound-guided-axillary-brachial-plexus-block/",
+      "usage": "现成图谱外链；Figure 1解剖横断面/超声与Figure 4局部体位照已核查。与Hadzic属同一图源家族，不当作独立数据；未获复制授权，不下载嵌入。"
+    },
+    {
+      "id": "bowness-plan-a",
+      "title": "Bowness et al. — International consensus on anatomical structures to identify on ultrasound for the performance of basic blocks — Reg Anesth Pain Med. 2022;47:106–112",
+      "url": "https://esraeurope.org/wp-content/uploads/2022/09/Bowness-anatomical-structures-PlanA.pdf",
+      "usage": "腋路四神经、动静脉、联合腱及肌肉的识别框架；不代表这些结构在本帧全部可见，也不验证模型姿态、空间配准或临床靶点。"
+    },
+    {
+      "id": "z-anatomy-models",
+      "title": "Z-Anatomy — Models of human anatomy",
+      "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+      "usage": "现有三维结构的来源；v0.3保留来源中立位、停止敬礼位姿态变换。用于走行追踪和中立位模型参考切面，不提供同病例超声坐标或临床扫描位。"
+    }
+  ]
+}

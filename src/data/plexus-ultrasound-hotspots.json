@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "sourceFigureId": "kumar2023-interscalene",
+  "sourcePath": "/interscalene/ultrasound/source/AIT-55-52229-g001.jpg",
+  "originalWidth": 779,
+  "originalHeight": 699,
+  "anchorMeaning": "原作者标记附近的中文交互引线锚点；不是分割轮廓、实际三维坐标或注药靶点。",
+  "changes": "Original JPEG bytes unchanged. Added external Chinese display labels and selection anchors by this teaching tool; overlay adaptation follows CC BY-NC-SA 4.0. No mirroring, AI pixel edits, image-to-model registration or nerve mesh assignment.",
+  "panels": {
+    "b": {
+      "title": "前支层面 · 原图 B",
+      "crop": [
+        400,
+        0,
+        779,
+        341
+      ],
+      "targets": [
+        {
+          "id": "c5",
+          "label": "C5 前支",
+          "sourceLabel": "C5",
+          "imagePoint": [
+            491,
+            82
+          ],
+          "side": "left",
+          "labelY": 140
+        },
+        {
+          "id": "c6",
+          "label": "C6 前支",
+          "sourceLabel": "C6",
+          "imagePoint": [
+            534,
+            106
+          ],
+          "side": "left",
+          "labelY": 225
+        },
+        {
+          "id": "c7",
+          "label": "C7 前支",
+          "sourceLabel": "C7",
+          "imagePoint": [
+            645,
+            201
+          ],
+          "side": "right",
+          "labelY": 286
+        }
+      ],
+      "comparisonTargets": [
+        {
+          "id": "anterior-scalene",
+          "label": "前斜角肌 ASM",
+          "sourceLabel": "ASM",
+          "imagePoint": [
+            606,
+            74
+          ],
+          "side": "right",
+          "labelY": 140,
+          "color": "#ae7f6c"
+        },
+        {
+          "id": "middle-scalene",
+          "label": "中斜角肌 MSM",
+          "sourceLabel": "MSM",
+          "imagePoint": [
+            429,
+            82
+          ],
+          "side": "left",
+          "labelY": 55,
+          "color": "#ae7f6c"
+        },
+        {
+          "id": "sternocleidomastoid",
+          "label": "胸锁乳突肌 SCM",
+          "sourceLabel": "SCM",
+          "imagePoint": [
+            755,
+            39
+          ],
+          "side": "right",
+          "labelY": 55,
+          "color": "#ae7f6c"
+        },
+        {
+          "id": "vertebral-artery",
+          "label": "椎动脉 VA",
+          "sourceLabel": "VA",
+          "imagePoint": [
+            743,
+            234
+          ],
+          "side": "right",
+          "labelY": 390,
+          "color": "#ce6256"
+        }
+      ],
+      "comparisonAnchorNote": "Anchors indicate visible original author label text, not segmentation boundaries or clinical target locations. Additional muscle and VA anchors were visually checked against the unchanged original 779x699 JPEG."
+    },
+    "c": {
+      "title": "干层面 · 原图 C",
+      "crop": [
+        0,
+        359,
+        380,
+        699
+      ],
+      "targets": [
+        {
+          "id": "superior-trunk",
+          "label": "上干 ST",
+          "sourceLabel": "ST",
+          "imagePoint": [
+            110,
+            426
+          ],
+          "side": "left",
+          "labelY": 84
+        },
+        {
+          "id": "middle-trunk",
+          "label": "中干 MT",
+          "sourceLabel": "MT",
+          "imagePoint": [
+            207,
+            485
+          ],
+          "side": "left",
+          "labelY": 204
+        },
+        {
+          "id": "inferior-trunk",
+          "label": "下干 IT",
+          "sourceLabel": "IT",
+          "imagePoint": [
+            272,
+            606
+          ],
+          "side": "right",
+          "labelY": 334
+        }
+      ]
+    }
+  }
+}

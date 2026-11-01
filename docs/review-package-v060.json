@@ -1,0 +1,21 @@
+{
+  "status": "PASS_LOCAL_ARCHIVE_INTEGRITY",
+  "date": "2026-10-30",
+  "archive": "/Users/emma/Documents/ChatGPT/小项目/麻醉解剖教学工具_v0.6.0_双入路切面联动_20261030.zip",
+  "files": 305,
+  "bytes": 16737991,
+  "sha256": "b20a74a4ef8a52dd3826d2a83ed73602ba537b319c495d76856f9a86850131c9",
+  "zipCrc": "PASS",
+  "htmlSha256": "0204ca8d1c4b28422486f0c2f9ecc13101dfc03f359758a30d7131d8aa3f3c14",
+  "bothHtmlEntriesEqual": true,
+  "sourceFilesUnchanged": 110,
+  "embeddedFieldsUnchanged": 28,
+  "structuresInSharedPool": 76,
+  "sourceDuplicates": 6,
+  "softwareStatus": "PASS_LOCAL_TEACHING_DELIVERY_WITH_LIMITS",
+  "clinicalRootIdentity": "unconfirmed",
+  "sourceClinicalRegistration": "not performed",
+  "physicalIPad": "not tested",
+  "fileRuntime": "not verified due browser URL policy",
+  "previewServerStopped": true
+}

@@ -1,0 +1,1290 @@
+{
+  "schemaVersion": 1,
+  "reviewStatus": "awaiting_clinician_review",
+  "title": "上肢神经：完整典型支配与阻滞层面",
+  "scope": "四终末神经的常规皮肤分布与逐肌肉清单；另列其他皮支和肩带肌支背景。并非每个个体的完整变异数据库或阻滞效果预测。",
+  "displayRules": [
+    "皮肤感觉、肌肉运动和深部关节感觉分开；神经根来源也不等于皮节图。",
+    "感觉示意显示典型区域及边界重叠，不给覆盖概率；概念轮廓不得冒充个体皮区测量。",
+    "运动按逐肌肉文字清单为准；肌腹示意色块只说明概念，不代表真实肌肉形态、全肌受阻或动作全部由此神经产生。",
+    "没有某神经的主要皮区属于正确解剖：正中/尺通常无主要上臂或前臂皮区，不为填满图补色。",
+    "分支在阻滞层面近端已离开时，远端作用不会自动反向覆盖该支。"
+  ],
+  "nerves": [
+    {
+      "id": "median",
+      "name": "正中神经",
+      "en": "Median nerve",
+      "roots": "C5–T1（常见C6–T1为主，根源有差异）",
+      "summary": "皮肤感觉主要在手，运动支配延伸至前臂和手内肌。",
+      "sensoryRegions": [
+        {
+          "id": "median-palmar-hand",
+          "regionKey": "median-palmar-hand",
+          "name": "桡侧手掌及桡侧3.5指掌侧",
+          "region": "hand",
+          "aspect": "palmar",
+          "branch": "掌皮支、掌侧指神经",
+          "description": "拇、示、中指及环指桡侧半掌侧，连同桡侧掌部。",
+          "levelNote": "没有主要上臂或前臂皮区；前臂肌肉运动不等于其表面皮肤感觉。",
+          "sourceIds": [
+            "wvu-median",
+            "uams-nerve"
+          ]
+        },
+        {
+          "id": "median-dorsal-tips",
+          "regionKey": "median-dorsal-tips",
+          "name": "桡侧指端背面与甲床",
+          "region": "hand",
+          "aspect": "dorsal",
+          "branch": "掌侧指神经的末端分支",
+          "description": "典型包括桡侧3.5指的远端背面/甲床，不将整片手背归正中神经。",
+          "levelNote": "指背边界和重叠可变，尤其拇指不画成绝对整块。",
+          "sourceIds": [
+            "wvu-median",
+            "uams-nerve"
+          ]
+        }
+      ],
+      "motor": [
+        {
+          "id": "pronator-teres",
+          "name": "旋前圆肌",
+          "en": "Pronator teres",
+          "action": "前臂旋前，辅助屈肘",
+          "branch": "正中神经肌支",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "flexor-carpi-radialis",
+          "name": "桡侧腕屈肌",
+          "en": "Flexor carpi radialis",
+          "action": "屈腕、桡偏",
+          "branch": "正中神经肌支",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "palmaris-longus",
+          "name": "掌长肌",
+          "en": "Palmaris longus",
+          "action": "紧张掌腱膜、辅助屈腕",
+          "branch": "正中神经肌支",
+          "levelNote": "该肌可先天缺如；不以缺如推断神经异常。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "flexor-digitorum-superficialis",
+          "name": "指浅屈肌",
+          "en": "Flexor digitorum superficialis",
+          "action": "主要屈第2–5指近侧指间关节，辅助屈掌指关节",
+          "branch": "正中神经肌支",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "fdp-radial",
+          "name": "指深屈肌桡侧部（示/中指）",
+          "en": "Flexor digitorum profundus, radial part",
+          "action": "主要屈示、中指远侧指间关节",
+          "branch": "骨间前神经",
+          "levelNote": "同一指深屈肌按桡、尺部分工；实际边界可有变异，不能全肌单色归正中。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "flexor-pollicis-longus",
+          "name": "拇长屈肌",
+          "en": "Flexor pollicis longus",
+          "action": "主要屈拇指指间关节",
+          "branch": "骨间前神经",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "pronator-quadratus",
+          "name": "旋前方肌",
+          "en": "Pronator quadratus",
+          "action": "前臂旋前",
+          "branch": "骨间前神经",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "abductor-pollicis-brevis",
+          "name": "拇短展肌",
+          "en": "Abductor pollicis brevis",
+          "action": "掌侧外展拇指",
+          "branch": "正中神经返支",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "opponens-pollicis",
+          "name": "拇对掌肌",
+          "en": "Opponens pollicis",
+          "action": "拇指对掌",
+          "branch": "正中神经返支",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "fpb-superficial",
+          "name": "拇短屈肌浅头",
+          "en": "Flexor pollicis brevis, superficial head",
+          "action": "屈拇指掌指关节",
+          "branch": "典型为正中神经返支；可有尺神经贡献",
+          "levelNote": "不能把浅、深头分工当绝对；本肌存在双支配，见专项研究。",
+          "sourceIds": [
+            "utah-upper-limb",
+            "fpb-2017"
+          ]
+        },
+        {
+          "id": "lumbrical-1",
+          "name": "第1蚓状肌",
+          "en": "Lumbrical 1",
+          "action": "示指屈掌指、伸指间关节",
+          "branch": "正中神经掌侧指神经肌支",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "lumbrical-2",
+          "name": "第2蚓状肌",
+          "en": "Lumbrical 2",
+          "action": "中指屈掌指、伸指间关节",
+          "branch": "正中神经掌侧指神经肌支",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        }
+      ],
+      "variationNotes": [
+        "拇短屈肌浅/深头支配并非绝对二分，正中—尺交通可改变手内肌分配。",
+        "根源范围不等于皮节或肌节图。"
+      ],
+      "blockNotes": {
+        "axillary": [
+          "前臂/手主要肌支多在远端分出，但实际阻滞仍取决于作用层面与扩散；不由结构高亮推断。"
+        ],
+        "interscalene": [
+          "正中神经含多个节段纤维；肌间沟不能由C5/C6可见就推断全部正中远端功能已覆盖。"
+        ]
+      },
+      "sourceIds": [
+        "uams-nerve",
+        "wvu-median",
+        "utah-upper-limb",
+        "fpb-2017"
+      ]
+    },
+    {
+      "id": "ulnar",
+      "name": "尺神经",
+      "en": "Ulnar nerve",
+      "roots": "C8–T1（可有C7贡献）",
+      "summary": "感觉集中在尺侧手部，运动包含前臂两部分肌肉与多数手内肌。",
+      "sensoryRegions": [
+        {
+          "id": "ulnar-hand",
+          "regionKey": "ulnar-hand",
+          "name": "尺侧手掌、手背及尺侧1.5指",
+          "region": "hand",
+          "aspect": "palmar",
+          "branch": "掌皮支、背侧皮支、浅支的指神经",
+          "description": "小指、环指尺侧半及邻近尺侧手掌和手背；包含相应指端。",
+          "levelNote": "前臂内侧皮肤由前臂内侧皮神经负责，不随尺神经全前臂着色。",
+          "sourceIds": [
+            "wvu-ulnar",
+            "uams-nerve"
+          ]
+        }
+      ],
+      "motor": [
+        {
+          "id": "flexor-carpi-ulnaris",
+          "name": "尺侧腕屈肌",
+          "en": "Flexor carpi ulnaris",
+          "action": "屈腕、尺偏",
+          "branch": "尺神经肌支",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "fdp-ulnar",
+          "name": "指深屈肌尺侧部（环/小指）",
+          "en": "Flexor digitorum profundus, ulnar part",
+          "action": "主要屈环、小指远侧指间关节",
+          "branch": "尺神经肌支",
+          "levelNote": "同一指深屈肌按桡、尺部分工；不把示/中指部分归尺神经。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "palmaris-brevis",
+          "name": "掌短肌",
+          "en": "Palmaris brevis",
+          "action": "皱缩尺侧掌皮肤、帮助握持",
+          "branch": "尺神经浅支",
+          "levelNote": "掌短肌是浅支运动支配的要点；其余多数手内肌由深支。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "abductor-digiti-minimi",
+          "name": "小指展肌",
+          "en": "Abductor digiti minimi",
+          "action": "小指外展",
+          "branch": "尺神经深支",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "flexor-digiti-minimi-brevis",
+          "name": "小指短屈肌",
+          "en": "Flexor digiti minimi brevis",
+          "action": "小指屈掌指关节",
+          "branch": "尺神经深支",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "opponens-digiti-minimi",
+          "name": "小指对掌肌",
+          "en": "Opponens digiti minimi",
+          "action": "小指对掌",
+          "branch": "尺神经深支",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "adductor-pollicis",
+          "name": "拇收肌（斜头/横头）",
+          "en": "Adductor pollicis",
+          "action": "拇指内收",
+          "branch": "尺神经深支",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "fpb-deep",
+          "name": "拇短屈肌深头",
+          "en": "Flexor pollicis brevis, deep head",
+          "action": "屈拇指掌指关节",
+          "branch": "经典为尺神经深支，常有正中神经共同贡献",
+          "levelNote": "深头可缺如，支配可双源；不把整块拇短屈肌绝对归尺神经。",
+          "sourceIds": [
+            "utah-upper-limb",
+            "fpb-2017"
+          ]
+        },
+        {
+          "id": "lumbrical-3",
+          "name": "第3蚓状肌",
+          "en": "Lumbrical 3",
+          "action": "环指屈掌指、伸指间关节",
+          "branch": "尺神经深支",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "lumbrical-4",
+          "name": "第4蚓状肌",
+          "en": "Lumbrical 4",
+          "action": "小指屈掌指、伸指间关节",
+          "branch": "尺神经深支",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "palmar-interosseous-1",
+          "name": "第1骨间掌侧肌",
+          "en": "Palmar interosseous 1",
+          "action": "示指向中指轴内收，辅助屈掌指/伸指间关节",
+          "branch": "尺神经深支",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "palmar-interosseous-2",
+          "name": "第2骨间掌侧肌",
+          "en": "Palmar interosseous 2",
+          "action": "环指向中指轴内收，辅助屈掌指/伸指间关节",
+          "branch": "尺神经深支",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "palmar-interosseous-3",
+          "name": "第3骨间掌侧肌",
+          "en": "Palmar interosseous 3",
+          "action": "小指向中指轴内收，辅助屈掌指/伸指间关节",
+          "branch": "尺神经深支",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "dorsal-interosseous-1",
+          "name": "第1骨间背侧肌",
+          "en": "Dorsal interosseous 1",
+          "action": "示指远离中指轴外展，辅助屈掌指/伸指间关节",
+          "branch": "尺神经深支",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "dorsal-interosseous-2",
+          "name": "第2骨间背侧肌",
+          "en": "Dorsal interosseous 2",
+          "action": "中指桡侧远离中指轴外展，辅助屈掌指/伸指间关节",
+          "branch": "尺神经深支",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "dorsal-interosseous-3",
+          "name": "第3骨间背侧肌",
+          "en": "Dorsal interosseous 3",
+          "action": "中指尺侧远离中指轴外展，辅助屈掌指/伸指间关节",
+          "branch": "尺神经深支",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "dorsal-interosseous-4",
+          "name": "第4骨间背侧肌",
+          "en": "Dorsal interosseous 4",
+          "action": "环指远离中指轴外展，辅助屈掌指/伸指间关节",
+          "branch": "尺神经深支",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        }
+      ],
+      "variationNotes": [
+        "拇短屈肌深头可双支配；手内交通影响实际分配。"
+      ],
+      "blockNotes": {
+        "axillary": [
+          "手的尺侧感觉区不包含全部上臂/前臂内侧皮肤。"
+        ],
+        "interscalene": [
+          "下干C8–T1覆盖常不全；尺侧手部及相关手内肌不能默认被肌间沟完整覆盖。"
+        ]
+      },
+      "sourceIds": [
+        "wvu-ulnar",
+        "uams-nerve",
+        "utah-upper-limb",
+        "fpb-2017"
+      ]
+    },
+    {
+      "id": "radial",
+      "name": "桡神经",
+      "en": "Radial nerve",
+      "roots": "C5–T1",
+      "summary": "皮支分布延伸至后上臂、下外侧上臂、后前臂和桡侧手背；运动还包含屈肘与旋后。",
+      "sensoryRegions": [
+        {
+          "id": "radial-posterior-arm",
+          "regionKey": "radial-posterior-arm",
+          "name": "后上臂皮肤",
+          "region": "arm",
+          "aspect": "posterior",
+          "branch": "上臂后皮神经",
+          "description": "后上臂典型皮区，不是整个上臂。",
+          "levelNote": "近端皮支可能在腋路作用层面近端已离开；支配区不等于保证的腋路覆盖。",
+          "sourceIds": [
+            "uams-nerve",
+            "wvu-radial"
+          ]
+        },
+        {
+          "id": "radial-inferolateral-arm",
+          "regionKey": "radial-inferolateral-arm",
+          "name": "上臂下外侧皮肤",
+          "region": "arm",
+          "aspect": "inferolateral",
+          "branch": "上臂外侧下皮神经",
+          "description": "三角肌下方的上臂外侧较低区域；与腋神经上外侧区区分。",
+          "levelNote": "分支层面与边界有重叠；不可把全部肩外侧归桡神经。",
+          "sourceIds": [
+            "uams-nerve"
+          ]
+        },
+        {
+          "id": "radial-posterior-forearm",
+          "regionKey": "radial-posterior-forearm",
+          "name": "后前臂皮肤",
+          "region": "forearm",
+          "aspect": "posterior",
+          "branch": "前臂后皮神经",
+          "description": "前臂后侧典型区域，不延伸为整片前臂前面。",
+          "levelNote": "实际腋路是否涉及该皮支需核对其分出处。",
+          "sourceIds": [
+            "wvu-radial",
+            "uams-nerve"
+          ]
+        },
+        {
+          "id": "radial-dorsolateral-hand",
+          "regionKey": "radial-dorsolateral-hand",
+          "name": "手背桡侧与近端指背",
+          "region": "hand",
+          "aspect": "dorsal",
+          "branch": "桡神经浅支、指背支",
+          "description": "桡侧手背及桡侧手指近端背面，第一指蹼背侧是代表区。",
+          "levelNote": "不包括所有指尖/甲床；指端主要按正中/尺指神经理解。",
+          "sourceIds": [
+            "wvu-radial",
+            "uams-nerve"
+          ]
+        }
+      ],
+      "motor": [
+        {
+          "id": "triceps-brachii",
+          "name": "肱三头肌（三头）",
+          "en": "Triceps brachii",
+          "action": "伸肘；长头还参与肩伸、内收",
+          "branch": "桡神经近端肌支",
+          "levelNote": "上臂近端肌支可在腋路参考层面近端已离开；远端桡神经阻滞不保证伸肘同样受阻。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "anconeus",
+          "name": "肘肌",
+          "en": "Anconeus",
+          "action": "辅助伸肘并稳定肘关节",
+          "branch": "桡神经至肘肌支",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "brachioradialis",
+          "name": "肱桡肌",
+          "en": "Brachioradialis",
+          "action": "屈肘，尤其中立旋转位",
+          "branch": "桡神经肌支",
+          "levelNote": "桡神经不只参与伸肌动作；不能把全部屈肘归肌皮神经。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "brachialis",
+          "name": "肱肌（桡神经贡献）",
+          "en": "Brachialis, radial contribution",
+          "action": "参与屈肘",
+          "branch": "桡神经至肱肌支（常见贡献）",
+          "levelNote": "多为较小外侧/下外侧部分，主体由肌皮神经；支配程度因人而异。",
+          "sourceIds": [
+            "brachialis-dual-2002",
+            "uams-muscle"
+          ]
+        },
+        {
+          "id": "extensor-carpi-radialis-longus",
+          "name": "桡侧腕长伸肌",
+          "en": "Extensor carpi radialis longus",
+          "action": "伸腕、桡偏",
+          "branch": "桡神经肌支",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uw-ecrl",
+            "utah-upper-limb",
+            "radial-branching-2020"
+          ]
+        },
+        {
+          "id": "extensor-carpi-radialis-brevis",
+          "name": "桡侧腕短伸肌",
+          "en": "Extensor carpi radialis brevis",
+          "action": "伸腕、桡偏",
+          "branch": "典型为桡神经深支",
+          "levelNote": "其肌支来源存在变化；不把每个人都规定为单一分叉层面。",
+          "sourceIds": [
+            "uw-ecrb",
+            "utah-upper-limb",
+            "radial-branching-2020"
+          ]
+        },
+        {
+          "id": "supinator",
+          "name": "旋后肌",
+          "en": "Supinator",
+          "action": "前臂旋后",
+          "branch": "桡神经深支",
+          "levelNote": "本表采用深支穿出旋后肌后续为骨间后神经的命名；部分教材命名范围不同。",
+          "sourceIds": [
+            "uw-supinator",
+            "uams-nerve",
+            "radial-branching-2020"
+          ]
+        },
+        {
+          "id": "extensor-digitorum",
+          "name": "指伸肌",
+          "en": "Extensor digitorum",
+          "action": "主要伸第2–5指，辅助伸腕",
+          "branch": "骨间后神经（桡神经深支延续）",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "extensor-digiti-minimi",
+          "name": "小指伸肌",
+          "en": "Extensor digiti minimi",
+          "action": "伸小指",
+          "branch": "骨间后神经（桡神经深支延续）",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "extensor-carpi-ulnaris",
+          "name": "尺侧腕伸肌",
+          "en": "Extensor carpi ulnaris",
+          "action": "伸腕、尺偏",
+          "branch": "骨间后神经（桡神经深支延续）",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "abductor-pollicis-longus",
+          "name": "拇长展肌",
+          "en": "Abductor pollicis longus",
+          "action": "拇指腕掌关节外展",
+          "branch": "骨间后神经（桡神经深支延续）",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "extensor-pollicis-brevis",
+          "name": "拇短伸肌",
+          "en": "Extensor pollicis brevis",
+          "action": "主要伸拇指掌指关节",
+          "branch": "骨间后神经（桡神经深支延续）",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "extensor-pollicis-longus",
+          "name": "拇长伸肌",
+          "en": "Extensor pollicis longus",
+          "action": "主要伸拇指指间关节",
+          "branch": "骨间后神经（桡神经深支延续）",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "extensor-indicis",
+          "name": "示指伸肌",
+          "en": "Extensor indicis",
+          "action": "伸示指",
+          "branch": "骨间后神经（桡神经深支延续）",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        }
+      ],
+      "variationNotes": [
+        "肱肌常有桡神经贡献，不能只归肌皮神经。",
+        "桡侧腕短伸肌分支来源可变；深支与骨间后神经的命名边界在教材间不同。"
+      ],
+      "blockNotes": {
+        "axillary": [
+          "近端皮支和肱三头肌支不能由远端桡神经运动改变反推均已阻滞。"
+        ],
+        "interscalene": [
+          "桡神经由多个节段组成；不将C5–C7的参考覆盖外推为全桡神经各支必然受阻。"
+        ]
+      },
+      "sourceIds": [
+        "uams-nerve",
+        "wvu-radial",
+        "utah-upper-limb",
+        "brachialis-dual-2002",
+        "radial-branching-2020"
+      ]
+    },
+    {
+      "id": "musculocutaneous",
+      "name": "肌皮神经",
+      "en": "Musculocutaneous nerve",
+      "roots": "C5–C7",
+      "summary": "上臂前群运动与外侧前臂皮肤感觉分开理解；不是上臂外侧皮神经。",
+      "sensoryRegions": [
+        {
+          "id": "mc-lateral-forearm",
+          "regionKey": "mc-lateral-forearm",
+          "name": "外侧前臂皮肤",
+          "region": "forearm",
+          "aspect": "lateral",
+          "branch": "前臂外侧皮神经的前、后支",
+          "description": "外侧前臂的前外侧与后外侧皮肤，远至腕部附近。",
+          "levelNote": "不包括整块上臂外侧、拇指或手掌；与相邻皮区有重叠。",
+          "sourceIds": [
+            "uams-nerve",
+            "wvu-elbow-flexion"
+          ]
+        }
+      ],
+      "motor": [
+        {
+          "id": "coracobrachialis",
+          "name": "喙肱肌",
+          "en": "Coracobrachialis",
+          "action": "肩屈曲、内收",
+          "branch": "肌皮神经近端肌支",
+          "levelNote": "喙肱肌支可较近端分出；不能默认较远端腋路层面也包括该支。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "biceps-brachii",
+          "name": "肱二头肌",
+          "en": "Biceps brachii",
+          "action": "屈肘、前臂旋后，参与肩屈曲",
+          "branch": "肌皮神经肌支",
+          "levelNote": "这里是神经支配清单；是否出现运动阻滞取决于作用层面与肌支分出处，不能仅凭选中神经决定。",
+          "sourceIds": [
+            "uams-muscle",
+            "utah-upper-limb"
+          ]
+        },
+        {
+          "id": "brachialis",
+          "name": "肱肌（主要部分）",
+          "en": "Brachialis, main portion",
+          "action": "屈肘",
+          "branch": "肌皮神经肌支；常另有桡神经贡献",
+          "levelNote": "主体由肌皮神经支配，常有桡神经支配较小外侧部分；不可全肌绝对二分。",
+          "sourceIds": [
+            "uams-muscle",
+            "brachialis-dual-2002"
+          ]
+        }
+      ],
+      "variationNotes": [
+        "肱肌主体由肌皮神经支配，常同时接受桡神经贡献。",
+        "存在肌皮—正中交通或肌皮缺如伴异常支配的报告；该单标本例证不能推断其常见程度。"
+      ],
+      "blockNotes": {
+        "axillary": [
+          "肌皮神经常需独立识别；较近端喙肱肌支不自动包括在较远端观察/作用层面。"
+        ],
+        "interscalene": [
+          "肌皮含C5–C7纤维，但不能用一条皮肤色区预测所有肌支或临床阻滞成功。"
+        ]
+      },
+      "sourceIds": [
+        "uams-nerve",
+        "utah-upper-limb",
+        "wvu-elbow-flexion",
+        "brachialis-dual-2002",
+        "mc-median-variant-2024"
+      ]
+    }
+  ],
+  "cutaneousOther": [
+    {
+      "id": "axillary",
+      "name": "腋神经／上臂外侧上皮神经",
+      "origin": "臂丛后束，主要C5–C6",
+      "regions": [
+        "三角肌附近的上臂近端外侧皮肤"
+      ],
+      "axillaryBoundary": "较近端离开后束；常用腋路层面不默认覆盖。腋神经另支配三角肌和小圆肌。",
+      "sourceIds": [
+        "uams-nerve"
+      ]
+    },
+    {
+      "id": "medial-brachial-cutaneous",
+      "name": "上臂内侧皮神经",
+      "origin": "臂丛内侧束，主要C8–T1",
+      "regions": [
+        "上臂内侧皮肤"
+      ],
+      "axillaryBoundary": "与肋间臂神经交通；不是尺神经皮区。",
+      "sourceIds": [
+        "uams-nerve"
+      ]
+    },
+    {
+      "id": "medial-antebrachial-cutaneous",
+      "name": "前臂内侧皮神经",
+      "origin": "臂丛内侧束，主要C8–T1",
+      "regions": [
+        "前臂内侧前、后面皮肤"
+      ],
+      "axillaryBoundary": "独立皮支，不把其区域随尺神经染色。",
+      "sourceIds": [
+        "uams-nerve"
+      ]
+    },
+    {
+      "id": "intercostobrachial",
+      "name": "肋间臂神经",
+      "origin": "主要T2肋间神经外侧皮支",
+      "regions": [
+        "腋部及上臂近端内侧皮肤"
+      ],
+      "axillaryBoundary": "不属于臂丛；腋路及肌间沟四/五主神经高亮均不保证覆盖。",
+      "sourceIds": [
+        "uams-nerve"
+      ]
+    },
+    {
+      "id": "supraclavicular",
+      "name": "锁骨上神经（颈丛皮支）",
+      "origin": "颈丛C3–C4",
+      "regions": [
+        "锁骨、肩峰上方及肩顶附近皮肤"
+      ],
+      "axillaryBoundary": "与锁骨上臂丛阻滞名称不同；肌间沟不因名称相近而保证其皮区或锁骨手术全麻醉。",
+      "sourceIds": [
+        "uams-nerve"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "uams-nerve",
+      "title": "UAMS Department of Neuroscience — Nerves of the Upper Limb",
+      "url": "https://medicine.uams.edu/neuroscience/education/medical-school-courses/human-structure-module/anatomy-tables/nerve-tables/nerves-of-the-upper-limb/",
+      "type": "大学医学教学资料",
+      "usage": "核对皮支来源、四终末神经和臂丛前支—干关系；对表内简化项目以专门研究补充。",
+      "rights": "仅核对事实并以独立中文归纳；本版未复制原图或原表布局，图像复用许可须另核验。"
+    },
+    {
+      "id": "uams-muscle",
+      "title": "UAMS Department of Neuroscience — Muscles of the Upper Limb",
+      "url": "https://medicine.uams.edu/neuroscience/education/medical-school-courses/human-structure-module/anatomy-tables/muscle-tables/muscles-of-the-upper-limb/",
+      "type": "大学医学教学资料",
+      "usage": "核对逐肌肉动作与主要神经；不采用该表桡侧腕长伸肌深支标签，拇短屈肌分头及肱肌以专项来源补核。",
+      "rights": "仅核对事实并以独立中文归纳；本版未复制原图或原表布局，图像复用许可须另核验。"
+    },
+    {
+      "id": "utah-upper-limb",
+      "title": "University of Utah — Upper limb nerves, K. Bo Foreman, Gross Anatomy Dry Lab, pp.19–20",
+      "url": "https://anatomy.med.utah.edu/diganat/SOM/unit_4/lec/Dry_Lab_UE_08_F.pdf",
+      "type": "大学医学教学资料",
+      "usage": "核对肌皮、正中、尺、桡的分支清单及掌短肌浅支；旋后肌采用UW的深支命名。",
+      "rights": "PDF含Netter版权图；没有复制、裁切或再分发其图片。"
+    },
+    {
+      "id": "wvu-radial",
+      "title": "West Virginia University — Radial Nerve",
+      "url": "https://anatomyresources.hsc.wvu.edu/nm_deficits/Radial_Nerve.html",
+      "type": "大学医学教学资料",
+      "usage": "后上臂、后前臂、桡侧手背与指端边界；不采用其所有肘下损伤均无皮肤损害的概括。",
+      "rights": "仅核对事实并以独立中文归纳；本版未复制原图或原表布局，图像复用许可须另核验。"
+    },
+    {
+      "id": "wvu-median",
+      "title": "West Virginia University — Median Nerve",
+      "url": "https://anatomyresources.hsc.wvu.edu/nm_deficits/Median_Nerve.html",
+      "type": "大学医学教学资料",
+      "usage": "桡侧手掌、桡侧3.5指掌侧及指端；不把腕管表型当作腋路覆盖图。",
+      "rights": "仅核对事实并以独立中文归纳；本版未复制原图或原表布局，图像复用许可须另核验。"
+    },
+    {
+      "id": "wvu-ulnar",
+      "title": "West Virginia University — Ulnar Nerve",
+      "url": "https://anatomyresources.hsc.wvu.edu/nm_deficits/Ulnar_Nerve.html",
+      "type": "大学医学教学资料",
+      "usage": "尺侧手掌/手背、尺侧1.5指与主要肌群；不扩至前臂内侧皮肤。",
+      "rights": "仅核对事实并以独立中文归纳；本版未复制原图或原表布局，图像复用许可须另核验。"
+    },
+    {
+      "id": "wvu-elbow-flexion",
+      "title": "West Virginia University — Elbow Flexion",
+      "url": "https://anatomyresources.hsc.wvu.edu/nm_deficits/Elbow_Flexion.html",
+      "type": "大学医学教学资料",
+      "usage": "肌皮—前臂外侧皮神经与肱二头/肱肌；肱桡肌经桡神经也参与屈肘。",
+      "rights": "仅核对事实并以独立中文归纳；本版未复制原图或原表布局，图像复用许可须另核验。"
+    },
+    {
+      "id": "uw-ecrl",
+      "title": "University of Washington Muscle Atlas — Extensor Carpi Radialis Longus",
+      "url": "https://rad.uw.edu/muscle-atlas/extensor-carpi-radialis-longus",
+      "type": "大学医学教学资料",
+      "usage": "桡侧腕长伸肌由桡神经支配。",
+      "rights": "UW图像明确需书面许可；本版只归纳事实，不复制插图。"
+    },
+    {
+      "id": "uw-ecrb",
+      "title": "University of Washington Muscle Atlas — Extensor Carpi Radialis Brevis",
+      "url": "https://rad.uw.edu/muscle-atlas/extensor-carpi-radialis-brevis",
+      "type": "大学医学教学资料",
+      "usage": "桡侧腕短伸肌典型为桡神经深支；不固定每人的分支来源。",
+      "rights": "UW图像明确需书面许可；本版只归纳事实，不复制插图。"
+    },
+    {
+      "id": "uw-supinator",
+      "title": "University of Washington Muscle Atlas — Supinator",
+      "url": "https://rad.uw.edu/muscle-atlas/supinator",
+      "type": "大学医学教学资料",
+      "usage": "旋后肌动作与桡神经深支；深支穿出旋后肌后称骨间后神经的命名约定。",
+      "rights": "UW图像明确需书面许可；本版只归纳事实，不复制插图。"
+    },
+    {
+      "id": "brachialis-dual-2002",
+      "title": "Mahakkanukrauh & Somsarp — Dual innervation of the brachialis muscle. Clin Anat. 2002;15:206–209. DOI 10.1002/ca.10014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11948956/",
+      "type": "原始解剖研究（PubMed摘要）",
+      "usage": "原始尸体研究摘要支持肌皮主支配与常见桡神经贡献；不把该样本比例当所有人通用概率。",
+      "rights": "仅核对事实并以独立中文归纳；本版未复制原图或原表布局，图像复用许可须另核验。"
+    },
+    {
+      "id": "fpb-2017",
+      "title": "Caetano et al. — Flexor Pollicis Brevis Muscle. Anatomical Study and Clinical Implications. Open Orthop J. 2017;11:1321–1329. DOI 10.2174/1874325001711011321",
+      "url": "https://openorthopaedicsjournal.com/VOLUME/11/PAGE/1321/PDF/",
+      "type": "原始解剖研究（出版社全文）",
+      "usage": "原始60手解剖研究；Table1/Discussion支持浅、深头存在正中—尺双支配及深头缺如，不按经典二分涂成绝对颜色。",
+      "rights": "仅核对事实并以独立中文归纳；本版未复制原图或原表布局，图像复用许可须另核验。"
+    },
+    {
+      "id": "nysora-interscalene",
+      "title": "NYSORA — Ultrasound-Guided Interscalene Brachial Plexus Nerve Block",
+      "url": "https://nysora.com/regional-anesthesia/techniques/ultrasound-guided-interscalene-brachial-plexus-block/",
+      "type": "教材作者官方教学章节",
+      "usage": "只核对前/中斜角肌、SCM、血管、根/干、分束变异及膈神经边界；不采用剂量或操作步骤。",
+      "rights": "仅外链与中文事实归纳；未获其图片复制许可，不嵌图或打包受限图。"
+    },
+    {
+      "id": "acep-interscalene",
+      "title": "ACEP Sonoguide — Interscalene Nerve Block. Leonard V. Bunting. 2025-01-20",
+      "url": "https://www.acep.org/sonoguide/nerve-blocks/interscalene-nerve-block",
+      "type": "正式医学学会教学",
+      "usage": "学会教学支持近端根/干、斜角肌间关系、下干不全与膈神经边界；不采用该页角度、剂量或进针描述。",
+      "rights": "仅核对事实并以独立中文归纳；本版未复制原图或原表布局，图像复用许可须另核验。"
+    },
+    {
+      "id": "hadzic-axillary",
+      "title": "Hadzic’s Textbook of Regional Anesthesia and Acute Pain Management, 2e — Chapter 32E",
+      "url": "https://accessanesthesiology.mhmedical.com/content.aspx?bookid=2070&sectionid=157602228",
+      "type": "正规教材章节",
+      "usage": "沿用既有腋路证据记录：近端分支与阻滞层面的区别；本轮不称重新取得全章。",
+      "rights": "仅外链；不复制出版社受限图片。"
+    },
+    {
+      "id": "radial-branching-2020",
+      "title": "Sawyer, Stefanik & Lufler — The Branching and Innervation Pattern of the Radial Nerve in the Forearm. Diagnostics. 2020;10:366. DOI 10.3390/diagnostics10060366",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32498404/",
+      "type": "原始解剖研究（PubMed及官方PMC全文）",
+      "usage": "桡侧腕短伸肌的肌支可来自桡神经本干、深支或浅支；确认深支/骨间后神经命名约定。不把分支顺序、比例或样本均值转换为阻滞点。",
+      "rights": "本版只作事实归纳，未复制其图或表。"
+    },
+    {
+      "id": "mc-median-variant-2024",
+      "title": "A bilateral four-headed brachialis muscle with a variant innervation: a cadaveric report with possible clinical implications. 2024. PMID 38441620",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38441620/",
+      "type": "原始单标本变异报告（PubMed摘要）",
+      "usage": "仅作为存在肌皮—正中交通/肌皮缺如伴异常肌肉支配的例证，不推算发生率或常见程度。",
+      "rights": "只归纳变异存在；不复制图片。"
+    }
+  ],
+  "claims": [
+    {
+      "id": "cutaneous-completeness",
+      "text": "桡神经上/前臂皮支与肌皮外侧前臂应补全；正中和尺不新增前臂皮区。",
+      "sourceIds": [
+        "uams-nerve",
+        "wvu-radial",
+        "wvu-median",
+        "wvu-ulnar",
+        "wvu-elbow-flexion"
+      ]
+    },
+    {
+      "id": "other-cutaneous",
+      "text": "肩顶、近端外侧上臂、上/前臂内侧有独立皮支，四终末神经不是上肢皮肤的全部。",
+      "sourceIds": [
+        "uams-nerve"
+      ]
+    },
+    {
+      "id": "brachialis-dual",
+      "text": "肱肌主要肌皮支配，常见桡神经贡献；不适合绝对单神经染色。",
+      "sourceIds": [
+        "brachialis-dual-2002"
+      ]
+    },
+    {
+      "id": "fpb-dual",
+      "text": "拇短屈肌浅/深头有经典分工和双支配变异，深头也可缺如。",
+      "sourceIds": [
+        "fpb-2017",
+        "utah-upper-limb"
+      ]
+    },
+    {
+      "id": "proximal-branch",
+      "text": "神经完整支配图不等于某一腋路作用层面的覆盖图。",
+      "sourceIds": [
+        "hadzic-axillary"
+      ]
+    },
+    {
+      "id": "muscle-list",
+      "text": "肌肉清单按肌肉、头或功能分部逐项列出；掌短肌属于尺浅支，蚓状肌1/2为正中指神经、3/4为尺深支。",
+      "sourceIds": [
+        "utah-upper-limb",
+        "uams-muscle"
+      ]
+    },
+    {
+      "id": "radial-motor",
+      "text": "桡神经还经肱桡肌参与屈肘，经深支参与旋后，不只有伸肌作用。",
+      "sourceIds": [
+        "wvu-elbow-flexion",
+        "uw-supinator"
+      ]
+    },
+    {
+      "id": "shoulder-motor-other",
+      "text": "三角肌、小圆肌、冈上/下肌及其他肩带肌肉不属于四终末神经；用单独背景清单呈现，不硬塞入其色区。",
+      "sourceIds": [
+        "uams-nerve",
+        "uams-muscle"
+      ]
+    }
+  ],
+  "motorOther": [
+    {
+      "id": "axillary",
+      "name": "腋神经",
+      "origin": "后束，主要C5–C6",
+      "motor": [
+        {
+          "id": "deltoid",
+          "name": "三角肌",
+          "en": "Deltoid",
+          "action": "肩外展；前/后束还参与肩屈伸及旋转",
+          "branch": "腋神经",
+          "levelNote": "此为支配背景，不由肌间沟或腋路模块的选择推断实际覆盖。",
+          "sourceIds": [
+            "uams-nerve",
+            "uams-muscle"
+          ]
+        },
+        {
+          "id": "teres-minor",
+          "name": "小圆肌",
+          "en": "Teres minor",
+          "action": "肩外旋、稳定肩关节",
+          "branch": "腋神经",
+          "levelNote": "此为支配背景，不由肌间沟或腋路模块的选择推断实际覆盖。",
+          "sourceIds": [
+            "uams-nerve",
+            "uams-muscle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "suprascapular",
+      "name": "肩胛上神经",
+      "origin": "上干，主要C5–C6",
+      "motor": [
+        {
+          "id": "supraspinatus",
+          "name": "冈上肌",
+          "en": "Supraspinatus",
+          "action": "参与肩外展、稳定肩关节",
+          "branch": "肩胛上神经",
+          "levelNote": "此为支配背景，不由肌间沟或腋路模块的选择推断实际覆盖。",
+          "sourceIds": [
+            "uams-nerve",
+            "uams-muscle"
+          ]
+        },
+        {
+          "id": "infraspinatus",
+          "name": "冈下肌",
+          "en": "Infraspinatus",
+          "action": "肩外旋、稳定肩关节",
+          "branch": "肩胛上神经",
+          "levelNote": "此为支配背景，不由肌间沟或腋路模块的选择推断实际覆盖。",
+          "sourceIds": [
+            "uams-nerve",
+            "uams-muscle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subscapular",
+      "name": "肩胛下神经",
+      "origin": "后束的上/下肩胛下神经",
+      "motor": [
+        {
+          "id": "subscapularis",
+          "name": "肩胛下肌",
+          "en": "Subscapularis",
+          "action": "肩内旋、稳定肩关节",
+          "branch": "上、下肩胛下神经",
+          "levelNote": "此为支配背景，不由肌间沟或腋路模块的选择推断实际覆盖。",
+          "sourceIds": [
+            "uams-nerve",
+            "uams-muscle"
+          ]
+        },
+        {
+          "id": "teres-major",
+          "name": "大圆肌",
+          "en": "Teres major",
+          "action": "肩内收、内旋、辅助伸展",
+          "branch": "下肩胛下神经",
+          "levelNote": "此为支配背景，不由肌间沟或腋路模块的选择推断实际覆盖。",
+          "sourceIds": [
+            "uams-nerve",
+            "uams-muscle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thoracodorsal",
+      "name": "胸背神经",
+      "origin": "后束",
+      "motor": [
+        {
+          "id": "latissimus-dorsi",
+          "name": "背阔肌",
+          "en": "Latissimus dorsi",
+          "action": "肩伸展、内收及内旋",
+          "branch": "胸背神经",
+          "levelNote": "此为支配背景，不由肌间沟或腋路模块的选择推断实际覆盖。",
+          "sourceIds": [
+            "uams-nerve",
+            "uams-muscle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pectoral",
+      "name": "胸内侧／胸外侧神经",
+      "origin": "内侧束／外侧束",
+      "motor": [
+        {
+          "id": "pectoralis-major",
+          "name": "胸大肌",
+          "en": "Pectoralis major",
+          "action": "肩内收、内旋，锁骨部参与屈曲",
+          "branch": "胸内侧与胸外侧神经",
+          "levelNote": "此为支配背景，不由肌间沟或腋路模块的选择推断实际覆盖。",
+          "sourceIds": [
+            "uams-nerve",
+            "uams-muscle"
+          ]
+        },
+        {
+          "id": "pectoralis-minor",
+          "name": "胸小肌",
+          "en": "Pectoralis minor",
+          "action": "肩胛骨前移、下压",
+          "branch": "主要胸内侧神经",
+          "levelNote": "此为支配背景，不由肌间沟或腋路模块的选择推断实际覆盖。",
+          "sourceIds": [
+            "uams-nerve",
+            "uams-muscle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "long-thoracic",
+      "name": "胸长神经",
+      "origin": "C5–C7前支",
+      "motor": [
+        {
+          "id": "serratus-anterior",
+          "name": "前锯肌",
+          "en": "Serratus anterior",
+          "action": "肩胛前伸、上回旋并固定于胸壁",
+          "branch": "胸长神经",
+          "levelNote": "此为支配背景，不由肌间沟或腋路模块的选择推断实际覆盖。",
+          "sourceIds": [
+            "uams-nerve",
+            "uams-muscle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dorsal-scapular",
+      "name": "肩胛背神经",
+      "origin": "主要C5前支",
+      "motor": [
+        {
+          "id": "rhomboid-major",
+          "name": "大菱形肌",
+          "en": "Rhomboid major",
+          "action": "肩胛回缩并参与下回旋",
+          "branch": "肩胛背神经",
+          "levelNote": "此为支配背景，不由肌间沟或腋路模块的选择推断实际覆盖。",
+          "sourceIds": [
+            "uams-nerve",
+            "uams-muscle"
+          ]
+        },
+        {
+          "id": "rhomboid-minor",
+          "name": "小菱形肌",
+          "en": "Rhomboid minor",
+          "action": "肩胛回缩并参与下回旋",
+          "branch": "肩胛背神经",
+          "levelNote": "此为支配背景，不由肌间沟或腋路模块的选择推断实际覆盖。",
+          "sourceIds": [
+            "uams-nerve",
+            "uams-muscle"
+          ]
+        },
+        {
+          "id": "levator-scapulae",
+          "name": "肩胛提肌",
+          "en": "Levator scapulae",
+          "action": "上提肩胛",
+          "branch": "肩胛背神经及C3–C4颈神经支",
+          "levelNote": "此为支配背景，不由肌间沟或腋路模块的选择推断实际覆盖。",
+          "sourceIds": [
+            "uams-nerve",
+            "uams-muscle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nerve-to-subclavius",
+      "name": "锁骨下肌神经",
+      "origin": "上干",
+      "motor": [
+        {
+          "id": "subclavius",
+          "name": "锁骨下肌",
+          "en": "Subclavius",
+          "action": "下压及稳定锁骨",
+          "branch": "锁骨下肌神经",
+          "levelNote": "此为支配背景，不由肌间沟或腋路模块的选择推断实际覆盖。",
+          "sourceIds": [
+            "uams-nerve",
+            "uams-muscle"
+          ]
+        }
+      ]
+    }
+  ]
+}

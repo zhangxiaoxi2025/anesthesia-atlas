@@ -1,0 +1,14 @@
+{
+  "status": "PASS_SOURCE_AND_OFFLINE_DELTA",
+  "date": "2026-10-30",
+  "baselineFiles": 110,
+  "changedSourceFiles": [],
+  "unchangedEmbeddedFields": 28,
+  "oldSha256": "b7a50fa26b9be5611be1342193309bfd0db8e64c604dbd35740cd48d54b39305",
+  "newSha256": "0204ca8d1c4b28422486f0c2f9ecc13101dfc03f359758a30d7131d8aa3f3c14",
+  "boundaries": [
+    "camera/material/interaction/UI changes only",
+    "all embedded geometry/figures/attribution remain unchanged",
+    "not clinical identity or ultrasound registration proof"
+  ]
+}

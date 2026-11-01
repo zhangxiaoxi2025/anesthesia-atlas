@@ -1,0 +1,54 @@
+{
+  "repository": "https://github.com/LluisV/Z-Anatomy",
+  "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/FBX/NervousSystem100.fbx",
+      "bytes": 53887724,
+      "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+      "cachePath": "/private/tmp/anesthesia-atlas-source-cache/z-nervous-system-100.fbx"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/LICENSE",
+      "path": "source/Z-UPSTREAM-LICENSE.txt",
+      "bytes": 20559,
+      "sha256": "5e7dd512c01cfb822e3253f8f8df923103a64e269deb9bb5303f23b2376cad46"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/FBX/MuscularSystem100.fbx",
+      "cachePath": "/private/tmp/anesthesia-atlas-source-cache/z-muscular-system-100.fbx",
+      "bytes": 37343180,
+      "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/FBX/CardioVascular41.fbx",
+      "cachePath": "/private/tmp/anesthesia-atlas-source-cache/z-cardio-vascular-41.fbx",
+      "bytes": 64889388,
+      "sha256": "ed7d049117cc944a8c47a416b16ade642cbd1392bbcce3c677450d3234dbf680"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/License.txt",
+      "cachePath": "/Users/emma/Documents/ChatGPT/\u5c0f\u9879\u76ee/anesthesia-atlas/public/models/source/Z-MODEL-LICENSE.txt",
+      "bytes": 1514,
+      "sha256": "af62c06f620b9da20138e4c22a3f56565482dd058266540994ace97a4e24b693"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/Readme.txt",
+      "cachePath": "/Users/emma/Documents/ChatGPT/\u5c0f\u9879\u76ee/anesthesia-atlas/public/models/source/Z-MODEL-README.txt",
+      "bytes": 151,
+      "sha256": "43eab2cd13ad8be51d20227cad78d427e6078cd91e66a24ae7f947811524c810"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/FBX/SkeletalSystem100.fbx",
+      "cachePath": "/private/tmp/anesthesia-atlas-source-cache/z-skeletal-system-100.fbx",
+      "bytes": 41339660,
+      "sha256": "294a649765cd060a62a4095da52b9c8ef2d97769aa447e196448aa5f7d596dea"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/FBX/Regions%20of%20human%20body100.fbx",
+      "cachePath": "/private/tmp/anesthesia-atlas-source-cache/z-body-regions-100.fbx",
+      "bytes": 4433260,
+      "sha256": "9d8da01d4719f9a61ee6ccfcaef85f788c4c67e9bcd74f5725c6946ab8b44199"
+    }
+  ]
+}

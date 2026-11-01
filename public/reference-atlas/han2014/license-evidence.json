@@ -1,0 +1,23 @@
+{
+  "sourceUrl": "https://ekja.org/journal/view.php?doi=10.4097/kjae.2014.67.5.310",
+  "retrievedDate": "2026-10-24",
+  "localHtmlPath": "/reference-atlas/han2014/source-article.html",
+  "localHtmlSha256": "8d2f7c71a651f285745ab11f6a392648610ac103b32b841df98a337695cffbbe",
+  "licenseId": "CC-BY-NC-3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+  "originalLicenseHref": "http://creativecommons.org/licenses/by-nc/3.0/",
+  "copyright": "Copyright © the Korean Society of Anesthesiologists, 2014",
+  "evidenceLocations": {
+    "copyrightHtmlLine": 749,
+    "licenseLinkHtmlLine": 750,
+    "licenseTermsHtmlLine": 751,
+    "figure1HtmlLine": 838,
+    "figure4HtmlLine": 853
+  },
+  "interpretation": "The official article explicitly permits non-commercial use, distribution and reproduction with original-work citation. Figures 1 and 4 have no separate third-party credit or exclusion in their figure elements. Commercial use is not granted by this NC license.",
+  "figureChecks": {
+    "Figure 1": "Caption identifies a schematic ultrasound cross-section; no third-party credit or exclusion present.",
+    "Figure 4": "Caption identifies ultrasound vascular variants A multiple veins/B double arteries; no third-party credit or exclusion present."
+  },
+  "modifications": "No image-byte modification. Chinese explanatory metadata outside the original image; no attribution of endorsement."
+}

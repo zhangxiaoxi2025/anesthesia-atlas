@@ -1,0 +1,77 @@
+{
+  "id": "kumar2023-interscalene",
+  "path": "/interscalene/ultrasound/source/AIT-55-52229-g001.jpg",
+  "width": 779,
+  "height": 699,
+  "bytes": 114793,
+  "sha256": "2b001460c873ab77033ce04976834416a4bef9b2a7f3253acf9a6bfe4950b143",
+  "source": {
+    "title": "Refining the drug injection site during ultrasound-guided interscalene brachial plexus block: root or trunk?",
+    "authors": "Amarjeet Kumar, Chandni Sinha, Ajeet Kumar, Kunal Singh",
+    "year": 2023,
+    "journal": "Anaesthesiology Intensive Therapy 55(5):372–373",
+    "doi": "10.5114/ait.2023.134278",
+    "pmcid": "PMC10801454",
+    "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10801454/",
+    "publisherUrl": "https://www.ait-journal.com/Refining-the-drug-injection-site-during-ultrasound-guided-interscalene-brachial-plexus,163622,0,2.html",
+    "imageUrl": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10801454.1/AIT-55-52229-g001.jpg",
+    "xmlUrl": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10801454.1/PMC10801454.1.xml",
+    "figure": "Figure 1",
+    "type": "Letter; anatomy reference only",
+    "originalFigureCaption": "A) Sonoanatomy of interscalene block at C6 level (white arrows: anterior tubercle, green arrow: posterior tubercle, yellow arrow: phrenic nerve). B) Sonoanatomy of interscalene block at C7 level (before fusion of C5 and C6 root). C) Sonoanatomy of interscalene block after formation of superior trunk. MSM – middle scalene muscles, ASM – anterior scalene muscles, SCM – sternocleidomastoid muscle, VA – vertebral artery",
+    "retrievedDate": "2026-10-24"
+  },
+  "license": {
+    "id": "CC-BY-NC-SA-4.0",
+    "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "verified": true,
+    "copyright": "Copyright © Polish Society of Anaesthesiology and Intensive Therapy",
+    "evidencePath": "/interscalene/ultrasound/source/PMC10801454.1.xml",
+    "xmlSha256": "598797fda9827186990525060740569525c8cda7e52c8258a05c2ccba5b3827c",
+    "attribution": "Kumar A, Sinha C, Kumar A, Singh K. Anaesthesiol Intensive Ther. 2023;55(5):372–373. doi:10.5114/ait.2023.134278. Figure 1. © Polish Society of Anaesthesiology and Intensive Therapy. CC BY-NC-SA 4.0. Original JPEG unchanged; CSS viewports show original A/B/C panels without mirroring or pixel edits. Source: NCBI PMC official Cloud Service. No author endorsement.",
+    "useScope": "Noncommercial personal study and departmental teaching; retain attribution and share-alike for adaptations of this figure."
+  },
+  "panels": [
+    {
+      "id": "a",
+      "label": "A · C6水平",
+      "description": "原作者标出C5、C6及前/中斜角肌、SCM；箭头指结节与膈神经。",
+      "crop": [
+        0,
+        0,
+        380,
+        341
+      ]
+    },
+    {
+      "id": "b",
+      "label": "B · C7水平",
+      "description": "原作者标出C5、C6、C7与椎动脉VA，C5/C6在此尚未合为上干。",
+      "crop": [
+        400,
+        0,
+        779,
+        341
+      ]
+    },
+    {
+      "id": "c",
+      "label": "C · 干水平",
+      "description": "原作者标出ST上干、MT中干、IT下干，帮助区分根水平与干水平。",
+      "crop": [
+        0,
+        359,
+        380,
+        699
+      ]
+    }
+  ],
+  "orientationNote": "保留原图A/B/C、蓝色屏幕标记、箭头和字母。原图左侧标MSM、右侧标ASM；患者左右侧及物理探头标记端未核实，不由排列反推。",
+  "limitations": [
+    "此图与Z-Anatomy来自不同数据，不做形变过渡、逐像素映射或空间配准。",
+    "原作者标记只适用于原图；源模型近端为未分节合并网格，不据此给模型命名C5/C6/C7。",
+    "论文为来信，本工具只引用解剖图，不采用其药量、注射部位、疗效或安全性主张。",
+    "JPEG分辨率有限，放大不增加细节；静态声像不是本工具实时扫描结果。"
+  ],
+  "changes": "Original JPEG bytes unchanged. Display-only CSS panel viewports; no pixel edit, mirroring, enhancement or AI generation."
+}
