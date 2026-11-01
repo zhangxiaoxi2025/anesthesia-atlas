@@ -88,6 +88,11 @@ This is a **learning and teaching reference**, not a basis for patient-specific 
 
 ## 素材与许可 / Sources & licenses
 
+**代码许可 / Code license:** 本项目原创软件代码采用 [MIT 许可证](LICENSE)。第三方模型、图像、解剖数据、截图、字体或其他素材及其改编作品仍适用各自原许可；离线 HTML 和 Blender 文件包含这些素材，不能整体按 MIT 使用。部分素材限制商业用途，请使用前逐项查阅以下说明。
+
+Original software code in this repository is licensed under the [MIT License](LICENSE). Third-party models, images, anatomical data, screenshots, fonts and other assets and their adaptations retain their respective licenses. The offline HTML and Blender file contain such assets and are not wholly MIT-licensed. Some assets are restricted to noncommercial use; check each asset before reuse.
+
+
 - 三维底座 / 3D base: [Z-Anatomy](https://github.com/Z-Anatomy/Models-of-human-anatomy)，相关几何及改编素材 / applicable geometry and adaptations: CC BY-SA 4.0.
 - 具名神经补充 / Named nerve models: [Open3DModel via Ana3D](https://ana3d.app/en/atlas/o3d-upper-limb/)，CC BY-SA 4.0.
 - 超声和其他图像 / Ultrasound and other images: 各素材分别适用其原始许可，部分限制商业使用；完整署名和使用范围见 [素材许可说明 / asset licenses](docs/ASSET-LICENSES.md) 及各素材目录。Each asset retains its own license; some are noncommercial. See the linked record and asset directories for attribution and scope.
